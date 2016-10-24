@@ -1,0 +1,323 @@
+fileFormatVersion: 2
+guid: f7a446ee047fe4d4b9768de89c9dd856
+timeCreated: 1464544189
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: ctl_fish_all
+    100002: ctl_head
+    100004: ctl_lf_fin_01
+    100006: ctl_lf_fin_02
+    100008: ctl_rt_fin_01
+    100010: ctl_rt_fin_02
+    100012: ctl_tail_01
+    100014: ctl_tail_02
+    100016: ctl_tail_03
+    100018: ctl_tail_04
+    100020: ctl_tail_05
+    100022: ctl_tail_06
+    100024: ctl_tail_end
+    100026: geo_leafFish
+    100028: grp_mdl
+    100030: grp_move
+    100032: grp_static
+    100034: jnt_head_end
+    100036: jnt_lf_fin_end
+    100038: jnt_rt_fin_end
+    100040: //RootNode
+    400000: ctl_fish_all
+    400002: ctl_head
+    400004: ctl_lf_fin_01
+    400006: ctl_lf_fin_02
+    400008: ctl_rt_fin_01
+    400010: ctl_rt_fin_02
+    400012: ctl_tail_01
+    400014: ctl_tail_02
+    400016: ctl_tail_03
+    400018: ctl_tail_04
+    400020: ctl_tail_05
+    400022: ctl_tail_06
+    400024: ctl_tail_end
+    400026: geo_leafFish
+    400028: grp_mdl
+    400030: grp_move
+    400032: grp_static
+    400034: jnt_head_end
+    400036: jnt_lf_fin_end
+    400038: jnt_rt_fin_end
+    400040: //RootNode
+    4300000: geo_leafFish
+    7400000: saltoAgua
+    7400002: caidaAgua
+    7400004: reposo
+    9500000: //RootNode
+    13700000: geo_leafFish
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: saltoAgua
+      takeName: Take 001
+      firstFrame: 80
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: grp_move
+        weight: 1
+      - path: grp_move/ctl_fish_all
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_head
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_head/jnt_head_end
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_lf_fin_01
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_lf_fin_01/ctl_lf_fin_02
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_lf_fin_01/ctl_lf_fin_02/jnt_lf_fin_end
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_rt_fin_01
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_rt_fin_01/ctl_rt_fin_02
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_rt_fin_01/ctl_rt_fin_02/jnt_rt_fin_end
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_tail_01
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_tail_01/ctl_tail_02
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_tail_01/ctl_tail_02/ctl_tail_03
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_tail_01/ctl_tail_02/ctl_tail_03/ctl_tail_04
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_tail_01/ctl_tail_02/ctl_tail_03/ctl_tail_04/ctl_tail_05
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_tail_01/ctl_tail_02/ctl_tail_03/ctl_tail_04/ctl_tail_05/ctl_tail_06
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_tail_01/ctl_tail_02/ctl_tail_03/ctl_tail_04/ctl_tail_05/ctl_tail_06/ctl_tail_end
+        weight: 1
+      - path: grp_static
+        weight: 1
+      - path: grp_static/grp_mdl
+        weight: 1
+      - path: grp_static/grp_mdl/geo_leafFish
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: caidaAgua
+      takeName: Take 001
+      firstFrame: 105
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: grp_move
+        weight: 1
+      - path: grp_move/ctl_fish_all
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_head
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_head/jnt_head_end
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_lf_fin_01
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_lf_fin_01/ctl_lf_fin_02
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_lf_fin_01/ctl_lf_fin_02/jnt_lf_fin_end
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_rt_fin_01
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_rt_fin_01/ctl_rt_fin_02
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_rt_fin_01/ctl_rt_fin_02/jnt_rt_fin_end
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_tail_01
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_tail_01/ctl_tail_02
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_tail_01/ctl_tail_02/ctl_tail_03
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_tail_01/ctl_tail_02/ctl_tail_03/ctl_tail_04
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_tail_01/ctl_tail_02/ctl_tail_03/ctl_tail_04/ctl_tail_05
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_tail_01/ctl_tail_02/ctl_tail_03/ctl_tail_04/ctl_tail_05/ctl_tail_06
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_tail_01/ctl_tail_02/ctl_tail_03/ctl_tail_04/ctl_tail_05/ctl_tail_06/ctl_tail_end
+        weight: 1
+      - path: grp_static
+        weight: 1
+      - path: grp_static/grp_mdl
+        weight: 1
+      - path: grp_static/grp_mdl/geo_leafFish
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: reposo
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: grp_move
+        weight: 1
+      - path: grp_move/ctl_fish_all
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_head
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_head/jnt_head_end
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_lf_fin_01
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_lf_fin_01/ctl_lf_fin_02
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_lf_fin_01/ctl_lf_fin_02/jnt_lf_fin_end
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_rt_fin_01
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_rt_fin_01/ctl_rt_fin_02
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_rt_fin_01/ctl_rt_fin_02/jnt_rt_fin_end
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_tail_01
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_tail_01/ctl_tail_02
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_tail_01/ctl_tail_02/ctl_tail_03
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_tail_01/ctl_tail_02/ctl_tail_03/ctl_tail_04
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_tail_01/ctl_tail_02/ctl_tail_03/ctl_tail_04/ctl_tail_05
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_tail_01/ctl_tail_02/ctl_tail_03/ctl_tail_04/ctl_tail_05/ctl_tail_06
+        weight: 1
+      - path: grp_move/ctl_fish_all/ctl_tail_01/ctl_tail_02/ctl_tail_03/ctl_tail_04/ctl_tail_05/ctl_tail_06/ctl_tail_end
+        weight: 1
+      - path: grp_static
+        weight: 1
+      - path: grp_static/grp_mdl
+        weight: 1
+      - path: grp_static/grp_mdl/geo_leafFish
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 500
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,167 @@
+fileFormatVersion: 2
+guid: abe391f03c9d3324aaab52cb84e5d0a5
+timeCreated: 1474458560
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Isla_Fantasma_Arbol_001
+    100002: Isla_Fantasma_Arbol_002
+    100004: Isla_Fantasma_Arbol_003
+    100006: Isla_Fantasma_Arbol_004
+    100008: Isla_Fantasma_Arbol_005
+    100010: Isla_Fantasma_Arbol_006
+    100012: Isla_Fantasma_Arbol_007
+    100014: Isla_Fantasma_Arbol_008
+    100016: //RootNode
+    100018: Isla_Fantasma_Isla_Grande
+    100020: Isla_Fantasma_Isla_Grande_suelo
+    100022: Isla_Fantasma_Isla_Pequena
+    100024: Isla_Fantasma_Isla_Pequena_suelo
+    100026: Isla_Fantasma_Mansion
+    100028: Isla_Fantasma_Portal_001
+    100030: Isla_Fantasma_Portal_centro_001
+    100032: Isla_Fantasma_Puente
+    100034: Isla_Fantasma_Puente001
+    100036: Isla_Fantasma_Valla_Exterior
+    100038: Pf003_pineTree001
+    400000: Isla_Fantasma_Arbol_001
+    400002: Isla_Fantasma_Arbol_002
+    400004: Isla_Fantasma_Arbol_003
+    400006: Isla_Fantasma_Arbol_004
+    400008: Isla_Fantasma_Arbol_005
+    400010: Isla_Fantasma_Arbol_006
+    400012: Isla_Fantasma_Arbol_007
+    400014: Isla_Fantasma_Arbol_008
+    400016: //RootNode
+    400018: Isla_Fantasma_Isla_Grande
+    400020: Isla_Fantasma_Isla_Grande_suelo
+    400022: Isla_Fantasma_Isla_Pequena
+    400024: Isla_Fantasma_Isla_Pequena_suelo
+    400026: Isla_Fantasma_Mansion
+    400028: Isla_Fantasma_Portal_001
+    400030: Isla_Fantasma_Portal_centro_001
+    400032: Isla_Fantasma_Puente
+    400034: Isla_Fantasma_Puente001
+    400036: Isla_Fantasma_Valla_Exterior
+    400038: Pf003_pineTree001
+    2300000: Isla_Fantasma_Arbol_001
+    2300002: Isla_Fantasma_Arbol_002
+    2300004: Isla_Fantasma_Arbol_003
+    2300006: Isla_Fantasma_Arbol_004
+    2300008: Isla_Fantasma_Arbol_005
+    2300010: Isla_Fantasma_Arbol_006
+    2300012: Isla_Fantasma_Arbol_007
+    2300014: Isla_Fantasma_Arbol_008
+    2300016: Isla_Fantasma_Isla_Grande
+    2300018: Isla_Fantasma_Isla_Grande_suelo
+    2300020: Isla_Fantasma_Isla_Pequena
+    2300022: Isla_Fantasma_Isla_Pequena_suelo
+    2300024: Isla_Fantasma_Mansion
+    2300026: Isla_Fantasma_Portal_001
+    2300028: Isla_Fantasma_Portal_centro_001
+    2300030: Isla_Fantasma_Puente
+    2300032: Isla_Fantasma_Puente001
+    2300034: Isla_Fantasma_Valla_Exterior
+    3300000: Isla_Fantasma_Arbol_001
+    3300002: Isla_Fantasma_Arbol_002
+    3300004: Isla_Fantasma_Arbol_003
+    3300006: Isla_Fantasma_Arbol_004
+    3300008: Isla_Fantasma_Arbol_005
+    3300010: Isla_Fantasma_Arbol_006
+    3300012: Isla_Fantasma_Arbol_007
+    3300014: Isla_Fantasma_Arbol_008
+    3300016: Isla_Fantasma_Isla_Grande
+    3300018: Isla_Fantasma_Isla_Grande_suelo
+    3300020: Isla_Fantasma_Isla_Pequena
+    3300022: Isla_Fantasma_Isla_Pequena_suelo
+    3300024: Isla_Fantasma_Mansion
+    3300026: Isla_Fantasma_Portal_001
+    3300028: Isla_Fantasma_Portal_centro_001
+    3300030: Isla_Fantasma_Puente
+    3300032: Isla_Fantasma_Puente001
+    3300034: Isla_Fantasma_Valla_Exterior
+    4300000: Isla_Fantasma_Arbol_001
+    4300002: Isla_Fantasma_Arbol_002
+    4300004: Isla_Fantasma_Arbol_003
+    4300006: Isla_Fantasma_Arbol_004
+    4300008: Isla_Fantasma_Arbol_005
+    4300010: Isla_Fantasma_Arbol_006
+    4300012: Isla_Fantasma_Arbol_007
+    4300014: Isla_Fantasma_Arbol_008
+    4300016: Isla_Fantasma_Isla_Pequena
+    4300018: Isla_Fantasma_Puente
+    4300020: Isla_Fantasma_Isla_Grande
+    4300022: Isla_Fantasma_Mansion
+    4300024: Isla_Fantasma_Portal_001
+    4300026: Isla_Fantasma_Valla_Exterior
+    4300028: Isla_Fantasma_Puente001
+    4300030: Isla_Fantasma_Isla_Grande_suelo
+    4300032: Isla_Fantasma_Isla_Pequena_suelo
+    4300034: Isla_Fantasma_Portal_centro_001
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

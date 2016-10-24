@@ -1,0 +1,104 @@
+fileFormatVersion: 2
+guid: 47c22fdf662832f4786be6d9a223bd89
+timeCreated: 1476483530
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Isla_Bosque_Portal_centro
+    100004: Isla_Bosque_Portal_postes
+    100006: Isla_Bosque_Portal_roca_01
+    100008: Isla_Bosque_Portal_roca_02
+    100010: Isla_Bosque_Portal_roca_03
+    100012: Isla_Bosque_Portal_roca_04
+    400000: //RootNode
+    400002: Isla_Bosque_Portal_centro
+    400004: Isla_Bosque_Portal_postes
+    400006: Isla_Bosque_Portal_roca_01
+    400008: Isla_Bosque_Portal_roca_02
+    400010: Isla_Bosque_Portal_roca_03
+    400012: Isla_Bosque_Portal_roca_04
+    2300000: Isla_Bosque_Portal_centro
+    2300002: Isla_Bosque_Portal_postes
+    2300004: Isla_Bosque_Portal_roca_01
+    2300006: Isla_Bosque_Portal_roca_02
+    2300008: Isla_Bosque_Portal_roca_03
+    2300010: Isla_Bosque_Portal_roca_04
+    3300000: Isla_Bosque_Portal_centro
+    3300002: Isla_Bosque_Portal_postes
+    3300004: Isla_Bosque_Portal_roca_01
+    3300006: Isla_Bosque_Portal_roca_02
+    3300008: Isla_Bosque_Portal_roca_03
+    3300010: Isla_Bosque_Portal_roca_04
+    4300000: Isla_Bosque_Portal_postes
+    4300002: Isla_Bosque_Portal_centro
+    4300004: Isla_Bosque_Portal_roca_01
+    4300006: Isla_Bosque_Portal_roca_02
+    4300008: Isla_Bosque_Portal_roca_03
+    4300010: Isla_Bosque_Portal_roca_04
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

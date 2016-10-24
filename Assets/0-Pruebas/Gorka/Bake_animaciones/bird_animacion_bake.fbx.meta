@@ -1,0 +1,841 @@
+fileFormatVersion: 2
+guid: 7cd7613f77a4699438022baa119308d2
+timeCreated: 1474621496
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Ab002_Bird_RIGGING:ab002_partesConTrans
+    100002: Ab002_Bird_RIGGING:ab002_partesOpacas
+    100004: Ab002_Bird_RIGGING:ctl_ala_der_01
+    100006: Ab002_Bird_RIGGING:ctl_ala_der_02
+    100008: Ab002_Bird_RIGGING:ctl_ala_izq_01
+    100010: Ab002_Bird_RIGGING:ctl_ala_izq_02
+    100012: Ab002_Bird_RIGGING:ctl_OjosYCejas
+    100014: Ab002_Bird_RIGGING:grp_j_OjosYCejas
+    100016: Ab002_Bird_RIGGING:grp_move
+    100018: Ab002_Bird_RIGGING:grp_static
+    100020: Ab002_Bird_RIGGING:j_antena_der_01
+    100022: Ab002_Bird_RIGGING:j_antena_der_02
+    100024: Ab002_Bird_RIGGING:j_antena_der_03
+    100026: Ab002_Bird_RIGGING:j_antena_der_04
+    100028: Ab002_Bird_RIGGING:j_antena_izq_01
+    100030: Ab002_Bird_RIGGING:j_antena_izq_02
+    100032: Ab002_Bird_RIGGING:j_antena_izq_03
+    100034: Ab002_Bird_RIGGING:j_antena_izq_04
+    100036: Ab002_Bird_RIGGING:j_bird_todo
+    100038: Ab002_Bird_RIGGING:j_boca
+    100040: Ab002_Bird_RIGGING:j_ceja_der
+    100042: Ab002_Bird_RIGGING:j_ceja_izq
+    100044: Ab002_Bird_RIGGING:j_cola_01
+    100046: Ab002_Bird_RIGGING:j_cola_02
+    100048: Ab002_Bird_RIGGING:j_cola_02Base
+    100050: Ab002_Bird_RIGGING:j_cola_03
+    100052: Ab002_Bird_RIGGING:j_cola_03Base
+    100054: Ab002_Bird_RIGGING:j_ojo_der
+    100056: Ab002_Bird_RIGGING:j_ojo_izq
+    100058: Ab002_Bird_RIGGING:j_punta_ala_der
+    100060: Ab002_Bird_RIGGING:j_punta_ala_izq
+    100062: Ab002_Bird_RIGGING:j_punta_antena_der
+    100064: Ab002_Bird_RIGGING:j_punta_antena_izq
+    100066: Ab002_Bird_RIGGING:j_punta_boca
+    100068: Ab002_Bird_RIGGING:j_punta_cola
+    100070: //RootNode
+    400000: Ab002_Bird_RIGGING:ab002_partesConTrans
+    400002: Ab002_Bird_RIGGING:ab002_partesOpacas
+    400004: Ab002_Bird_RIGGING:ctl_ala_der_01
+    400006: Ab002_Bird_RIGGING:ctl_ala_der_02
+    400008: Ab002_Bird_RIGGING:ctl_ala_izq_01
+    400010: Ab002_Bird_RIGGING:ctl_ala_izq_02
+    400012: Ab002_Bird_RIGGING:ctl_OjosYCejas
+    400014: Ab002_Bird_RIGGING:grp_j_OjosYCejas
+    400016: Ab002_Bird_RIGGING:grp_move
+    400018: Ab002_Bird_RIGGING:grp_static
+    400020: Ab002_Bird_RIGGING:j_antena_der_01
+    400022: Ab002_Bird_RIGGING:j_antena_der_02
+    400024: Ab002_Bird_RIGGING:j_antena_der_03
+    400026: Ab002_Bird_RIGGING:j_antena_der_04
+    400028: Ab002_Bird_RIGGING:j_antena_izq_01
+    400030: Ab002_Bird_RIGGING:j_antena_izq_02
+    400032: Ab002_Bird_RIGGING:j_antena_izq_03
+    400034: Ab002_Bird_RIGGING:j_antena_izq_04
+    400036: Ab002_Bird_RIGGING:j_bird_todo
+    400038: Ab002_Bird_RIGGING:j_boca
+    400040: Ab002_Bird_RIGGING:j_ceja_der
+    400042: Ab002_Bird_RIGGING:j_ceja_izq
+    400044: Ab002_Bird_RIGGING:j_cola_01
+    400046: Ab002_Bird_RIGGING:j_cola_02
+    400048: Ab002_Bird_RIGGING:j_cola_02Base
+    400050: Ab002_Bird_RIGGING:j_cola_03
+    400052: Ab002_Bird_RIGGING:j_cola_03Base
+    400054: Ab002_Bird_RIGGING:j_ojo_der
+    400056: Ab002_Bird_RIGGING:j_ojo_izq
+    400058: Ab002_Bird_RIGGING:j_punta_ala_der
+    400060: Ab002_Bird_RIGGING:j_punta_ala_izq
+    400062: Ab002_Bird_RIGGING:j_punta_antena_der
+    400064: Ab002_Bird_RIGGING:j_punta_antena_izq
+    400066: Ab002_Bird_RIGGING:j_punta_boca
+    400068: Ab002_Bird_RIGGING:j_punta_cola
+    400070: //RootNode
+    4300000: Ab002_Bird_RIGGING:ab002_partesConTrans
+    4300002: Ab002_Bird_RIGGING:ab002_partesOpacas
+    7400000: Reposo_01
+    7400002: Saludo_01
+    7400004: Volar_01
+    7400006: 'Recorrido1: tronco1 a tronco2'
+    7400008: 'Reposo: Tronco2'
+    7400010: Reposo:Tronco1
+    7400012: 'Recorrido2: tronco1 a tronco2'
+    9500000: //RootNode
+    13700000: Ab002_Bird_RIGGING:ab002_partesConTrans
+    13700002: Ab002_Bird_RIGGING:ab002_partesOpacas
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Reposo_01
+      takeName: Reposo_01
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_der_01
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_der_01/Ab002_Bird_RIGGING:ctl_ala_der_02
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_der_01/Ab002_Bird_RIGGING:ctl_ala_der_02/Ab002_Bird_RIGGING:j_punta_ala_der
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_izq_01
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_izq_01/Ab002_Bird_RIGGING:ctl_ala_izq_02
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_izq_01/Ab002_Bird_RIGGING:ctl_ala_izq_02/Ab002_Bird_RIGGING:j_punta_ala_izq
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_OjosYCejas
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:grp_j_OjosYCejas
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:grp_j_OjosYCejas/Ab002_Bird_RIGGING:j_ceja_der
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:grp_j_OjosYCejas/Ab002_Bird_RIGGING:j_ceja_izq
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:grp_j_OjosYCejas/Ab002_Bird_RIGGING:j_ojo_der
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:grp_j_OjosYCejas/Ab002_Bird_RIGGING:j_ojo_izq
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_der_01
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_der_01/Ab002_Bird_RIGGING:j_antena_der_02
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_der_01/Ab002_Bird_RIGGING:j_antena_der_02/Ab002_Bird_RIGGING:j_antena_der_03
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_der_01/Ab002_Bird_RIGGING:j_antena_der_02/Ab002_Bird_RIGGING:j_antena_der_03/Ab002_Bird_RIGGING:j_antena_der_04
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_der_01/Ab002_Bird_RIGGING:j_antena_der_02/Ab002_Bird_RIGGING:j_antena_der_03/Ab002_Bird_RIGGING:j_antena_der_04/Ab002_Bird_RIGGING:j_punta_antena_der
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_izq_01
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_izq_01/Ab002_Bird_RIGGING:j_antena_izq_02
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_izq_01/Ab002_Bird_RIGGING:j_antena_izq_02/Ab002_Bird_RIGGING:j_antena_izq_03
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_izq_01/Ab002_Bird_RIGGING:j_antena_izq_02/Ab002_Bird_RIGGING:j_antena_izq_03/Ab002_Bird_RIGGING:j_antena_izq_04
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_izq_01/Ab002_Bird_RIGGING:j_antena_izq_02/Ab002_Bird_RIGGING:j_antena_izq_03/Ab002_Bird_RIGGING:j_antena_izq_04/Ab002_Bird_RIGGING:j_punta_antena_izq
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_boca
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_boca/Ab002_Bird_RIGGING:j_punta_boca
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01/Ab002_Bird_RIGGING:j_cola_02
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01/Ab002_Bird_RIGGING:j_cola_02/Ab002_Bird_RIGGING:j_cola_03
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01/Ab002_Bird_RIGGING:j_cola_02/Ab002_Bird_RIGGING:j_cola_03/Ab002_Bird_RIGGING:j_punta_cola
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01/Ab002_Bird_RIGGING:j_cola_02/Ab002_Bird_RIGGING:j_cola_03Base
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01/Ab002_Bird_RIGGING:j_cola_02Base
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_static
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_static/Ab002_Bird_RIGGING:ab002_partesConTrans
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_static/Ab002_Bird_RIGGING:ab002_partesOpacas
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Saludo_01
+      takeName: Saludo_01
+      firstFrame: 50
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_der_01
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_der_01/Ab002_Bird_RIGGING:ctl_ala_der_02
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_der_01/Ab002_Bird_RIGGING:ctl_ala_der_02/Ab002_Bird_RIGGING:j_punta_ala_der
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_izq_01
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_izq_01/Ab002_Bird_RIGGING:ctl_ala_izq_02
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_izq_01/Ab002_Bird_RIGGING:ctl_ala_izq_02/Ab002_Bird_RIGGING:j_punta_ala_izq
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_OjosYCejas
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:grp_j_OjosYCejas
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:grp_j_OjosYCejas/Ab002_Bird_RIGGING:j_ceja_der
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:grp_j_OjosYCejas/Ab002_Bird_RIGGING:j_ceja_izq
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:grp_j_OjosYCejas/Ab002_Bird_RIGGING:j_ojo_der
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:grp_j_OjosYCejas/Ab002_Bird_RIGGING:j_ojo_izq
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_der_01
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_der_01/Ab002_Bird_RIGGING:j_antena_der_02
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_der_01/Ab002_Bird_RIGGING:j_antena_der_02/Ab002_Bird_RIGGING:j_antena_der_03
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_der_01/Ab002_Bird_RIGGING:j_antena_der_02/Ab002_Bird_RIGGING:j_antena_der_03/Ab002_Bird_RIGGING:j_antena_der_04
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_der_01/Ab002_Bird_RIGGING:j_antena_der_02/Ab002_Bird_RIGGING:j_antena_der_03/Ab002_Bird_RIGGING:j_antena_der_04/Ab002_Bird_RIGGING:j_punta_antena_der
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_izq_01
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_izq_01/Ab002_Bird_RIGGING:j_antena_izq_02
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_izq_01/Ab002_Bird_RIGGING:j_antena_izq_02/Ab002_Bird_RIGGING:j_antena_izq_03
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_izq_01/Ab002_Bird_RIGGING:j_antena_izq_02/Ab002_Bird_RIGGING:j_antena_izq_03/Ab002_Bird_RIGGING:j_antena_izq_04
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_izq_01/Ab002_Bird_RIGGING:j_antena_izq_02/Ab002_Bird_RIGGING:j_antena_izq_03/Ab002_Bird_RIGGING:j_antena_izq_04/Ab002_Bird_RIGGING:j_punta_antena_izq
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_boca
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_boca/Ab002_Bird_RIGGING:j_punta_boca
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01/Ab002_Bird_RIGGING:j_cola_02
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01/Ab002_Bird_RIGGING:j_cola_02/Ab002_Bird_RIGGING:j_cola_03
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01/Ab002_Bird_RIGGING:j_cola_02/Ab002_Bird_RIGGING:j_cola_03/Ab002_Bird_RIGGING:j_punta_cola
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01/Ab002_Bird_RIGGING:j_cola_02/Ab002_Bird_RIGGING:j_cola_03Base
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01/Ab002_Bird_RIGGING:j_cola_02Base
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_static
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_static/Ab002_Bird_RIGGING:ab002_partesConTrans
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_static/Ab002_Bird_RIGGING:ab002_partesOpacas
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Volar_01
+      takeName: Volar_01
+      firstFrame: 101
+      lastFrame: 124
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_der_01
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_der_01/Ab002_Bird_RIGGING:ctl_ala_der_02
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_der_01/Ab002_Bird_RIGGING:ctl_ala_der_02/Ab002_Bird_RIGGING:j_punta_ala_der
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_izq_01
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_izq_01/Ab002_Bird_RIGGING:ctl_ala_izq_02
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_izq_01/Ab002_Bird_RIGGING:ctl_ala_izq_02/Ab002_Bird_RIGGING:j_punta_ala_izq
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_OjosYCejas
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:grp_j_OjosYCejas
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:grp_j_OjosYCejas/Ab002_Bird_RIGGING:j_ceja_der
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:grp_j_OjosYCejas/Ab002_Bird_RIGGING:j_ceja_izq
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:grp_j_OjosYCejas/Ab002_Bird_RIGGING:j_ojo_der
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:grp_j_OjosYCejas/Ab002_Bird_RIGGING:j_ojo_izq
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_der_01
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_der_01/Ab002_Bird_RIGGING:j_antena_der_02
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_der_01/Ab002_Bird_RIGGING:j_antena_der_02/Ab002_Bird_RIGGING:j_antena_der_03
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_der_01/Ab002_Bird_RIGGING:j_antena_der_02/Ab002_Bird_RIGGING:j_antena_der_03/Ab002_Bird_RIGGING:j_antena_der_04
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_der_01/Ab002_Bird_RIGGING:j_antena_der_02/Ab002_Bird_RIGGING:j_antena_der_03/Ab002_Bird_RIGGING:j_antena_der_04/Ab002_Bird_RIGGING:j_punta_antena_der
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_izq_01
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_izq_01/Ab002_Bird_RIGGING:j_antena_izq_02
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_izq_01/Ab002_Bird_RIGGING:j_antena_izq_02/Ab002_Bird_RIGGING:j_antena_izq_03
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_izq_01/Ab002_Bird_RIGGING:j_antena_izq_02/Ab002_Bird_RIGGING:j_antena_izq_03/Ab002_Bird_RIGGING:j_antena_izq_04
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_izq_01/Ab002_Bird_RIGGING:j_antena_izq_02/Ab002_Bird_RIGGING:j_antena_izq_03/Ab002_Bird_RIGGING:j_antena_izq_04/Ab002_Bird_RIGGING:j_punta_antena_izq
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_boca
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_boca/Ab002_Bird_RIGGING:j_punta_boca
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01/Ab002_Bird_RIGGING:j_cola_02
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01/Ab002_Bird_RIGGING:j_cola_02/Ab002_Bird_RIGGING:j_cola_03
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01/Ab002_Bird_RIGGING:j_cola_02/Ab002_Bird_RIGGING:j_cola_03/Ab002_Bird_RIGGING:j_punta_cola
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01/Ab002_Bird_RIGGING:j_cola_02/Ab002_Bird_RIGGING:j_cola_03Base
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01/Ab002_Bird_RIGGING:j_cola_02Base
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_static
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_static/Ab002_Bird_RIGGING:ab002_partesConTrans
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_static/Ab002_Bird_RIGGING:ab002_partesOpacas
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: 'Recorrido1: tronco1 a tronco2'
+      takeName: 'Recorrido1: tronco1 a tronco2'
+      firstFrame: 130
+      lastFrame: 540
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_der_01
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_der_01/Ab002_Bird_RIGGING:ctl_ala_der_02
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_der_01/Ab002_Bird_RIGGING:ctl_ala_der_02/Ab002_Bird_RIGGING:j_punta_ala_der
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_izq_01
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_izq_01/Ab002_Bird_RIGGING:ctl_ala_izq_02
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_izq_01/Ab002_Bird_RIGGING:ctl_ala_izq_02/Ab002_Bird_RIGGING:j_punta_ala_izq
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_OjosYCejas
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:grp_j_OjosYCejas
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:grp_j_OjosYCejas/Ab002_Bird_RIGGING:j_ceja_der
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:grp_j_OjosYCejas/Ab002_Bird_RIGGING:j_ceja_izq
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:grp_j_OjosYCejas/Ab002_Bird_RIGGING:j_ojo_der
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:grp_j_OjosYCejas/Ab002_Bird_RIGGING:j_ojo_izq
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_der_01
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_der_01/Ab002_Bird_RIGGING:j_antena_der_02
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_der_01/Ab002_Bird_RIGGING:j_antena_der_02/Ab002_Bird_RIGGING:j_antena_der_03
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_der_01/Ab002_Bird_RIGGING:j_antena_der_02/Ab002_Bird_RIGGING:j_antena_der_03/Ab002_Bird_RIGGING:j_antena_der_04
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_der_01/Ab002_Bird_RIGGING:j_antena_der_02/Ab002_Bird_RIGGING:j_antena_der_03/Ab002_Bird_RIGGING:j_antena_der_04/Ab002_Bird_RIGGING:j_punta_antena_der
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_izq_01
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_izq_01/Ab002_Bird_RIGGING:j_antena_izq_02
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_izq_01/Ab002_Bird_RIGGING:j_antena_izq_02/Ab002_Bird_RIGGING:j_antena_izq_03
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_izq_01/Ab002_Bird_RIGGING:j_antena_izq_02/Ab002_Bird_RIGGING:j_antena_izq_03/Ab002_Bird_RIGGING:j_antena_izq_04
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_izq_01/Ab002_Bird_RIGGING:j_antena_izq_02/Ab002_Bird_RIGGING:j_antena_izq_03/Ab002_Bird_RIGGING:j_antena_izq_04/Ab002_Bird_RIGGING:j_punta_antena_izq
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_boca
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_boca/Ab002_Bird_RIGGING:j_punta_boca
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01/Ab002_Bird_RIGGING:j_cola_02
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01/Ab002_Bird_RIGGING:j_cola_02/Ab002_Bird_RIGGING:j_cola_03
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01/Ab002_Bird_RIGGING:j_cola_02/Ab002_Bird_RIGGING:j_cola_03/Ab002_Bird_RIGGING:j_punta_cola
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01/Ab002_Bird_RIGGING:j_cola_02/Ab002_Bird_RIGGING:j_cola_03Base
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01/Ab002_Bird_RIGGING:j_cola_02Base
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_static
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_static/Ab002_Bird_RIGGING:ab002_partesConTrans
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_static/Ab002_Bird_RIGGING:ab002_partesOpacas
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: 'Reposo: Tronco2'
+      takeName: 'Reposo: Tronco2'
+      firstFrame: 540
+      lastFrame: 600
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_der_01
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_der_01/Ab002_Bird_RIGGING:ctl_ala_der_02
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_der_01/Ab002_Bird_RIGGING:ctl_ala_der_02/Ab002_Bird_RIGGING:j_punta_ala_der
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_izq_01
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_izq_01/Ab002_Bird_RIGGING:ctl_ala_izq_02
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_izq_01/Ab002_Bird_RIGGING:ctl_ala_izq_02/Ab002_Bird_RIGGING:j_punta_ala_izq
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_OjosYCejas
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:grp_j_OjosYCejas
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:grp_j_OjosYCejas/Ab002_Bird_RIGGING:j_ceja_der
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:grp_j_OjosYCejas/Ab002_Bird_RIGGING:j_ceja_izq
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:grp_j_OjosYCejas/Ab002_Bird_RIGGING:j_ojo_der
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:grp_j_OjosYCejas/Ab002_Bird_RIGGING:j_ojo_izq
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_der_01
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_der_01/Ab002_Bird_RIGGING:j_antena_der_02
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_der_01/Ab002_Bird_RIGGING:j_antena_der_02/Ab002_Bird_RIGGING:j_antena_der_03
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_der_01/Ab002_Bird_RIGGING:j_antena_der_02/Ab002_Bird_RIGGING:j_antena_der_03/Ab002_Bird_RIGGING:j_antena_der_04
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_der_01/Ab002_Bird_RIGGING:j_antena_der_02/Ab002_Bird_RIGGING:j_antena_der_03/Ab002_Bird_RIGGING:j_antena_der_04/Ab002_Bird_RIGGING:j_punta_antena_der
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_izq_01
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_izq_01/Ab002_Bird_RIGGING:j_antena_izq_02
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_izq_01/Ab002_Bird_RIGGING:j_antena_izq_02/Ab002_Bird_RIGGING:j_antena_izq_03
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_izq_01/Ab002_Bird_RIGGING:j_antena_izq_02/Ab002_Bird_RIGGING:j_antena_izq_03/Ab002_Bird_RIGGING:j_antena_izq_04
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_izq_01/Ab002_Bird_RIGGING:j_antena_izq_02/Ab002_Bird_RIGGING:j_antena_izq_03/Ab002_Bird_RIGGING:j_antena_izq_04/Ab002_Bird_RIGGING:j_punta_antena_izq
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_boca
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_boca/Ab002_Bird_RIGGING:j_punta_boca
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01/Ab002_Bird_RIGGING:j_cola_02
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01/Ab002_Bird_RIGGING:j_cola_02/Ab002_Bird_RIGGING:j_cola_03
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01/Ab002_Bird_RIGGING:j_cola_02/Ab002_Bird_RIGGING:j_cola_03/Ab002_Bird_RIGGING:j_punta_cola
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01/Ab002_Bird_RIGGING:j_cola_02/Ab002_Bird_RIGGING:j_cola_03Base
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01/Ab002_Bird_RIGGING:j_cola_02Base
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_static
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_static/Ab002_Bird_RIGGING:ab002_partesConTrans
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_static/Ab002_Bird_RIGGING:ab002_partesOpacas
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Reposo:Tronco1
+      takeName: Reposo:Tronco1
+      firstFrame: 601
+      lastFrame: 661
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_der_01
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_der_01/Ab002_Bird_RIGGING:ctl_ala_der_02
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_der_01/Ab002_Bird_RIGGING:ctl_ala_der_02/Ab002_Bird_RIGGING:j_punta_ala_der
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_izq_01
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_izq_01/Ab002_Bird_RIGGING:ctl_ala_izq_02
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_izq_01/Ab002_Bird_RIGGING:ctl_ala_izq_02/Ab002_Bird_RIGGING:j_punta_ala_izq
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_OjosYCejas
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:grp_j_OjosYCejas
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:grp_j_OjosYCejas/Ab002_Bird_RIGGING:j_ceja_der
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:grp_j_OjosYCejas/Ab002_Bird_RIGGING:j_ceja_izq
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:grp_j_OjosYCejas/Ab002_Bird_RIGGING:j_ojo_der
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:grp_j_OjosYCejas/Ab002_Bird_RIGGING:j_ojo_izq
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_der_01
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_der_01/Ab002_Bird_RIGGING:j_antena_der_02
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_der_01/Ab002_Bird_RIGGING:j_antena_der_02/Ab002_Bird_RIGGING:j_antena_der_03
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_der_01/Ab002_Bird_RIGGING:j_antena_der_02/Ab002_Bird_RIGGING:j_antena_der_03/Ab002_Bird_RIGGING:j_antena_der_04
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_der_01/Ab002_Bird_RIGGING:j_antena_der_02/Ab002_Bird_RIGGING:j_antena_der_03/Ab002_Bird_RIGGING:j_antena_der_04/Ab002_Bird_RIGGING:j_punta_antena_der
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_izq_01
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_izq_01/Ab002_Bird_RIGGING:j_antena_izq_02
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_izq_01/Ab002_Bird_RIGGING:j_antena_izq_02/Ab002_Bird_RIGGING:j_antena_izq_03
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_izq_01/Ab002_Bird_RIGGING:j_antena_izq_02/Ab002_Bird_RIGGING:j_antena_izq_03/Ab002_Bird_RIGGING:j_antena_izq_04
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_izq_01/Ab002_Bird_RIGGING:j_antena_izq_02/Ab002_Bird_RIGGING:j_antena_izq_03/Ab002_Bird_RIGGING:j_antena_izq_04/Ab002_Bird_RIGGING:j_punta_antena_izq
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_boca
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_boca/Ab002_Bird_RIGGING:j_punta_boca
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01/Ab002_Bird_RIGGING:j_cola_02
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01/Ab002_Bird_RIGGING:j_cola_02/Ab002_Bird_RIGGING:j_cola_03
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01/Ab002_Bird_RIGGING:j_cola_02/Ab002_Bird_RIGGING:j_cola_03/Ab002_Bird_RIGGING:j_punta_cola
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01/Ab002_Bird_RIGGING:j_cola_02/Ab002_Bird_RIGGING:j_cola_03Base
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01/Ab002_Bird_RIGGING:j_cola_02Base
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_static
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_static/Ab002_Bird_RIGGING:ab002_partesConTrans
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_static/Ab002_Bird_RIGGING:ab002_partesOpacas
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: 'Recorrido2: tronco1 a tronco2'
+      takeName: 'Recorrido2: tronco1 a tronco2'
+      firstFrame: 662
+      lastFrame: 788
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_der_01
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_der_01/Ab002_Bird_RIGGING:ctl_ala_der_02
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_der_01/Ab002_Bird_RIGGING:ctl_ala_der_02/Ab002_Bird_RIGGING:j_punta_ala_der
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_izq_01
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_izq_01/Ab002_Bird_RIGGING:ctl_ala_izq_02
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_ala_izq_01/Ab002_Bird_RIGGING:ctl_ala_izq_02/Ab002_Bird_RIGGING:j_punta_ala_izq
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:ctl_OjosYCejas
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:grp_j_OjosYCejas
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:grp_j_OjosYCejas/Ab002_Bird_RIGGING:j_ceja_der
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:grp_j_OjosYCejas/Ab002_Bird_RIGGING:j_ceja_izq
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:grp_j_OjosYCejas/Ab002_Bird_RIGGING:j_ojo_der
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:grp_j_OjosYCejas/Ab002_Bird_RIGGING:j_ojo_izq
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_der_01
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_der_01/Ab002_Bird_RIGGING:j_antena_der_02
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_der_01/Ab002_Bird_RIGGING:j_antena_der_02/Ab002_Bird_RIGGING:j_antena_der_03
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_der_01/Ab002_Bird_RIGGING:j_antena_der_02/Ab002_Bird_RIGGING:j_antena_der_03/Ab002_Bird_RIGGING:j_antena_der_04
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_der_01/Ab002_Bird_RIGGING:j_antena_der_02/Ab002_Bird_RIGGING:j_antena_der_03/Ab002_Bird_RIGGING:j_antena_der_04/Ab002_Bird_RIGGING:j_punta_antena_der
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_izq_01
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_izq_01/Ab002_Bird_RIGGING:j_antena_izq_02
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_izq_01/Ab002_Bird_RIGGING:j_antena_izq_02/Ab002_Bird_RIGGING:j_antena_izq_03
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_izq_01/Ab002_Bird_RIGGING:j_antena_izq_02/Ab002_Bird_RIGGING:j_antena_izq_03/Ab002_Bird_RIGGING:j_antena_izq_04
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_antena_izq_01/Ab002_Bird_RIGGING:j_antena_izq_02/Ab002_Bird_RIGGING:j_antena_izq_03/Ab002_Bird_RIGGING:j_antena_izq_04/Ab002_Bird_RIGGING:j_punta_antena_izq
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_boca
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_boca/Ab002_Bird_RIGGING:j_punta_boca
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01/Ab002_Bird_RIGGING:j_cola_02
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01/Ab002_Bird_RIGGING:j_cola_02/Ab002_Bird_RIGGING:j_cola_03
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01/Ab002_Bird_RIGGING:j_cola_02/Ab002_Bird_RIGGING:j_cola_03/Ab002_Bird_RIGGING:j_punta_cola
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01/Ab002_Bird_RIGGING:j_cola_02/Ab002_Bird_RIGGING:j_cola_03Base
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_move/Ab002_Bird_RIGGING:j_bird_todo/Ab002_Bird_RIGGING:j_cola_01/Ab002_Bird_RIGGING:j_cola_02Base
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_static
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_static/Ab002_Bird_RIGGING:ab002_partesConTrans
+        weight: 1
+      - path: Ab002_Bird_RIGGING:grp_static/Ab002_Bird_RIGGING:ab002_partesOpacas
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 35
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

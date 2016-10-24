@@ -1,0 +1,1502 @@
+fileFormatVersion: 2
+guid: 51db9ba52614328448e0ac9e32829ccd
+timeCreated: 1464287043
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: balonBasket
+    100002: cuerpo
+    100004: Diente
+    100006: Diente1
+    100008: Diente10
+    100010: Diente11
+    100012: Diente12
+    100014: Diente13
+    100016: Diente14
+    100018: Diente15
+    100020: Diente16
+    100022: Diente17
+    100024: Diente18
+    100026: Diente19
+    100028: Diente2
+    100030: Diente20
+    100032: Diente21
+    100034: Diente22
+    100036: Diente23
+    100038: Diente3
+    100040: Diente4
+    100042: Diente5
+    100044: Diente6
+    100046: Diente7
+    100048: Diente8
+    100050: Diente9
+    100052: //RootNode
+    100054: Encias
+    100056: Fantasma_geometria
+    100058: G_Aparato
+    100060: G_Boca
+    100062: grp_move
+    100064: grp_static
+    100066: grupo_cejas
+    100068: grupo_gafas
+    100070: grupo_manos
+    100072: j_Cabeza
+    100074: j_Cadera
+    100076: j_dedo_ind_der
+    100078: j_dedo_ind_izq
+    100080: j_dedo_med_der
+    100082: j_dedo_med_izq
+    100084: j_dedo_men_der
+    100086: j_dedo_men_izq
+    100088: j_Mandibula
+    100090: j_mano_der
+    100092: j_mano_izq
+    100094: j_pulgar_der
+    100096: j_pulgar_izq
+    100098: j_Punta_Cabeza_1
+    100100: j_Punta_Cabeza_2
+    100102: j_Punta_Cabeza_3
+    100104: j_Punta_Cabeza_4
+    100106: j_Punta_Cabeza_5
+    100108: j_Punta_Cabeza_6
+    100110: j_Punta_Mandibula
+    100112: j_Punta_Punta
+    100114: joint10
+    100116: joint10 1
+    100118: joint11
+    100120: joint12
+    100122: joint2
+    100124: joint2 1
+    100126: joint4
+    100128: joint4 1
+    100130: joint6
+    100132: joint6 1
+    100134: joint8
+    100136: joint8 1
+    100138: mano_der
+    100140: mano_izq
+    100142: ojo_der
+    100144: ojo_izq
+    100146: pCube1
+    100148: pCube10
+    100150: pCube3
+    100152: pCube4
+    100154: pCube5
+    100156: pCube6
+    100158: pCube7
+    100160: pCube8
+    100162: pCube9
+    400000: balonBasket
+    400002: cuerpo
+    400004: Diente
+    400006: Diente1
+    400008: Diente10
+    400010: Diente11
+    400012: Diente12
+    400014: Diente13
+    400016: Diente14
+    400018: Diente15
+    400020: Diente16
+    400022: Diente17
+    400024: Diente18
+    400026: Diente19
+    400028: Diente2
+    400030: Diente20
+    400032: Diente21
+    400034: Diente22
+    400036: Diente23
+    400038: Diente3
+    400040: Diente4
+    400042: Diente5
+    400044: Diente6
+    400046: Diente7
+    400048: Diente8
+    400050: Diente9
+    400052: //RootNode
+    400054: Encias
+    400056: Fantasma_geometria
+    400058: G_Aparato
+    400060: G_Boca
+    400062: grp_move
+    400064: grp_static
+    400066: grupo_cejas
+    400068: grupo_gafas
+    400070: grupo_manos
+    400072: j_Cabeza
+    400074: j_Cadera
+    400076: j_dedo_ind_der
+    400078: j_dedo_ind_izq
+    400080: j_dedo_med_der
+    400082: j_dedo_med_izq
+    400084: j_dedo_men_der
+    400086: j_dedo_men_izq
+    400088: j_Mandibula
+    400090: j_mano_der
+    400092: j_mano_izq
+    400094: j_pulgar_der
+    400096: j_pulgar_izq
+    400098: j_Punta_Cabeza_1
+    400100: j_Punta_Cabeza_2
+    400102: j_Punta_Cabeza_3
+    400104: j_Punta_Cabeza_4
+    400106: j_Punta_Cabeza_5
+    400108: j_Punta_Cabeza_6
+    400110: j_Punta_Mandibula
+    400112: j_Punta_Punta
+    400114: joint10
+    400116: joint10 1
+    400118: joint11
+    400120: joint12
+    400122: joint2
+    400124: joint2 1
+    400126: joint4
+    400128: joint4 1
+    400130: joint6
+    400132: joint6 1
+    400134: joint8
+    400136: joint8 1
+    400138: mano_der
+    400140: mano_izq
+    400142: ojo_der
+    400144: ojo_izq
+    400146: pCube1
+    400148: pCube10
+    400150: pCube3
+    400152: pCube4
+    400154: pCube5
+    400156: pCube6
+    400158: pCube7
+    400160: pCube8
+    400162: pCube9
+    2300000: balonBasket
+    3300000: balonBasket
+    4300000: ojo_izq
+    4300002: ojo_der
+    4300004: cuerpo
+    4300006: pCube4
+    4300008: pCube5
+    4300010: pCube3
+    4300012: pCube7
+    4300014: pCube6
+    4300016: mano_izq
+    4300018: mano_der
+    4300020: pCube8
+    4300022: pCube1
+    4300024: Diente1
+    4300026: Diente2
+    4300028: Diente3
+    4300030: Diente4
+    4300032: Diente5
+    4300034: Diente6
+    4300036: Diente7
+    4300038: Diente8
+    4300040: Diente9
+    4300042: Diente10
+    4300044: Diente11
+    4300046: Diente12
+    4300048: Diente13
+    4300050: Diente14
+    4300052: Diente15
+    4300054: Diente16
+    4300056: Diente17
+    4300058: Diente18
+    4300060: Diente19
+    4300062: Diente20
+    4300064: Diente21
+    4300066: Diente22
+    4300068: Diente23
+    4300070: pCube9
+    4300072: pCube10
+    4300074: Diente
+    4300076: Encias
+    4300078: balonBasket
+    7400000: fantasma_aplaudir
+    7400002: fantasma_cogerPelota
+    7400004: fantasma_reposoPelota
+    7400006: fantasma_tirarPelota(Acierto)
+    7400008: fantasma_reaccionFallo
+    7400010: fantasma_tirarPelota(Fallo)
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: cuerpo
+    13700002: Diente
+    13700004: Diente1
+    13700006: Diente10
+    13700008: Diente11
+    13700010: Diente12
+    13700012: Diente13
+    13700014: Diente14
+    13700016: Diente15
+    13700018: Diente16
+    13700020: Diente17
+    13700022: Diente18
+    13700024: Diente19
+    13700026: Diente2
+    13700028: Diente20
+    13700030: Diente21
+    13700032: Diente22
+    13700034: Diente23
+    13700036: Diente3
+    13700038: Diente4
+    13700040: Diente5
+    13700042: Diente6
+    13700044: Diente7
+    13700046: Diente8
+    13700048: Diente9
+    13700050: Encias
+    13700052: mano_der
+    13700054: mano_izq
+    13700056: ojo_der
+    13700058: ojo_izq
+    13700060: pCube1
+    13700062: pCube10
+    13700064: pCube3
+    13700066: pCube4
+    13700068: pCube5
+    13700070: pCube6
+    13700072: pCube7
+    13700074: pCube8
+    13700076: pCube9
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: fantasma_aplaudir
+      takeName: all
+      firstFrame: 95
+      lastFrame: 165
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .750656128
+        functionName: empezarTurnoJugador
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: grp_move
+        weight: 1
+      - path: grp_move/j_Cadera
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Mandibula
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Mandibula/j_Punta_Mandibula
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_dedo_ind_der
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_dedo_ind_der/joint6
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_dedo_med_der
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_dedo_med_der/joint4
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_dedo_men_der
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_dedo_men_der/joint2
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_pulgar_der
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_pulgar_der/joint8
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint12
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_dedo_ind_izq
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_dedo_ind_izq/joint6
+          1
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_dedo_med_izq
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_dedo_med_izq/joint4
+          1
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_dedo_men_izq
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_dedo_men_izq/joint2
+          1
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_pulgar_izq
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_pulgar_izq/joint8
+          1
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint11
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1/j_Punta_Cabeza_2
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1/j_Punta_Cabeza_2/j_Punta_Cabeza_3
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1/j_Punta_Cabeza_2/j_Punta_Cabeza_3/j_Punta_Cabeza_4
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1/j_Punta_Cabeza_2/j_Punta_Cabeza_3/j_Punta_Cabeza_4/j_Punta_Cabeza_5
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1/j_Punta_Cabeza_2/j_Punta_Cabeza_3/j_Punta_Cabeza_4/j_Punta_Cabeza_5/j_Punta_Cabeza_6
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1/j_Punta_Cabeza_2/j_Punta_Cabeza_3/j_Punta_Cabeza_4/j_Punta_Cabeza_5/j_Punta_Cabeza_6/j_Punta_Punta
+        weight: 1
+      - path: grp_static
+        weight: 1
+      - path: grp_static/balonBasket
+        weight: 1
+      - path: grp_static/Fantasma_geometria
+        weight: 1
+      - path: grp_static/Fantasma_geometria/cuerpo
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente1
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente2
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente3
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente4
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente5
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente6
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente7
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente8
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente9
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente10
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente11
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Encias
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente12
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente13
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente14
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente15
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente16
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente17
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente18
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente19
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente20
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente21
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente22
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente23
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/pCube9
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/pCube10
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_cejas
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_cejas/pCube1
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_cejas/pCube8
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_gafas
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_gafas/pCube3
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_gafas/pCube4
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_gafas/pCube5
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_gafas/pCube6
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_gafas/pCube7
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_manos
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_manos/mano_der
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_manos/mano_izq
+        weight: 1
+      - path: grp_static/Fantasma_geometria/ojo_der
+        weight: 1
+      - path: grp_static/Fantasma_geometria/ojo_izq
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: fantasma_cogerPelota
+      takeName: all
+      firstFrame: 170
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: grp_move
+        weight: 1
+      - path: grp_move/j_Cadera
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Mandibula
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Mandibula/j_Punta_Mandibula
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_dedo_ind_der
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_dedo_ind_der/joint6
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_dedo_med_der
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_dedo_med_der/joint4
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_dedo_men_der
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_dedo_men_der/joint2
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_pulgar_der
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_pulgar_der/joint8
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint12
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_dedo_ind_izq
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_dedo_ind_izq/joint6
+          1
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_dedo_med_izq
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_dedo_med_izq/joint4
+          1
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_dedo_men_izq
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_dedo_men_izq/joint2
+          1
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_pulgar_izq
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_pulgar_izq/joint8
+          1
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint11
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1/j_Punta_Cabeza_2
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1/j_Punta_Cabeza_2/j_Punta_Cabeza_3
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1/j_Punta_Cabeza_2/j_Punta_Cabeza_3/j_Punta_Cabeza_4
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1/j_Punta_Cabeza_2/j_Punta_Cabeza_3/j_Punta_Cabeza_4/j_Punta_Cabeza_5
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1/j_Punta_Cabeza_2/j_Punta_Cabeza_3/j_Punta_Cabeza_4/j_Punta_Cabeza_5/j_Punta_Cabeza_6
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1/j_Punta_Cabeza_2/j_Punta_Cabeza_3/j_Punta_Cabeza_4/j_Punta_Cabeza_5/j_Punta_Cabeza_6/j_Punta_Punta
+        weight: 1
+      - path: grp_static
+        weight: 1
+      - path: grp_static/balonBasket
+        weight: 1
+      - path: grp_static/Fantasma_geometria
+        weight: 1
+      - path: grp_static/Fantasma_geometria/cuerpo
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente1
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente2
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente3
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente4
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente5
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente6
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente7
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente8
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente9
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente10
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente11
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Encias
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente12
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente13
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente14
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente15
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente16
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente17
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente18
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente19
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente20
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente21
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente22
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente23
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/pCube9
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/pCube10
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_cejas
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_cejas/pCube1
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_cejas/pCube8
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_gafas
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_gafas/pCube3
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_gafas/pCube4
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_gafas/pCube5
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_gafas/pCube6
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_gafas/pCube7
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_manos
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_manos/mano_der
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_manos/mano_izq
+        weight: 1
+      - path: grp_static/Fantasma_geometria/ojo_der
+        weight: 1
+      - path: grp_static/Fantasma_geometria/ojo_izq
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: fantasma_reposoPelota
+      takeName: all
+      firstFrame: 200
+      lastFrame: 390
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: grp_move
+        weight: 1
+      - path: grp_move/j_Cadera
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Mandibula
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Mandibula/j_Punta_Mandibula
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_dedo_ind_der
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_dedo_ind_der/joint6
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_dedo_med_der
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_dedo_med_der/joint4
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_dedo_men_der
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_dedo_men_der/joint2
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_pulgar_der
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_pulgar_der/joint8
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint12
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_dedo_ind_izq
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_dedo_ind_izq/joint6
+          1
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_dedo_med_izq
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_dedo_med_izq/joint4
+          1
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_dedo_men_izq
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_dedo_men_izq/joint2
+          1
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_pulgar_izq
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_pulgar_izq/joint8
+          1
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint11
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1/j_Punta_Cabeza_2
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1/j_Punta_Cabeza_2/j_Punta_Cabeza_3
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1/j_Punta_Cabeza_2/j_Punta_Cabeza_3/j_Punta_Cabeza_4
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1/j_Punta_Cabeza_2/j_Punta_Cabeza_3/j_Punta_Cabeza_4/j_Punta_Cabeza_5
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1/j_Punta_Cabeza_2/j_Punta_Cabeza_3/j_Punta_Cabeza_4/j_Punta_Cabeza_5/j_Punta_Cabeza_6
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1/j_Punta_Cabeza_2/j_Punta_Cabeza_3/j_Punta_Cabeza_4/j_Punta_Cabeza_5/j_Punta_Cabeza_6/j_Punta_Punta
+        weight: 1
+      - path: grp_static
+        weight: 1
+      - path: grp_static/balonBasket
+        weight: 1
+      - path: grp_static/Fantasma_geometria
+        weight: 1
+      - path: grp_static/Fantasma_geometria/cuerpo
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente1
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente2
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente3
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente4
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente5
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente6
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente7
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente8
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente9
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente10
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente11
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Encias
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente12
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente13
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente14
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente15
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente16
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente17
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente18
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente19
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente20
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente21
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente22
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente23
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/pCube9
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/pCube10
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_cejas
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_cejas/pCube1
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_cejas/pCube8
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_gafas
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_gafas/pCube3
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_gafas/pCube4
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_gafas/pCube5
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_gafas/pCube6
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_gafas/pCube7
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_manos
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_manos/mano_der
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_manos/mano_izq
+        weight: 1
+      - path: grp_static/Fantasma_geometria/ojo_der
+        weight: 1
+      - path: grp_static/Fantasma_geometria/ojo_izq
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: fantasma_tirarPelota(Acierto)
+      takeName: all
+      firstFrame: 390
+      lastFrame: 430
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: grp_move
+        weight: 1
+      - path: grp_move/j_Cadera
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Mandibula
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Mandibula/j_Punta_Mandibula
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_dedo_ind_der
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_dedo_ind_der/joint6
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_dedo_med_der
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_dedo_med_der/joint4
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_dedo_men_der
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_dedo_men_der/joint2
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_pulgar_der
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_pulgar_der/joint8
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint12
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_dedo_ind_izq
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_dedo_ind_izq/joint6
+          1
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_dedo_med_izq
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_dedo_med_izq/joint4
+          1
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_dedo_men_izq
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_dedo_men_izq/joint2
+          1
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_pulgar_izq
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_pulgar_izq/joint8
+          1
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint11
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1/j_Punta_Cabeza_2
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1/j_Punta_Cabeza_2/j_Punta_Cabeza_3
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1/j_Punta_Cabeza_2/j_Punta_Cabeza_3/j_Punta_Cabeza_4
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1/j_Punta_Cabeza_2/j_Punta_Cabeza_3/j_Punta_Cabeza_4/j_Punta_Cabeza_5
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1/j_Punta_Cabeza_2/j_Punta_Cabeza_3/j_Punta_Cabeza_4/j_Punta_Cabeza_5/j_Punta_Cabeza_6
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1/j_Punta_Cabeza_2/j_Punta_Cabeza_3/j_Punta_Cabeza_4/j_Punta_Cabeza_5/j_Punta_Cabeza_6/j_Punta_Punta
+        weight: 1
+      - path: grp_static
+        weight: 1
+      - path: grp_static/balonBasket
+        weight: 1
+      - path: grp_static/Fantasma_geometria
+        weight: 1
+      - path: grp_static/Fantasma_geometria/cuerpo
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente1
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente2
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente3
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente4
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente5
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente6
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente7
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente8
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente9
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente10
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente11
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Encias
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente12
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente13
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente14
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente15
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente16
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente17
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente18
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente19
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente20
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente21
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente22
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente23
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/pCube9
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/pCube10
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_cejas
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_cejas/pCube1
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_cejas/pCube8
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_gafas
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_gafas/pCube3
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_gafas/pCube4
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_gafas/pCube5
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_gafas/pCube6
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_gafas/pCube7
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_manos
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_manos/mano_der
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_manos/mano_izq
+        weight: 1
+      - path: grp_static/Fantasma_geometria/ojo_der
+        weight: 1
+      - path: grp_static/Fantasma_geometria/ojo_izq
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: fantasma_reaccionFallo
+      takeName: all
+      firstFrame: 445
+      lastFrame: 490
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .799171984
+        functionName: empezarTurnoJugador
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: grp_move
+        weight: 1
+      - path: grp_move/j_Cadera
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Mandibula
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Mandibula/j_Punta_Mandibula
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_dedo_ind_der
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_dedo_ind_der/joint6
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_dedo_med_der
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_dedo_med_der/joint4
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_dedo_men_der
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_dedo_men_der/joint2
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_pulgar_der
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_pulgar_der/joint8
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint12
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_dedo_ind_izq
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_dedo_ind_izq/joint6
+          1
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_dedo_med_izq
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_dedo_med_izq/joint4
+          1
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_dedo_men_izq
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_dedo_men_izq/joint2
+          1
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_pulgar_izq
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_pulgar_izq/joint8
+          1
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint11
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1/j_Punta_Cabeza_2
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1/j_Punta_Cabeza_2/j_Punta_Cabeza_3
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1/j_Punta_Cabeza_2/j_Punta_Cabeza_3/j_Punta_Cabeza_4
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1/j_Punta_Cabeza_2/j_Punta_Cabeza_3/j_Punta_Cabeza_4/j_Punta_Cabeza_5
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1/j_Punta_Cabeza_2/j_Punta_Cabeza_3/j_Punta_Cabeza_4/j_Punta_Cabeza_5/j_Punta_Cabeza_6
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1/j_Punta_Cabeza_2/j_Punta_Cabeza_3/j_Punta_Cabeza_4/j_Punta_Cabeza_5/j_Punta_Cabeza_6/j_Punta_Punta
+        weight: 1
+      - path: grp_static
+        weight: 1
+      - path: grp_static/balonBasket
+        weight: 1
+      - path: grp_static/Fantasma_geometria
+        weight: 1
+      - path: grp_static/Fantasma_geometria/cuerpo
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente1
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente2
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente3
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente4
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente5
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente6
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente7
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente8
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente9
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente10
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente11
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Encias
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente12
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente13
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente14
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente15
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente16
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente17
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente18
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente19
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente20
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente21
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente22
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente23
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/pCube9
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/pCube10
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_cejas
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_cejas/pCube1
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_cejas/pCube8
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_gafas
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_gafas/pCube3
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_gafas/pCube4
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_gafas/pCube5
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_gafas/pCube6
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_gafas/pCube7
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_manos
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_manos/mano_der
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_manos/mano_izq
+        weight: 1
+      - path: grp_static/Fantasma_geometria/ojo_der
+        weight: 1
+      - path: grp_static/Fantasma_geometria/ojo_izq
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: fantasma_tirarPelota(Fallo)
+      takeName: all
+      firstFrame: 490
+      lastFrame: 560
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: grp_move
+        weight: 1
+      - path: grp_move/j_Cadera
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Mandibula
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Mandibula/j_Punta_Mandibula
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_dedo_ind_der
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_dedo_ind_der/joint6
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_dedo_med_der
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_dedo_med_der/joint4
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_dedo_men_der
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_dedo_men_der/joint2
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_pulgar_der
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint10/j_pulgar_der/joint8
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_der/joint12
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_dedo_ind_izq
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_dedo_ind_izq/joint6
+          1
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_dedo_med_izq
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_dedo_med_izq/joint4
+          1
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_dedo_men_izq
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_dedo_men_izq/joint2
+          1
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_pulgar_izq
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint10 1/j_pulgar_izq/joint8
+          1
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_mano_izq/joint11
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1/j_Punta_Cabeza_2
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1/j_Punta_Cabeza_2/j_Punta_Cabeza_3
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1/j_Punta_Cabeza_2/j_Punta_Cabeza_3/j_Punta_Cabeza_4
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1/j_Punta_Cabeza_2/j_Punta_Cabeza_3/j_Punta_Cabeza_4/j_Punta_Cabeza_5
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1/j_Punta_Cabeza_2/j_Punta_Cabeza_3/j_Punta_Cabeza_4/j_Punta_Cabeza_5/j_Punta_Cabeza_6
+        weight: 1
+      - path: grp_move/j_Cadera/j_Cabeza/j_Punta_Cabeza_1/j_Punta_Cabeza_2/j_Punta_Cabeza_3/j_Punta_Cabeza_4/j_Punta_Cabeza_5/j_Punta_Cabeza_6/j_Punta_Punta
+        weight: 1
+      - path: grp_static
+        weight: 1
+      - path: grp_static/balonBasket
+        weight: 1
+      - path: grp_static/Fantasma_geometria
+        weight: 1
+      - path: grp_static/Fantasma_geometria/cuerpo
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente1
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente2
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente3
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente4
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente5
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente6
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente7
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente8
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente9
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente10
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Diente11
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/Encias
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente12
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente13
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente14
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente15
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente16
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente17
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente18
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente19
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente20
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente21
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente22
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/Diente23
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/pCube9
+        weight: 1
+      - path: grp_static/Fantasma_geometria/G_Boca/G_Aparato/pCube10
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_cejas
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_cejas/pCube1
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_cejas/pCube8
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_gafas
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_gafas/pCube3
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_gafas/pCube4
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_gafas/pCube5
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_gafas/pCube6
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_gafas/pCube7
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_manos
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_manos/mano_der
+        weight: 1
+      - path: grp_static/Fantasma_geometria/grupo_manos/mano_izq
+        weight: 1
+      - path: grp_static/Fantasma_geometria/ojo_der
+        weight: 1
+      - path: grp_static/Fantasma_geometria/ojo_izq
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 35
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

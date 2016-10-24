@@ -1,0 +1,107 @@
+fileFormatVersion: 2
+guid: f97d7e26ab3a4f3409bfe23bee9b6668
+timeCreated: 1476474289
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Isla_Fantasma_Arbol_006
+    100002: Isla_Fantasma_Arbol_008
+    100004: Isla_Fantasma_Arbol_009
+    100006: //RootNode
+    100008: Isla_Fantasma_Isla_Grande
+    100010: Isla_Fantasma_Isla_Grande_suelo
+    100012: Isla_Fantasma_Mansion
+    100014: Pf003_pineTree001
+    400000: Isla_Fantasma_Arbol_006
+    400002: Isla_Fantasma_Arbol_008
+    400004: Isla_Fantasma_Arbol_009
+    400006: //RootNode
+    400008: Isla_Fantasma_Isla_Grande
+    400010: Isla_Fantasma_Isla_Grande_suelo
+    400012: Isla_Fantasma_Mansion
+    400014: Pf003_pineTree001
+    2300000: Isla_Fantasma_Arbol_006
+    2300002: Isla_Fantasma_Arbol_008
+    2300004: Isla_Fantasma_Arbol_009
+    2300006: Isla_Fantasma_Isla_Grande
+    2300008: Isla_Fantasma_Isla_Grande_suelo
+    2300010: Isla_Fantasma_Mansion
+    3300000: Isla_Fantasma_Arbol_006
+    3300002: Isla_Fantasma_Arbol_008
+    3300004: Isla_Fantasma_Arbol_009
+    3300006: Isla_Fantasma_Isla_Grande
+    3300008: Isla_Fantasma_Isla_Grande_suelo
+    3300010: Isla_Fantasma_Mansion
+    4300000: Isla_Fantasma_Arbol_006
+    4300002: Isla_Fantasma_Arbol_008
+    4300004: Isla_Fantasma_Arbol_009
+    4300006: Isla_Fantasma_Isla_Grande
+    4300008: Isla_Fantasma_Mansion
+    4300010: Isla_Fantasma_Isla_Grande_suelo
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

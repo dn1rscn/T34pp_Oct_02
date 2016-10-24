@@ -1,0 +1,427 @@
+fileFormatVersion: 2
+guid: e37e44cddc29def45b606c125b52d53d
+timeCreated: 1464549056
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Ab001_foxBall_Rig:Ab001_foxBall
+    100002: Ab001_foxBall_Rig:Ab001_foxBall 1
+    100004: Ab001_foxBall_Rig:ctl_all
+    100006: Ab001_foxBall_Rig:ctl_ear_lf
+    100008: Ab001_foxBall_Rig:ctl_ear_rt
+    100010: Ab001_foxBall_Rig:ctl_head
+    100012: Ab001_foxBall_Rig:ctl_tail_01
+    100014: Ab001_foxBall_Rig:ctl_tail_02
+    100016: Ab001_foxBall_Rig:ctl_tail_03
+    100018: Ab001_foxBall_Rig:ctl_tail_04
+    100020: Ab001_foxBall_Rig:ctl_tail_05
+    100022: Ab001_foxBall_Rig:ctl_tail_06
+    100024: Ab001_foxBall_Rig:ctl_tail_end
+    100026: Ab001_foxBall_Rig:grp_mdl
+    100028: Ab001_foxBall_Rig:grp_move
+    100030: Ab001_foxBall_Rig:grp_static
+    100032: Ab001_foxBall_Rig:jnt_ear_lf_end
+    100034: Ab001_foxBall_Rig:jnt_ear_rt_end
+    100036: Ab001_foxBall_Rig:jnt_eye_lf
+    100038: Ab001_foxBall_Rig:jnt_eye_rt
+    100040: Ab001_foxBall_Rig:jnt_head01
+    100042: Ab001_foxBall_Rig:jnt_head03
+    100044: Ab001_foxBall_Rig:jnt_head_end
+    100046: //RootNode
+    400000: Ab001_foxBall_Rig:Ab001_foxBall
+    400002: Ab001_foxBall_Rig:Ab001_foxBall 1
+    400004: Ab001_foxBall_Rig:ctl_all
+    400006: Ab001_foxBall_Rig:ctl_ear_lf
+    400008: Ab001_foxBall_Rig:ctl_ear_rt
+    400010: Ab001_foxBall_Rig:ctl_head
+    400012: Ab001_foxBall_Rig:ctl_tail_01
+    400014: Ab001_foxBall_Rig:ctl_tail_02
+    400016: Ab001_foxBall_Rig:ctl_tail_03
+    400018: Ab001_foxBall_Rig:ctl_tail_04
+    400020: Ab001_foxBall_Rig:ctl_tail_05
+    400022: Ab001_foxBall_Rig:ctl_tail_06
+    400024: Ab001_foxBall_Rig:ctl_tail_end
+    400026: Ab001_foxBall_Rig:grp_mdl
+    400028: Ab001_foxBall_Rig:grp_move
+    400030: Ab001_foxBall_Rig:grp_static
+    400032: Ab001_foxBall_Rig:jnt_ear_lf_end
+    400034: Ab001_foxBall_Rig:jnt_ear_rt_end
+    400036: Ab001_foxBall_Rig:jnt_eye_lf
+    400038: Ab001_foxBall_Rig:jnt_eye_rt
+    400040: Ab001_foxBall_Rig:jnt_head01
+    400042: Ab001_foxBall_Rig:jnt_head03
+    400044: Ab001_foxBall_Rig:jnt_head_end
+    400046: //RootNode
+    4300000: Ab001_foxBall_Rig:Ab001_foxBall
+    7400000: reposo1
+    7400002: andar
+    7400004: reposo2
+    7400006: parpadear
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Ab001_foxBall_Rig:Ab001_foxBall 1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 3
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: reposo1
+      takeName: all
+      firstFrame: 50
+      lastFrame: 89
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:ctl_tail_01
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:ctl_tail_01/Ab001_foxBall_Rig:ctl_tail_02
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:ctl_tail_01/Ab001_foxBall_Rig:ctl_tail_02/Ab001_foxBall_Rig:ctl_tail_03
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:ctl_tail_01/Ab001_foxBall_Rig:ctl_tail_02/Ab001_foxBall_Rig:ctl_tail_03/Ab001_foxBall_Rig:ctl_tail_04
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:ctl_tail_01/Ab001_foxBall_Rig:ctl_tail_02/Ab001_foxBall_Rig:ctl_tail_03/Ab001_foxBall_Rig:ctl_tail_04/Ab001_foxBall_Rig:ctl_tail_05
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:ctl_tail_01/Ab001_foxBall_Rig:ctl_tail_02/Ab001_foxBall_Rig:ctl_tail_03/Ab001_foxBall_Rig:ctl_tail_04/Ab001_foxBall_Rig:ctl_tail_05/Ab001_foxBall_Rig:ctl_tail_06
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:ctl_tail_01/Ab001_foxBall_Rig:ctl_tail_02/Ab001_foxBall_Rig:ctl_tail_03/Ab001_foxBall_Rig:ctl_tail_04/Ab001_foxBall_Rig:ctl_tail_05/Ab001_foxBall_Rig:ctl_tail_06/Ab001_foxBall_Rig:ctl_tail_end
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_eye_lf
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_eye_rt
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_head01
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_head01/Ab001_foxBall_Rig:ctl_head
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_head01/Ab001_foxBall_Rig:ctl_head/Ab001_foxBall_Rig:ctl_ear_lf
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_head01/Ab001_foxBall_Rig:ctl_head/Ab001_foxBall_Rig:ctl_ear_lf/Ab001_foxBall_Rig:jnt_ear_lf_end
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_head01/Ab001_foxBall_Rig:ctl_head/Ab001_foxBall_Rig:ctl_ear_rt
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_head01/Ab001_foxBall_Rig:ctl_head/Ab001_foxBall_Rig:ctl_ear_rt/Ab001_foxBall_Rig:jnt_ear_rt_end
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_head01/Ab001_foxBall_Rig:ctl_head/Ab001_foxBall_Rig:jnt_head03
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_head01/Ab001_foxBall_Rig:ctl_head/Ab001_foxBall_Rig:jnt_head03/Ab001_foxBall_Rig:jnt_head_end
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_static
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_static/Ab001_foxBall_Rig:grp_mdl
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_static/Ab001_foxBall_Rig:grp_mdl/Ab001_foxBall_Rig:Ab001_foxBall
+          1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: andar
+      takeName: all
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:ctl_tail_01
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:ctl_tail_01/Ab001_foxBall_Rig:ctl_tail_02
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:ctl_tail_01/Ab001_foxBall_Rig:ctl_tail_02/Ab001_foxBall_Rig:ctl_tail_03
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:ctl_tail_01/Ab001_foxBall_Rig:ctl_tail_02/Ab001_foxBall_Rig:ctl_tail_03/Ab001_foxBall_Rig:ctl_tail_04
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:ctl_tail_01/Ab001_foxBall_Rig:ctl_tail_02/Ab001_foxBall_Rig:ctl_tail_03/Ab001_foxBall_Rig:ctl_tail_04/Ab001_foxBall_Rig:ctl_tail_05
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:ctl_tail_01/Ab001_foxBall_Rig:ctl_tail_02/Ab001_foxBall_Rig:ctl_tail_03/Ab001_foxBall_Rig:ctl_tail_04/Ab001_foxBall_Rig:ctl_tail_05/Ab001_foxBall_Rig:ctl_tail_06
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:ctl_tail_01/Ab001_foxBall_Rig:ctl_tail_02/Ab001_foxBall_Rig:ctl_tail_03/Ab001_foxBall_Rig:ctl_tail_04/Ab001_foxBall_Rig:ctl_tail_05/Ab001_foxBall_Rig:ctl_tail_06/Ab001_foxBall_Rig:ctl_tail_end
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_eye_lf
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_eye_rt
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_head01
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_head01/Ab001_foxBall_Rig:ctl_head
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_head01/Ab001_foxBall_Rig:ctl_head/Ab001_foxBall_Rig:ctl_ear_lf
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_head01/Ab001_foxBall_Rig:ctl_head/Ab001_foxBall_Rig:ctl_ear_lf/Ab001_foxBall_Rig:jnt_ear_lf_end
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_head01/Ab001_foxBall_Rig:ctl_head/Ab001_foxBall_Rig:ctl_ear_rt
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_head01/Ab001_foxBall_Rig:ctl_head/Ab001_foxBall_Rig:ctl_ear_rt/Ab001_foxBall_Rig:jnt_ear_rt_end
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_head01/Ab001_foxBall_Rig:ctl_head/Ab001_foxBall_Rig:jnt_head03
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_head01/Ab001_foxBall_Rig:ctl_head/Ab001_foxBall_Rig:jnt_head03/Ab001_foxBall_Rig:jnt_head_end
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_static
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_static/Ab001_foxBall_Rig:grp_mdl
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_static/Ab001_foxBall_Rig:grp_mdl/Ab001_foxBall_Rig:Ab001_foxBall
+          1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: reposo2
+      takeName: all
+      firstFrame: 90
+      lastFrame: 260
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:ctl_tail_01
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:ctl_tail_01/Ab001_foxBall_Rig:ctl_tail_02
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:ctl_tail_01/Ab001_foxBall_Rig:ctl_tail_02/Ab001_foxBall_Rig:ctl_tail_03
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:ctl_tail_01/Ab001_foxBall_Rig:ctl_tail_02/Ab001_foxBall_Rig:ctl_tail_03/Ab001_foxBall_Rig:ctl_tail_04
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:ctl_tail_01/Ab001_foxBall_Rig:ctl_tail_02/Ab001_foxBall_Rig:ctl_tail_03/Ab001_foxBall_Rig:ctl_tail_04/Ab001_foxBall_Rig:ctl_tail_05
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:ctl_tail_01/Ab001_foxBall_Rig:ctl_tail_02/Ab001_foxBall_Rig:ctl_tail_03/Ab001_foxBall_Rig:ctl_tail_04/Ab001_foxBall_Rig:ctl_tail_05/Ab001_foxBall_Rig:ctl_tail_06
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:ctl_tail_01/Ab001_foxBall_Rig:ctl_tail_02/Ab001_foxBall_Rig:ctl_tail_03/Ab001_foxBall_Rig:ctl_tail_04/Ab001_foxBall_Rig:ctl_tail_05/Ab001_foxBall_Rig:ctl_tail_06/Ab001_foxBall_Rig:ctl_tail_end
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_eye_lf
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_eye_rt
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_head01
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_head01/Ab001_foxBall_Rig:ctl_head
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_head01/Ab001_foxBall_Rig:ctl_head/Ab001_foxBall_Rig:ctl_ear_lf
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_head01/Ab001_foxBall_Rig:ctl_head/Ab001_foxBall_Rig:ctl_ear_lf/Ab001_foxBall_Rig:jnt_ear_lf_end
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_head01/Ab001_foxBall_Rig:ctl_head/Ab001_foxBall_Rig:ctl_ear_rt
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_head01/Ab001_foxBall_Rig:ctl_head/Ab001_foxBall_Rig:ctl_ear_rt/Ab001_foxBall_Rig:jnt_ear_rt_end
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_head01/Ab001_foxBall_Rig:ctl_head/Ab001_foxBall_Rig:jnt_head03
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_head01/Ab001_foxBall_Rig:ctl_head/Ab001_foxBall_Rig:jnt_head03/Ab001_foxBall_Rig:jnt_head_end
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_static
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_static/Ab001_foxBall_Rig:grp_mdl
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_static/Ab001_foxBall_Rig:grp_mdl/Ab001_foxBall_Rig:Ab001_foxBall
+          1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: parpadear
+      takeName: all
+      firstFrame: 260
+      lastFrame: 275
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:ctl_tail_01
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:ctl_tail_01/Ab001_foxBall_Rig:ctl_tail_02
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:ctl_tail_01/Ab001_foxBall_Rig:ctl_tail_02/Ab001_foxBall_Rig:ctl_tail_03
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:ctl_tail_01/Ab001_foxBall_Rig:ctl_tail_02/Ab001_foxBall_Rig:ctl_tail_03/Ab001_foxBall_Rig:ctl_tail_04
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:ctl_tail_01/Ab001_foxBall_Rig:ctl_tail_02/Ab001_foxBall_Rig:ctl_tail_03/Ab001_foxBall_Rig:ctl_tail_04/Ab001_foxBall_Rig:ctl_tail_05
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:ctl_tail_01/Ab001_foxBall_Rig:ctl_tail_02/Ab001_foxBall_Rig:ctl_tail_03/Ab001_foxBall_Rig:ctl_tail_04/Ab001_foxBall_Rig:ctl_tail_05/Ab001_foxBall_Rig:ctl_tail_06
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:ctl_tail_01/Ab001_foxBall_Rig:ctl_tail_02/Ab001_foxBall_Rig:ctl_tail_03/Ab001_foxBall_Rig:ctl_tail_04/Ab001_foxBall_Rig:ctl_tail_05/Ab001_foxBall_Rig:ctl_tail_06/Ab001_foxBall_Rig:ctl_tail_end
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_eye_lf
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_eye_rt
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_head01
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_head01/Ab001_foxBall_Rig:ctl_head
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_head01/Ab001_foxBall_Rig:ctl_head/Ab001_foxBall_Rig:ctl_ear_lf
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_head01/Ab001_foxBall_Rig:ctl_head/Ab001_foxBall_Rig:ctl_ear_lf/Ab001_foxBall_Rig:jnt_ear_lf_end
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_head01/Ab001_foxBall_Rig:ctl_head/Ab001_foxBall_Rig:ctl_ear_rt
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_head01/Ab001_foxBall_Rig:ctl_head/Ab001_foxBall_Rig:ctl_ear_rt/Ab001_foxBall_Rig:jnt_ear_rt_end
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_head01/Ab001_foxBall_Rig:ctl_head/Ab001_foxBall_Rig:jnt_head03
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_move/Ab001_foxBall_Rig:ctl_all/Ab001_foxBall_Rig:jnt_head01/Ab001_foxBall_Rig:ctl_head/Ab001_foxBall_Rig:jnt_head03/Ab001_foxBall_Rig:jnt_head_end
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_static
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_static/Ab001_foxBall_Rig:grp_mdl
+        weight: 1
+      - path: Ab001_foxBall_Rig:Ab001_foxBall/Ab001_foxBall_Rig:grp_static/Ab001_foxBall_Rig:grp_mdl/Ab001_foxBall_Rig:Ab001_foxBall
+          1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

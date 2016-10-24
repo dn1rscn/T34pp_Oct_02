@@ -1,0 +1,443 @@
+fileFormatVersion: 2
+guid: fcbd556319d1e8d40882b969bd60bec7
+timeCreated: 1464544184
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Ab003_leafStingray
+    100002: ambientLight1
+    100004: geo_leafStingray
+    100006: grp_mdl
+    100008: grp_move
+    100010: grp_static
+    100012: //RootNode
+    100014: jnt_body
+    100016: jnt_head_01
+    100018: jnt_head_02
+    100020: jnt_head_03
+    100022: jnt_head_04
+    100024: jnt_head_05
+    100026: jnt_head_06
+    100028: jnt_tail_01
+    100030: jnt_tail_02
+    100032: jnt_tail_03
+    100034: jnt_tail_04
+    100036: jnt_tail_05
+    100038: jnt_tail_06
+    100040: jnt_wing_bk_lf_01
+    100042: jnt_wing_bk_lf_02
+    100044: jnt_wing_bk_lf_03
+    100046: jnt_wing_bk_lf_04
+    100048: jnt_wing_bk_rt_01
+    100050: jnt_wing_bk_rt_02
+    100052: jnt_wing_bk_rt_03
+    100054: jnt_wing_bk_rt_04
+    100056: jnt_wing_fr_lf_01
+    100058: jnt_wing_fr_lf_02
+    100060: jnt_wing_fr_lf_03
+    100062: jnt_wing_fr_lf_04
+    100064: jnt_wing_fr_rt_01
+    100066: jnt_wing_fr_rt_02
+    100068: jnt_wing_fr_rt_03
+    100070: jnt_wing_fr_rt_04
+    400000: Ab003_leafStingray
+    400002: ambientLight1
+    400004: geo_leafStingray
+    400006: grp_mdl
+    400008: grp_move
+    400010: grp_static
+    400012: //RootNode
+    400014: jnt_body
+    400016: jnt_head_01
+    400018: jnt_head_02
+    400020: jnt_head_03
+    400022: jnt_head_04
+    400024: jnt_head_05
+    400026: jnt_head_06
+    400028: jnt_tail_01
+    400030: jnt_tail_02
+    400032: jnt_tail_03
+    400034: jnt_tail_04
+    400036: jnt_tail_05
+    400038: jnt_tail_06
+    400040: jnt_wing_bk_lf_01
+    400042: jnt_wing_bk_lf_02
+    400044: jnt_wing_bk_lf_03
+    400046: jnt_wing_bk_lf_04
+    400048: jnt_wing_bk_rt_01
+    400050: jnt_wing_bk_rt_02
+    400052: jnt_wing_bk_rt_03
+    400054: jnt_wing_bk_rt_04
+    400056: jnt_wing_fr_lf_01
+    400058: jnt_wing_fr_lf_02
+    400060: jnt_wing_fr_lf_03
+    400062: jnt_wing_fr_lf_04
+    400064: jnt_wing_fr_rt_01
+    400066: jnt_wing_fr_rt_02
+    400068: jnt_wing_fr_rt_03
+    400070: jnt_wing_fr_rt_04
+    4300000: geo_leafStingray
+    7400000: hojaRaya_movimiento1
+    7400002: hojaRaya_reposo
+    7400004: hojaRaya_movimiento2
+    9500000: //RootNode
+    13700000: geo_leafStingray
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: hojaRaya_movimiento1
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 96
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ab003_leafStingray
+        weight: 1
+      - path: Ab003_leafStingray/grp_move
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_head_01
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_head_01/jnt_head_02
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_head_01/jnt_head_02/jnt_head_03
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_head_01/jnt_head_02/jnt_head_03/jnt_head_04
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_head_01/jnt_head_02/jnt_head_03/jnt_head_04/jnt_head_05
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_head_01/jnt_head_02/jnt_head_03/jnt_head_04/jnt_head_05/jnt_head_06
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_tail_01
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_tail_01/jnt_tail_02
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_tail_01/jnt_tail_02/jnt_tail_03
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_tail_01/jnt_tail_02/jnt_tail_03/jnt_tail_04
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_tail_01/jnt_tail_02/jnt_tail_03/jnt_tail_04/jnt_tail_05
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_tail_01/jnt_tail_02/jnt_tail_03/jnt_tail_04/jnt_tail_05/jnt_tail_06
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_bk_lf_01
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_bk_lf_01/jnt_wing_bk_lf_02
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_bk_lf_01/jnt_wing_bk_lf_02/jnt_wing_bk_lf_03
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_bk_lf_01/jnt_wing_bk_lf_02/jnt_wing_bk_lf_03/jnt_wing_bk_lf_04
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_bk_rt_01
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_bk_rt_01/jnt_wing_bk_rt_02
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_bk_rt_01/jnt_wing_bk_rt_02/jnt_wing_bk_rt_03
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_bk_rt_01/jnt_wing_bk_rt_02/jnt_wing_bk_rt_03/jnt_wing_bk_rt_04
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_fr_lf_01
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_fr_lf_01/jnt_wing_fr_lf_02
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_fr_lf_01/jnt_wing_fr_lf_02/jnt_wing_fr_lf_03
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_fr_lf_01/jnt_wing_fr_lf_02/jnt_wing_fr_lf_03/jnt_wing_fr_lf_04
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_fr_rt_01
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_fr_rt_01/jnt_wing_fr_rt_02
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_fr_rt_01/jnt_wing_fr_rt_02/jnt_wing_fr_rt_03
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_fr_rt_01/jnt_wing_fr_rt_02/jnt_wing_fr_rt_03/jnt_wing_fr_rt_04
+        weight: 1
+      - path: Ab003_leafStingray/grp_static
+        weight: 1
+      - path: Ab003_leafStingray/grp_static/grp_mdl
+        weight: 1
+      - path: Ab003_leafStingray/grp_static/grp_mdl/geo_leafStingray
+        weight: 1
+      - path: ambientLight1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: hojaRaya_movimiento2
+      takeName: Take 001
+      firstFrame: 235
+      lastFrame: 305
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ab003_leafStingray
+        weight: 1
+      - path: Ab003_leafStingray/grp_move
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_head_01
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_head_01/jnt_head_02
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_head_01/jnt_head_02/jnt_head_03
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_head_01/jnt_head_02/jnt_head_03/jnt_head_04
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_head_01/jnt_head_02/jnt_head_03/jnt_head_04/jnt_head_05
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_head_01/jnt_head_02/jnt_head_03/jnt_head_04/jnt_head_05/jnt_head_06
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_tail_01
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_tail_01/jnt_tail_02
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_tail_01/jnt_tail_02/jnt_tail_03
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_tail_01/jnt_tail_02/jnt_tail_03/jnt_tail_04
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_tail_01/jnt_tail_02/jnt_tail_03/jnt_tail_04/jnt_tail_05
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_tail_01/jnt_tail_02/jnt_tail_03/jnt_tail_04/jnt_tail_05/jnt_tail_06
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_bk_lf_01
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_bk_lf_01/jnt_wing_bk_lf_02
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_bk_lf_01/jnt_wing_bk_lf_02/jnt_wing_bk_lf_03
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_bk_lf_01/jnt_wing_bk_lf_02/jnt_wing_bk_lf_03/jnt_wing_bk_lf_04
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_bk_rt_01
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_bk_rt_01/jnt_wing_bk_rt_02
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_bk_rt_01/jnt_wing_bk_rt_02/jnt_wing_bk_rt_03
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_bk_rt_01/jnt_wing_bk_rt_02/jnt_wing_bk_rt_03/jnt_wing_bk_rt_04
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_fr_lf_01
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_fr_lf_01/jnt_wing_fr_lf_02
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_fr_lf_01/jnt_wing_fr_lf_02/jnt_wing_fr_lf_03
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_fr_lf_01/jnt_wing_fr_lf_02/jnt_wing_fr_lf_03/jnt_wing_fr_lf_04
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_fr_rt_01
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_fr_rt_01/jnt_wing_fr_rt_02
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_fr_rt_01/jnt_wing_fr_rt_02/jnt_wing_fr_rt_03
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_fr_rt_01/jnt_wing_fr_rt_02/jnt_wing_fr_rt_03/jnt_wing_fr_rt_04
+        weight: 1
+      - path: Ab003_leafStingray/grp_static
+        weight: 1
+      - path: Ab003_leafStingray/grp_static/grp_mdl
+        weight: 1
+      - path: Ab003_leafStingray/grp_static/grp_mdl/geo_leafStingray
+        weight: 1
+      - path: ambientLight1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: hojaRaya_reposo
+      takeName: Take 001
+      firstFrame: 316
+      lastFrame: 367
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ab003_leafStingray
+        weight: 1
+      - path: Ab003_leafStingray/grp_move
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_head_01
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_head_01/jnt_head_02
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_head_01/jnt_head_02/jnt_head_03
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_head_01/jnt_head_02/jnt_head_03/jnt_head_04
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_head_01/jnt_head_02/jnt_head_03/jnt_head_04/jnt_head_05
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_head_01/jnt_head_02/jnt_head_03/jnt_head_04/jnt_head_05/jnt_head_06
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_tail_01
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_tail_01/jnt_tail_02
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_tail_01/jnt_tail_02/jnt_tail_03
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_tail_01/jnt_tail_02/jnt_tail_03/jnt_tail_04
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_tail_01/jnt_tail_02/jnt_tail_03/jnt_tail_04/jnt_tail_05
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_tail_01/jnt_tail_02/jnt_tail_03/jnt_tail_04/jnt_tail_05/jnt_tail_06
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_bk_lf_01
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_bk_lf_01/jnt_wing_bk_lf_02
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_bk_lf_01/jnt_wing_bk_lf_02/jnt_wing_bk_lf_03
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_bk_lf_01/jnt_wing_bk_lf_02/jnt_wing_bk_lf_03/jnt_wing_bk_lf_04
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_bk_rt_01
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_bk_rt_01/jnt_wing_bk_rt_02
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_bk_rt_01/jnt_wing_bk_rt_02/jnt_wing_bk_rt_03
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_bk_rt_01/jnt_wing_bk_rt_02/jnt_wing_bk_rt_03/jnt_wing_bk_rt_04
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_fr_lf_01
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_fr_lf_01/jnt_wing_fr_lf_02
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_fr_lf_01/jnt_wing_fr_lf_02/jnt_wing_fr_lf_03
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_fr_lf_01/jnt_wing_fr_lf_02/jnt_wing_fr_lf_03/jnt_wing_fr_lf_04
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_fr_rt_01
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_fr_rt_01/jnt_wing_fr_rt_02
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_fr_rt_01/jnt_wing_fr_rt_02/jnt_wing_fr_rt_03
+        weight: 1
+      - path: Ab003_leafStingray/grp_move/jnt_body/jnt_wing_fr_rt_01/jnt_wing_fr_rt_02/jnt_wing_fr_rt_03/jnt_wing_fr_rt_04
+        weight: 1
+      - path: Ab003_leafStingray/grp_static
+        weight: 1
+      - path: Ab003_leafStingray/grp_static/grp_mdl
+        weight: 1
+      - path: Ab003_leafStingray/grp_static/grp_mdl/geo_leafStingray
+        weight: 1
+      - path: ambientLight1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 225
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

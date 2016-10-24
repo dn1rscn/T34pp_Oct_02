@@ -1,0 +1,302 @@
+fileFormatVersion: 2
+guid: 62b146c9e76c66e44bff2e02d9be1d09
+timeCreated: 1474623937
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: ctl_all
+    100002: ctl_body
+    100004: ctl_ear_lf
+    100006: ctl_ear_rt
+    100008: ctl_head1
+    100010: ctl_head2
+    100012: ctl_head3
+    100014: ctl_neck
+    100016: ctl_tail2
+    100018: ctl_tail3
+    100020: ctl_tail4
+    100022: ctl_tail_0
+    100024: ctl_tail_1
+    100026: ctl_wheel
+    100028: ctl_windup
+    100030: geo_Am003_windupMouse
+    100032: grp_mdl
+    100034: grp_move
+    100036: grp_static
+    100038: grp_ZERO_ctl_mouse
+    100040: grp_ZERO_ctl_wheel
+    100042: grp_ZERO_ctl_windup
+    100044: jnt_ear_lf_end
+    100046: jnt_ear_rt_end
+    100048: jnt_head_end
+    100050: jnt_tail_end
+    100052: jnt_wheelBar
+    100054: joint1
+    100056: //RootNode
+    400000: ctl_all
+    400002: ctl_body
+    400004: ctl_ear_lf
+    400006: ctl_ear_rt
+    400008: ctl_head1
+    400010: ctl_head2
+    400012: ctl_head3
+    400014: ctl_neck
+    400016: ctl_tail2
+    400018: ctl_tail3
+    400020: ctl_tail4
+    400022: ctl_tail_0
+    400024: ctl_tail_1
+    400026: ctl_wheel
+    400028: ctl_windup
+    400030: geo_Am003_windupMouse
+    400032: grp_mdl
+    400034: grp_move
+    400036: grp_static
+    400038: grp_ZERO_ctl_mouse
+    400040: grp_ZERO_ctl_wheel
+    400042: grp_ZERO_ctl_windup
+    400044: jnt_ear_lf_end
+    400046: jnt_ear_rt_end
+    400048: jnt_head_end
+    400050: jnt_tail_end
+    400052: jnt_wheelBar
+    400054: joint1
+    400056: //RootNode
+    4300000: geo_Am003_windupMouse
+    7400000: movimiento_mouse
+    7400002: reposo_mouse
+    9500000: //RootNode
+    13700000: geo_Am003_windupMouse
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: movimiento_mouse
+      takeName: movimiento_mouse
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: grp_move
+        weight: 1
+      - path: grp_move/ctl_all
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar/ctl_body
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar/ctl_body/ctl_neck
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar/ctl_body/ctl_neck/ctl_ear_lf
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar/ctl_body/ctl_neck/ctl_ear_lf/jnt_ear_lf_end
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar/ctl_body/ctl_neck/ctl_ear_rt
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar/ctl_body/ctl_neck/ctl_ear_rt/jnt_ear_rt_end
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar/ctl_body/ctl_neck/ctl_head1
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar/ctl_body/ctl_neck/ctl_head1/ctl_head2
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar/ctl_body/ctl_neck/ctl_head1/ctl_head2/ctl_head3
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar/ctl_body/ctl_neck/ctl_head1/ctl_head2/ctl_head3/jnt_head_end
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar/ctl_body/ctl_tail_0
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar/ctl_body/ctl_tail_0/ctl_tail_1
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar/ctl_body/ctl_tail_0/ctl_tail_1/ctl_tail2
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar/ctl_body/ctl_tail_0/ctl_tail_1/ctl_tail2/ctl_tail3
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar/ctl_body/ctl_tail_0/ctl_tail_1/ctl_tail2/ctl_tail3/ctl_tail4
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar/ctl_body/ctl_tail_0/ctl_tail_1/ctl_tail2/ctl_tail3/ctl_tail4/jnt_tail_end
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar/ctl_body/grp_ZERO_ctl_windup
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar/ctl_body/grp_ZERO_ctl_windup/ctl_windup
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar/ctl_body/joint1
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_wheel
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_wheel/ctl_wheel
+        weight: 1
+      - path: grp_static
+        weight: 1
+      - path: grp_static/grp_mdl
+        weight: 1
+      - path: grp_static/grp_mdl/geo_Am003_windupMouse
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: reposo_mouse
+      takeName: reposo_mouse
+      firstFrame: 50
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: grp_move
+        weight: 1
+      - path: grp_move/ctl_all
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar/ctl_body
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar/ctl_body/ctl_neck
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar/ctl_body/ctl_neck/ctl_ear_lf
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar/ctl_body/ctl_neck/ctl_ear_lf/jnt_ear_lf_end
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar/ctl_body/ctl_neck/ctl_ear_rt
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar/ctl_body/ctl_neck/ctl_ear_rt/jnt_ear_rt_end
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar/ctl_body/ctl_neck/ctl_head1
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar/ctl_body/ctl_neck/ctl_head1/ctl_head2
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar/ctl_body/ctl_neck/ctl_head1/ctl_head2/ctl_head3
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar/ctl_body/ctl_neck/ctl_head1/ctl_head2/ctl_head3/jnt_head_end
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar/ctl_body/ctl_tail_0
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar/ctl_body/ctl_tail_0/ctl_tail_1
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar/ctl_body/ctl_tail_0/ctl_tail_1/ctl_tail2
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar/ctl_body/ctl_tail_0/ctl_tail_1/ctl_tail2/ctl_tail3
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar/ctl_body/ctl_tail_0/ctl_tail_1/ctl_tail2/ctl_tail3/ctl_tail4
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar/ctl_body/ctl_tail_0/ctl_tail_1/ctl_tail2/ctl_tail3/ctl_tail4/jnt_tail_end
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar/ctl_body/grp_ZERO_ctl_windup
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar/ctl_body/grp_ZERO_ctl_windup/ctl_windup
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_mouse/jnt_wheelBar/ctl_body/joint1
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_wheel
+        weight: 1
+      - path: grp_move/ctl_all/grp_ZERO_ctl_wheel/ctl_wheel
+        weight: 1
+      - path: grp_static
+        weight: 1
+      - path: grp_static/grp_mdl
+        weight: 1
+      - path: grp_static/grp_mdl/geo_Am003_windupMouse
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

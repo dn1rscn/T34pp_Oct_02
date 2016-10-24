@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: 43bff15872e96864788cffee57ab5f54
+timeCreated: 1453823292
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Boca_Chico
+    100002: Cabeza
+    100004: Ceja_der
+    100006: Ceja_izq
+    100008: Chico_Geometria
+    100010: G_Geometria
+    100012: G_J_IK
+    100014: G_J_Piernas
+    100016: Gorra
+    100018: Grupo_Cabeza
+    100020: Grupo_Cejas
+    100022: Grupo_Ojos
+    100024: Grupo_TrenInferior
+    100026: Grupo_TrenSuperior
+    100028: j_antebrazo_der
+    100030: j_antebrazo_izq
+    100032: j_brazo_der
+    100034: j_brazo_izq
+    100036: j_cabeza
+    100038: j_cadera
+    100040: j_cintura
+    100042: j_costillas
+    100044: j_espinilla_der
+    100046: j_espinilla_izq
+    100048: j_mano_der
+    100050: j_mano_izq
+    100052: j_Muslo_der
+    100054: j_Muslo_izq
+    100056: j_pie_der
+    100058: j_pie_izq
+    100060: j_punta_pie_der
+    100062: j_punta_pie_izq
+    100064: j_tobillo_der
+    100066: j_tobillo_izq
+    100068: joint13
+    100070: joint13 1
+    100072: joint19
+    100074: joint19 1
+    100076: joint5
+    100078: manos
+    100080: //RootNode
+    100082: Ojo_der
+    100084: Ojo_izq
+    100086: Pelo
+    100088: Pierna_der
+    100090: Pierna_izq
+    100092: Sudadera
+    400000: Boca_Chico
+    400002: Cabeza
+    400004: Ceja_der
+    400006: Ceja_izq
+    400008: Chico_Geometria
+    400010: G_Geometria
+    400012: G_J_IK
+    400014: G_J_Piernas
+    400016: Gorra
+    400018: Grupo_Cabeza
+    400020: Grupo_Cejas
+    400022: Grupo_Ojos
+    400024: Grupo_TrenInferior
+    400026: Grupo_TrenSuperior
+    400028: j_antebrazo_der
+    400030: j_antebrazo_izq
+    400032: j_brazo_der
+    400034: j_brazo_izq
+    400036: j_cabeza
+    400038: j_cadera
+    400040: j_cintura
+    400042: j_costillas
+    400044: j_espinilla_der
+    400046: j_espinilla_izq
+    400048: j_mano_der
+    400050: j_mano_izq
+    400052: j_Muslo_der
+    400054: j_Muslo_izq
+    400056: j_pie_der
+    400058: j_pie_izq
+    400060: j_punta_pie_der
+    400062: j_punta_pie_izq
+    400064: j_tobillo_der
+    400066: j_tobillo_izq
+    400068: joint13
+    400070: joint13 1
+    400072: joint19
+    400074: joint19 1
+    400076: joint5
+    400078: manos
+    400080: //RootNode
+    400082: Ojo_der
+    400084: Ojo_izq
+    400086: Pelo
+    400088: Pierna_der
+    400090: Pierna_izq
+    400092: Sudadera
+    4300000: Sudadera
+    4300002: manos
+    4300004: Ceja_der
+    4300006: Ceja_izq
+    4300008: Ojo_izq
+    4300010: Ojo_der
+    4300012: Cabeza
+    4300014: Pelo
+    4300016: Gorra
+    4300018: Boca_Chico
+    4300020: Pierna_izq
+    4300022: Pierna_der
+    9500000: //RootNode
+    13700000: Boca_Chico
+    13700002: Cabeza
+    13700004: Ceja_der
+    13700006: Ceja_izq
+    13700008: Gorra
+    13700010: manos
+    13700012: Ojo_der
+    13700014: Ojo_izq
+    13700016: Pelo
+    13700018: Pierna_der
+    13700020: Pierna_izq
+    13700022: Sudadera
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
