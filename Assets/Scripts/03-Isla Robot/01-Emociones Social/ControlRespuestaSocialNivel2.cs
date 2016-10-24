@@ -8,6 +8,7 @@ public class ControlRespuestaSocialNivel2 : MonoBehaviour
 
 	ControlEmociones CE;
 	DatosDesbloqueo DD;
+	ControlSlider CSlider;
 	
 	public GameObject IfinJuego;
 	
@@ -30,6 +31,9 @@ public class ControlRespuestaSocialNivel2 : MonoBehaviour
 	void Start () 
 	{
 		CE = GameObject.Find ("ctrEmociones").GetComponent<ControlEmociones> ();
+		CSlider = GameObject.Find ("Progreso").GetComponent<ControlSlider> ();
+
+		CSlider.progresoEmocionesSNivel1 ();
 		CE.respuesta = false;
 		actualizarPuntuacion ();
 	}
@@ -140,6 +144,7 @@ public class ControlRespuestaSocialNivel2 : MonoBehaviour
 		
 		CE.Intentos++;
 		actualizarPuntuacion ();
+		CSlider.progresoEmocionesSNivel1 ();
 	}
 	void actualizarPuntuacion()
 	{

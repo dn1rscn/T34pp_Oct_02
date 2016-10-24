@@ -1,18 +1,20 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ControlDesbloqueoIslaFantasma : MonoBehaviour 
+public class ControlDesbloqueosIslaBosque : MonoBehaviour 
 {
 	int i;
 
 	ControlDatosGlobales_Mundo3D cdg_3d;
 	ControlMisiones CMisiones;
+	DatosDesbloqueo DD;
 
 	// Use this for initialization
 	void Start () 
 	{
 		cdg_3d=GameObject.Find ("ControlDatosGlobales").GetComponent<ControlDatosGlobales_Mundo3D> ();
 		CMisiones=GameObject.Find ("Misiones").GetComponent<ControlMisiones>();
+		DD = GameObject.Find ("ctrDesbloqueo").GetComponent<DatosDesbloqueo> ();
 
 
 		//DESBLOQUEO ISLA FANTASMA
@@ -37,6 +39,12 @@ public class ControlDesbloqueoIslaFantasma : MonoBehaviour
 		if (i<cdg_3d.Ejer_Bosque.Length && cdg_3d.Ejer_Bosque [i] == false) 
 		{
 			print("Ejercicio "+i+" no completado");
+		}
+
+		//Desbloqueo Protal 2
+		if (DD.Portal2Bosque == true) 
+		{
+			//activamosPortal
 		}
 	}
 	

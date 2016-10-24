@@ -148,6 +148,7 @@ public class ControlRespuesta : MonoBehaviour
 				{
 					cdg_3d.Ejer_Bosque[0]=true;
 				}
+				DD.Portal2Bosque=true;
 			}
 			if (cdg.aciertos >= 10) 
 			{
@@ -210,6 +211,7 @@ public class ControlRespuesta : MonoBehaviour
 				{
 					cdg_3d.Ejer_Bosque[0]=true;
 				}
+				DD.Portal2Bosque=true;
 			}
 			if (cdg.aciertos >= 10) 
 			{

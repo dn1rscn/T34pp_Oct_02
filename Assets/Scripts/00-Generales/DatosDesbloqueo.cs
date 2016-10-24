@@ -7,14 +7,16 @@ public class DatosDesbloqueo : MonoBehaviour
 
 	public int Posicion;
 
+	public bool Portal2Bosque=false;
+
 	public bool Nivel2Dado=false;
 
 	public bool Nivel2Sonidos=false;
 	public bool Nivel3Sonidos=false;
 
-	public bool[] ADado;
-	public bool[] ASonidos;
-	public bool[] AEmpatia;
+	public bool[] ADado;  //control niveles dado
+	public bool[] ASonidos;  //niveles Sonidos
+	public bool[] AEmpatia;	//niveles empatia
 
 	// Use this for initialization
 	void Start () 

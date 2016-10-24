@@ -56,6 +56,45 @@ public class ControlMisiones : MonoBehaviour
 			print("Ejercicio "+i+" no completado FULL");
 		}
 	}
+
+	public void Mision_Fantasma()
+	{
+		i = 0;
+
+		while (i<=ejerF_3estrellas.Length-1 && ejerF_3estrellas[i]==true) 
+		{
+			if(i==ejerF_3estrellas.Length-1)
+			{
+				//mision completada
+				misionFantasmaCompletada=true;
+			}
+			i++;
+		}
+		if (i < ejerF_3estrellas.Length && ejerF_3estrellas [i] == false) 
+		{
+			print("Ejercicio "+i+" no completado FULL");
+		}
+	}
+
+	public void Mision_Robot()
+	{
+		i = 0;
+		
+		while (i<=ejerM_3estrellas.Length-1 && ejerM_3estrellas[i]==true) 
+		{
+			if(i==ejerM_3estrellas.Length-1)
+			{
+				//mision completada
+				misionRobotCompletada=true;
+			}
+			i++;
+		}
+		if (i < ejerM_3estrellas.Length && ejerM_3estrellas [i] == false) 
+		{
+			print("Ejercicio "+i+" no completado FULL");
+		}
+
+	}
 	void Awake ()
 	{
 		
