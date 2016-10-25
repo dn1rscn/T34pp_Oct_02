@@ -8,6 +8,7 @@ public class DatosDesbloqueo : MonoBehaviour
 	public int Posicion;
 
 	public bool Portal2Bosque=false;
+	public bool Portal2Fantasma=false;
 
 	public bool Nivel2Dado=false;
 

@@ -7,6 +7,8 @@ public class ControlRespuestaSocialNivel3 : MonoBehaviour
 	controlRespAleatoria CRA;
 	
 	ControlEmociones CE;
+	ControlSlider CSlider;
+
 	
 	public GameObject IfinJuego;
 	
@@ -29,8 +31,11 @@ public class ControlRespuestaSocialNivel3 : MonoBehaviour
 	void Start () 
 	{
 		CE = GameObject.Find ("ctrEmociones").GetComponent<ControlEmociones> ();
+		CSlider = GameObject.Find ("Progreso").GetComponent<ControlSlider> ();
+
 		CE.respuesta = false;
 		actualizarPuntuacion ();
+		CSlider.progresoEmocionesSNivel1 ();
 	}
 	
 	// Update is called once per frame
