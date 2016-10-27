@@ -6,6 +6,7 @@ public class ControlRespuestaEmociones : MonoBehaviour
 {
 	ControlEmocionesAleatorio CEA;
 	ControlEmociones CE;
+	ControlSlider CSlider;
 	
 	public GameObject IfinJuego;
 	
@@ -28,6 +29,21 @@ public class ControlRespuestaEmociones : MonoBehaviour
 	void Start () 
 	{
 		CE = GameObject.Find ("ctrEmociones").GetComponent<ControlEmociones> ();
+		CSlider = GameObject.Find ("Progreso").GetComponent<ControlSlider> ();
+		CEA = GameObject.Find ("ctrAleatorio").GetComponent<ControlEmocionesAleatorio> ();
+
+		if (CEA.ARespuesta.Length == 3) 
+		{
+			CSlider.progresoEmocionesNivel1();
+		}
+		if (CEA.ARespuesta.Length == 5) 
+		{
+			CSlider.progresoEmocionesNivel2();
+		}
+		if (CEA.ARespuesta.Length == 7) 
+		{
+			CSlider.progresoEmocionesNivel3();
+		}
 		CE.respuesta = false;
 		actualizarPuntuacion ();
 	}
@@ -76,7 +92,7 @@ public class ControlRespuestaEmociones : MonoBehaviour
 			cM.calcular_monedasGenerales ();
 
 			print(CE.Intentos);
-			if (CE.Intentos >= 3) 
+			if (CE.Intentos == 3) 
 			{
 				Invoke ("ActivarEstrella1", 1.0f);
 
@@ -134,7 +150,7 @@ public class ControlRespuestaEmociones : MonoBehaviour
 			cM.calcular_monedasEmocionesNivel2 ();
 			cM.calcular_monedasGenerales ();
 			
-			if (CE.Intentos >= 4) 
+			if (CE.Intentos == 4) 
 			{
 				Invoke ("ActivarEstrella1", 1.0f);
 
@@ -193,7 +209,7 @@ public class ControlRespuestaEmociones : MonoBehaviour
 			cM.calcular_monedasEmocionesNivel3 ();
 			cM.calcular_monedasGenerales ();
 			
-			if (CE.Intentos >= 5) 
+			if (CE.Intentos==5||CE.Intentos == 6) 
 			{
 				Invoke ("ActivarEstrella1", 1.0f);
 				//SiguienteSecuencia.SetActive(true);
@@ -202,7 +218,7 @@ public class ControlRespuestaEmociones : MonoBehaviour
 					CE.AEmociones[CE.NivelEmociones]=true;
 				}
 			}
-			if (CE.Intentos == 3||CE.Intentos==4) 
+			if (CE.Intentos == 2||CE.Intentos==3 || CE.Intentos==4) 
 			{
 				Invoke ("ActivarEstrella1", 1.0f);
 				Invoke ("ActivarEstrella2", 2.0f);
@@ -212,7 +228,7 @@ public class ControlRespuestaEmociones : MonoBehaviour
 					CE.AEmociones[CE.NivelEmociones]=true;
 				}
 			}
-			if (CE.Intentos == 1||CE.Intentos==2) 
+			if (CE.Intentos == 1) 
 			{
 				Invoke ("ActivarEstrella1", 1.0f);
 				Invoke ("ActivarEstrella2", 2.0f);
@@ -240,6 +256,19 @@ public class ControlRespuestaEmociones : MonoBehaviour
 		print ("fallo");
 		CE.Intentos++;
 		actualizarPuntuacion ();
+		if (CEA.ARespuesta.Length == 3) 
+		{
+			CSlider.progresoEmocionesNivel1();
+		}
+		if (CEA.ARespuesta.Length == 5) 
+		{
+			CSlider.progresoEmocionesNivel2();
+		}
+		if (CEA.ARespuesta.Length == 7) 
+		{
+			CSlider.progresoEmocionesNivel3();
+		}
+
 	}
 	void ActivarEstrella1()
 	{
