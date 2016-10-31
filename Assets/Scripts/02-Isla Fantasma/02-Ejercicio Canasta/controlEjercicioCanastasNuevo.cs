@@ -9,18 +9,24 @@ public class controlEjercicioCanastasNuevo : MonoBehaviour {
 	public GameObject botonTurnoMascota;
 	public GameObject botonTurnoJugador;
 
+	public GameObject barraPotencia;
+
 	public float lanzamientoMascota;
 	public int num_turnoMascota=1;
 	public int num_turnoJugador=0;
 
 	public int puntuacionMascota;
 	public int puntuacionJugador;
+
+	public int miniAciertos=1;
+
 	
 	string marcador;
 	
 	//controlColisionPowerBar cPB_ejercicioCanasta;
 	
 	Animator animatorEscena;
+	Animator animatorSlider;
 
 	Control_monedas cM;
 	GameObject ControlMonedas;
@@ -46,6 +52,8 @@ public class controlEjercicioCanastasNuevo : MonoBehaviour {
 
 		//Accedemos al animator global de la escena
 		animatorEscena = gameObject.GetComponent<Animator>();
+		animatorSlider = barraPotencia.GetComponent<Animator>();
+		turnoMascota();
 
 		ControlMonedas = GameObject.Find ("controlMonedas");
 		//cM = ControlMonedas.GetComponent<Control_monedas> ();
@@ -56,6 +64,7 @@ public class controlEjercicioCanastasNuevo : MonoBehaviour {
 //1-- TURNO DE LA MASCOTA*********************************************************
 	public void turnoMascota(){
 
+		botonTurnoJugador.SetActive(false);
 		botonStart.SetActive(false);
 		
 		if (num_turnoMascota < 6) {
@@ -84,16 +93,47 @@ public class controlEjercicioCanastasNuevo : MonoBehaviour {
 
 //2-- TURNO DEL JUGADOR***************************************************************
 	public void turnoJugador(){
-		//print (num_turnoJugador);
+		//Si hemos acertado:
+		if(barraPotencia.GetComponent <Slider> ().value > 0.51){
+			print ("MINI ACIERTO!!");
+			miniAciertos++;
+
+			switch(miniAciertos)
+			{
+			case 1: 
+				animatorSlider.Play("animSlider_01");
+				break;
+			case 2: 
+				animatorSlider.Play("animSlider_02");
+				break;
+			case 3: 
+				animatorSlider.Play("animSlider_03");
+				break;
+			case 4: 
+				aciertoJugador ();
+				botonTurnoJugador.SetActive(false);
+				miniAciertos=1;
+				break;
+				
+			}
+
+		} else {
+			print ("FALLO!!");
+			animatorSlider.Play("animSlider_Fallo");
+
+			falloJugador();
+		}
+
+
 
 		//Las 4 primeras veces que tiramos la pelota:
 		if (num_turnoJugador <= 4) {
 				
-			aciertoJugador ();
+			//aciertoJugador ();
 
 			print (marcador);
 
-			botonTurnoJugador.SetActive(false);
+			//botonTurnoJugador.SetActive(false);
 
 			//Cuando estamos en nuestro ultimo turno,
 		} else if (num_turnoJugador == 4) {
@@ -198,7 +238,8 @@ public class controlEjercicioCanastasNuevo : MonoBehaviour {
 	void falloJugador(){
 		//activamos la animacion de fallo del avatar*********************************************
 		animatorEscena.Play("Avatar_Fallo");
-		
+		miniAciertos=1;
+
 		print ("HAS FALLADO!");
 
 		GameObject pngAciertoActual= GameObject.Find("png_jugador_acierto_"+num_turnoJugador);
