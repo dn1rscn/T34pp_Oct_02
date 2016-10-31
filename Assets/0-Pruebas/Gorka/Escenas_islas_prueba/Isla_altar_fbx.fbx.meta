@@ -1,0 +1,846 @@
+fileFormatVersion: 2
+guid: 7df1e0c4af25f6247b3ad76c5101caab
+timeCreated: 1477836923
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: ctl_cuerdaGlobo
+    100002: ctl_cuerdaGlobo1
+    100004: ctl_cuerdaGlobo2
+    100006: ctl_cuerdaGlobo3
+    100008: ctl_cuerdaGlobo4
+    100010: ctl_cuerdaGlobo5
+    100012: ctl_globo
+    100014: ctl_globo1
+    100016: ctl_globo2
+    100018: ctl_globo3
+    100020: ctl_globo4
+    100022: ctl_globo5
+    100024: ctl_orientacion_globo
+    100026: ctl_orientacion_globo1
+    100028: ctl_orientacion_globo2
+    100030: ctl_orientacion_globo3
+    100032: ctl_orientacion_globo4
+    100034: ctl_orientacion_globo5
+    100036: grp_globos
+    100038: grp_ik_cuerdaGlobo
+    100040: grp_ik_cuerdaGlobo1
+    100042: grp_ik_cuerdaGlobo2
+    100044: grp_ik_cuerdaGlobo3
+    100046: grp_ik_cuerdaGlobo4
+    100048: grp_ik_cuerdaGlobo5
+    100050: grp_ik_globo
+    100052: grp_ik_globo1
+    100054: grp_ik_globo2
+    100056: grp_ik_globo3
+    100058: grp_ik_globo4
+    100060: grp_ik_globo5
+    100062: grp_iks
+    100064: grp_iks1
+    100066: grp_iks2
+    100068: grp_iks3
+    100070: grp_iks4
+    100072: grp_iks5
+    100074: grp_islaAltar_geo
+    100076: grp_islaBase
+    100078: grp_move
+    100080: grp_move1
+    100082: grp_move2
+    100084: grp_move3
+    100086: grp_move4
+    100088: grp_move5
+    100090: grp_puertaEngranajes
+    100092: grp_reloj
+    100094: grp_rigs
+    100096: ik_cuerdaGlobo
+    100098: ik_cuerdaGlobo1
+    100100: ik_cuerdaGlobo2
+    100102: ik_cuerdaGlobo3
+    100104: ik_cuerdaGlobo4
+    100106: ik_cuerdaGlobo5
+    100108: ik_globo
+    100110: ik_globo1
+    100112: ik_globo2
+    100114: ik_globo3
+    100116: ik_globo4
+    100118: ik_globo5
+    100120: Isla_Altar_Engranaje_01
+    100122: Isla_Altar_Engranaje_02
+    100124: Isla_Altar_Engranaje_03
+    100126: Isla_Altar_Escalera
+    100128: //RootNode
+    100130: Isla_Altar_Globo_amarillo_der
+    100132: Isla_Altar_Globo_amarillo_izq
+    100134: Isla_Altar_Globo_azul_der
+    100136: Isla_Altar_Globo_azul_izq
+    100138: Isla_Altar_Globo_rosa_der
+    100140: Isla_Altar_Globo_rosa_izq
+    100142: Isla_Altar_Isla
+    100144: Isla_Altar_Pared_der
+    100146: Isla_Altar_Pared_izq
+    100148: Isla_Altar_Plataforma
+    100150: Isla_Altar_Postes
+    100152: Isla_Altar_Reloj_Aguja_01
+    100154: Isla_Altar_Reloj_Aguja_02
+    100156: Isla_Altar_Reloj_Base
+    100158: Isla_Altar_Reloj_centro
+    100160: Isla_Altar_Reloj_Cupula
+    100162: Isla_Altar_Reloj_Tuerca
+    100164: Isla_Altar_semituerca_der
+    100166: Isla_Altar_semituerca_izq
+    100168: Isla_Altar_Suelo
+    100170: j_globo_01
+    100172: j_globo_010
+    100174: j_globo_011
+    100176: j_globo_012
+    100178: j_globo_013
+    100180: j_globo_014
+    100182: j_globo_015
+    100184: j_globo_016
+    100186: j_globo_017
+    100188: j_globo_018
+    100190: j_globo_02
+    100192: j_globo_03
+    100194: j_globo_04
+    100196: j_globo_05
+    100198: j_globo_06
+    100200: j_globo_07
+    100202: j_globo_08
+    100204: j_globo_09
+    100206: j_globo_punta
+    100208: j_globo_punta1
+    100210: j_globo_punta2
+    100212: j_globo_punta3
+    100214: j_globo_punta4
+    100216: j_globo_punta5
+    400000: ctl_cuerdaGlobo
+    400002: ctl_cuerdaGlobo1
+    400004: ctl_cuerdaGlobo2
+    400006: ctl_cuerdaGlobo3
+    400008: ctl_cuerdaGlobo4
+    400010: ctl_cuerdaGlobo5
+    400012: ctl_globo
+    400014: ctl_globo1
+    400016: ctl_globo2
+    400018: ctl_globo3
+    400020: ctl_globo4
+    400022: ctl_globo5
+    400024: ctl_orientacion_globo
+    400026: ctl_orientacion_globo1
+    400028: ctl_orientacion_globo2
+    400030: ctl_orientacion_globo3
+    400032: ctl_orientacion_globo4
+    400034: ctl_orientacion_globo5
+    400036: grp_globos
+    400038: grp_ik_cuerdaGlobo
+    400040: grp_ik_cuerdaGlobo1
+    400042: grp_ik_cuerdaGlobo2
+    400044: grp_ik_cuerdaGlobo3
+    400046: grp_ik_cuerdaGlobo4
+    400048: grp_ik_cuerdaGlobo5
+    400050: grp_ik_globo
+    400052: grp_ik_globo1
+    400054: grp_ik_globo2
+    400056: grp_ik_globo3
+    400058: grp_ik_globo4
+    400060: grp_ik_globo5
+    400062: grp_iks
+    400064: grp_iks1
+    400066: grp_iks2
+    400068: grp_iks3
+    400070: grp_iks4
+    400072: grp_iks5
+    400074: grp_islaAltar_geo
+    400076: grp_islaBase
+    400078: grp_move
+    400080: grp_move1
+    400082: grp_move2
+    400084: grp_move3
+    400086: grp_move4
+    400088: grp_move5
+    400090: grp_puertaEngranajes
+    400092: grp_reloj
+    400094: grp_rigs
+    400096: ik_cuerdaGlobo
+    400098: ik_cuerdaGlobo1
+    400100: ik_cuerdaGlobo2
+    400102: ik_cuerdaGlobo3
+    400104: ik_cuerdaGlobo4
+    400106: ik_cuerdaGlobo5
+    400108: ik_globo
+    400110: ik_globo1
+    400112: ik_globo2
+    400114: ik_globo3
+    400116: ik_globo4
+    400118: ik_globo5
+    400120: Isla_Altar_Engranaje_01
+    400122: Isla_Altar_Engranaje_02
+    400124: Isla_Altar_Engranaje_03
+    400126: Isla_Altar_Escalera
+    400128: //RootNode
+    400130: Isla_Altar_Globo_amarillo_der
+    400132: Isla_Altar_Globo_amarillo_izq
+    400134: Isla_Altar_Globo_azul_der
+    400136: Isla_Altar_Globo_azul_izq
+    400138: Isla_Altar_Globo_rosa_der
+    400140: Isla_Altar_Globo_rosa_izq
+    400142: Isla_Altar_Isla
+    400144: Isla_Altar_Pared_der
+    400146: Isla_Altar_Pared_izq
+    400148: Isla_Altar_Plataforma
+    400150: Isla_Altar_Postes
+    400152: Isla_Altar_Reloj_Aguja_01
+    400154: Isla_Altar_Reloj_Aguja_02
+    400156: Isla_Altar_Reloj_Base
+    400158: Isla_Altar_Reloj_centro
+    400160: Isla_Altar_Reloj_Cupula
+    400162: Isla_Altar_Reloj_Tuerca
+    400164: Isla_Altar_semituerca_der
+    400166: Isla_Altar_semituerca_izq
+    400168: Isla_Altar_Suelo
+    400170: j_globo_01
+    400172: j_globo_010
+    400174: j_globo_011
+    400176: j_globo_012
+    400178: j_globo_013
+    400180: j_globo_014
+    400182: j_globo_015
+    400184: j_globo_016
+    400186: j_globo_017
+    400188: j_globo_018
+    400190: j_globo_02
+    400192: j_globo_03
+    400194: j_globo_04
+    400196: j_globo_05
+    400198: j_globo_06
+    400200: j_globo_07
+    400202: j_globo_08
+    400204: j_globo_09
+    400206: j_globo_punta
+    400208: j_globo_punta1
+    400210: j_globo_punta2
+    400212: j_globo_punta3
+    400214: j_globo_punta4
+    400216: j_globo_punta5
+    2300000: Isla_Altar_Engranaje_01
+    2300002: Isla_Altar_Engranaje_02
+    2300004: Isla_Altar_Engranaje_03
+    2300006: Isla_Altar_Escalera
+    2300008: Isla_Altar_Isla
+    2300010: Isla_Altar_Pared_der
+    2300012: Isla_Altar_Pared_izq
+    2300014: Isla_Altar_Plataforma
+    2300016: Isla_Altar_Postes
+    2300018: Isla_Altar_Reloj_Aguja_01
+    2300020: Isla_Altar_Reloj_Aguja_02
+    2300022: Isla_Altar_Reloj_Base
+    2300024: Isla_Altar_Reloj_centro
+    2300026: Isla_Altar_Reloj_Cupula
+    2300028: Isla_Altar_Reloj_Tuerca
+    2300030: Isla_Altar_semituerca_der
+    2300032: Isla_Altar_semituerca_izq
+    2300034: Isla_Altar_Suelo
+    3300000: Isla_Altar_Engranaje_01
+    3300002: Isla_Altar_Engranaje_02
+    3300004: Isla_Altar_Engranaje_03
+    3300006: Isla_Altar_Escalera
+    3300008: Isla_Altar_Isla
+    3300010: Isla_Altar_Pared_der
+    3300012: Isla_Altar_Pared_izq
+    3300014: Isla_Altar_Plataforma
+    3300016: Isla_Altar_Postes
+    3300018: Isla_Altar_Reloj_Aguja_01
+    3300020: Isla_Altar_Reloj_Aguja_02
+    3300022: Isla_Altar_Reloj_Base
+    3300024: Isla_Altar_Reloj_centro
+    3300026: Isla_Altar_Reloj_Cupula
+    3300028: Isla_Altar_Reloj_Tuerca
+    3300030: Isla_Altar_semituerca_der
+    3300032: Isla_Altar_semituerca_izq
+    3300034: Isla_Altar_Suelo
+    4300000: Isla_Altar_Globo_rosa_der
+    4300002: Isla_Altar_Globo_amarillo_der
+    4300004: Isla_Altar_Globo_azul_der
+    4300006: Isla_Altar_Globo_amarillo_izq
+    4300008: Isla_Altar_Globo_rosa_izq
+    4300010: Isla_Altar_Globo_azul_izq
+    4300012: Isla_Altar_Engranaje_03
+    4300014: Isla_Altar_Engranaje_01
+    4300016: Isla_Altar_Postes
+    4300018: Isla_Altar_Engranaje_02
+    4300020: Isla_Altar_Reloj_Base
+    4300022: Isla_Altar_Reloj_Cupula
+    4300024: Isla_Altar_Reloj_Tuerca
+    4300026: Isla_Altar_Reloj_Aguja_01
+    4300028: Isla_Altar_Reloj_Aguja_02
+    4300030: Isla_Altar_Reloj_centro
+    4300032: Isla_Altar_Pared_der
+    4300034: Isla_Altar_Pared_izq
+    4300036: Isla_Altar_semituerca_izq
+    4300038: Isla_Altar_semituerca_der
+    4300040: Isla_Altar_Isla
+    4300042: Isla_Altar_Suelo
+    4300044: Isla_Altar_Escalera
+    4300046: Isla_Altar_Plataforma
+    7400000: general_anim_altar
+    7400002: reloj_anim_altar
+    9500000: //RootNode
+    13700000: Isla_Altar_Globo_amarillo_der
+    13700002: Isla_Altar_Globo_amarillo_izq
+    13700004: Isla_Altar_Globo_azul_der
+    13700006: Isla_Altar_Globo_azul_izq
+    13700008: Isla_Altar_Globo_rosa_der
+    13700010: Isla_Altar_Globo_rosa_izq
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: general_anim_altar
+      takeName: general_anim_altar
+      firstFrame: 0
+      lastFrame: 220
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: grp_islaAltar_geo
+        weight: 1
+      - path: grp_islaAltar_geo/grp_globos
+        weight: 1
+      - path: grp_islaAltar_geo/grp_globos/Isla_Altar_Globo_amarillo_der
+        weight: 1
+      - path: grp_islaAltar_geo/grp_globos/Isla_Altar_Globo_amarillo_izq
+        weight: 1
+      - path: grp_islaAltar_geo/grp_globos/Isla_Altar_Globo_azul_der
+        weight: 1
+      - path: grp_islaAltar_geo/grp_globos/Isla_Altar_Globo_azul_izq
+        weight: 1
+      - path: grp_islaAltar_geo/grp_globos/Isla_Altar_Globo_rosa_der
+        weight: 1
+      - path: grp_islaAltar_geo/grp_globos/Isla_Altar_Globo_rosa_izq
+        weight: 1
+      - path: grp_islaAltar_geo/grp_islaBase
+        weight: 1
+      - path: grp_islaAltar_geo/grp_islaBase/Isla_Altar_Escalera
+        weight: 1
+      - path: grp_islaAltar_geo/grp_islaBase/Isla_Altar_Isla
+        weight: 1
+      - path: grp_islaAltar_geo/grp_islaBase/Isla_Altar_Pared_der
+        weight: 1
+      - path: grp_islaAltar_geo/grp_islaBase/Isla_Altar_Pared_izq
+        weight: 1
+      - path: grp_islaAltar_geo/grp_islaBase/Isla_Altar_Plataforma
+        weight: 1
+      - path: grp_islaAltar_geo/grp_islaBase/Isla_Altar_semituerca_der
+        weight: 1
+      - path: grp_islaAltar_geo/grp_islaBase/Isla_Altar_semituerca_izq
+        weight: 1
+      - path: grp_islaAltar_geo/grp_islaBase/Isla_Altar_Suelo
+        weight: 1
+      - path: grp_islaAltar_geo/grp_puertaEngranajes
+        weight: 1
+      - path: grp_islaAltar_geo/grp_puertaEngranajes/Isla_Altar_Engranaje_01
+        weight: 1
+      - path: grp_islaAltar_geo/grp_puertaEngranajes/Isla_Altar_Engranaje_02
+        weight: 1
+      - path: grp_islaAltar_geo/grp_puertaEngranajes/Isla_Altar_Engranaje_03
+        weight: 1
+      - path: grp_islaAltar_geo/grp_puertaEngranajes/Isla_Altar_Postes
+        weight: 1
+      - path: grp_islaAltar_geo/grp_reloj
+        weight: 1
+      - path: grp_islaAltar_geo/grp_reloj/Isla_Altar_Reloj_Aguja_01
+        weight: 1
+      - path: grp_islaAltar_geo/grp_reloj/Isla_Altar_Reloj_Aguja_02
+        weight: 1
+      - path: grp_islaAltar_geo/grp_reloj/Isla_Altar_Reloj_Base
+        weight: 1
+      - path: grp_islaAltar_geo/grp_reloj/Isla_Altar_Reloj_centro
+        weight: 1
+      - path: grp_islaAltar_geo/grp_reloj/Isla_Altar_Reloj_Cupula
+        weight: 1
+      - path: grp_islaAltar_geo/grp_reloj/Isla_Altar_Reloj_Tuerca
+        weight: 1
+      - path: grp_rigs
+        weight: 1
+      - path: grp_rigs/grp_move
+        weight: 1
+      - path: grp_rigs/grp_move/ctl_cuerdaGlobo
+        weight: 1
+      - path: grp_rigs/grp_move/ctl_globo
+        weight: 1
+      - path: grp_rigs/grp_move/ctl_orientacion_globo
+        weight: 1
+      - path: grp_rigs/grp_move/grp_iks
+        weight: 1
+      - path: grp_rigs/grp_move/grp_iks/grp_ik_cuerdaGlobo
+        weight: 1
+      - path: grp_rigs/grp_move/grp_iks/grp_ik_cuerdaGlobo/ik_cuerdaGlobo
+        weight: 1
+      - path: grp_rigs/grp_move/grp_iks/grp_ik_globo
+        weight: 1
+      - path: grp_rigs/grp_move/grp_iks/grp_ik_globo/ik_globo
+        weight: 1
+      - path: grp_rigs/grp_move/j_globo_01
+        weight: 1
+      - path: grp_rigs/grp_move/j_globo_01/j_globo_02
+        weight: 1
+      - path: grp_rigs/grp_move/j_globo_01/j_globo_02/j_globo_03
+        weight: 1
+      - path: grp_rigs/grp_move/j_globo_01/j_globo_02/j_globo_03/j_globo_punta
+        weight: 1
+      - path: grp_rigs/grp_move1
+        weight: 1
+      - path: grp_rigs/grp_move1/ctl_cuerdaGlobo1
+        weight: 1
+      - path: grp_rigs/grp_move1/ctl_globo1
+        weight: 1
+      - path: grp_rigs/grp_move1/ctl_orientacion_globo1
+        weight: 1
+      - path: grp_rigs/grp_move1/grp_iks1
+        weight: 1
+      - path: grp_rigs/grp_move1/grp_iks1/grp_ik_cuerdaGlobo1
+        weight: 1
+      - path: grp_rigs/grp_move1/grp_iks1/grp_ik_cuerdaGlobo1/ik_cuerdaGlobo1
+        weight: 1
+      - path: grp_rigs/grp_move1/grp_iks1/grp_ik_globo1
+        weight: 1
+      - path: grp_rigs/grp_move1/grp_iks1/grp_ik_globo1/ik_globo1
+        weight: 1
+      - path: grp_rigs/grp_move1/j_globo_04
+        weight: 1
+      - path: grp_rigs/grp_move1/j_globo_04/j_globo_05
+        weight: 1
+      - path: grp_rigs/grp_move1/j_globo_04/j_globo_05/j_globo_06
+        weight: 1
+      - path: grp_rigs/grp_move1/j_globo_04/j_globo_05/j_globo_06/j_globo_punta1
+        weight: 1
+      - path: grp_rigs/grp_move2
+        weight: 1
+      - path: grp_rigs/grp_move2/ctl_cuerdaGlobo2
+        weight: 1
+      - path: grp_rigs/grp_move2/ctl_globo2
+        weight: 1
+      - path: grp_rigs/grp_move2/ctl_orientacion_globo2
+        weight: 1
+      - path: grp_rigs/grp_move2/grp_iks2
+        weight: 1
+      - path: grp_rigs/grp_move2/grp_iks2/grp_ik_cuerdaGlobo2
+        weight: 1
+      - path: grp_rigs/grp_move2/grp_iks2/grp_ik_cuerdaGlobo2/ik_cuerdaGlobo2
+        weight: 1
+      - path: grp_rigs/grp_move2/grp_iks2/grp_ik_globo2
+        weight: 1
+      - path: grp_rigs/grp_move2/grp_iks2/grp_ik_globo2/ik_globo2
+        weight: 1
+      - path: grp_rigs/grp_move2/j_globo_07
+        weight: 1
+      - path: grp_rigs/grp_move2/j_globo_07/j_globo_08
+        weight: 1
+      - path: grp_rigs/grp_move2/j_globo_07/j_globo_08/j_globo_09
+        weight: 1
+      - path: grp_rigs/grp_move2/j_globo_07/j_globo_08/j_globo_09/j_globo_punta2
+        weight: 1
+      - path: grp_rigs/grp_move3
+        weight: 1
+      - path: grp_rigs/grp_move3/ctl_cuerdaGlobo3
+        weight: 1
+      - path: grp_rigs/grp_move3/ctl_globo3
+        weight: 1
+      - path: grp_rigs/grp_move3/ctl_orientacion_globo3
+        weight: 1
+      - path: grp_rigs/grp_move3/grp_iks3
+        weight: 1
+      - path: grp_rigs/grp_move3/grp_iks3/grp_ik_cuerdaGlobo3
+        weight: 1
+      - path: grp_rigs/grp_move3/grp_iks3/grp_ik_cuerdaGlobo3/ik_cuerdaGlobo3
+        weight: 1
+      - path: grp_rigs/grp_move3/grp_iks3/grp_ik_globo3
+        weight: 1
+      - path: grp_rigs/grp_move3/grp_iks3/grp_ik_globo3/ik_globo3
+        weight: 1
+      - path: grp_rigs/grp_move3/j_globo_010
+        weight: 1
+      - path: grp_rigs/grp_move3/j_globo_010/j_globo_011
+        weight: 1
+      - path: grp_rigs/grp_move3/j_globo_010/j_globo_011/j_globo_012
+        weight: 1
+      - path: grp_rigs/grp_move3/j_globo_010/j_globo_011/j_globo_012/j_globo_punta3
+        weight: 1
+      - path: grp_rigs/grp_move4
+        weight: 1
+      - path: grp_rigs/grp_move4/ctl_cuerdaGlobo4
+        weight: 1
+      - path: grp_rigs/grp_move4/ctl_globo4
+        weight: 1
+      - path: grp_rigs/grp_move4/ctl_orientacion_globo4
+        weight: 1
+      - path: grp_rigs/grp_move4/grp_iks4
+        weight: 1
+      - path: grp_rigs/grp_move4/grp_iks4/grp_ik_cuerdaGlobo4
+        weight: 1
+      - path: grp_rigs/grp_move4/grp_iks4/grp_ik_cuerdaGlobo4/ik_cuerdaGlobo4
+        weight: 1
+      - path: grp_rigs/grp_move4/grp_iks4/grp_ik_globo4
+        weight: 1
+      - path: grp_rigs/grp_move4/grp_iks4/grp_ik_globo4/ik_globo4
+        weight: 1
+      - path: grp_rigs/grp_move4/j_globo_013
+        weight: 1
+      - path: grp_rigs/grp_move4/j_globo_013/j_globo_014
+        weight: 1
+      - path: grp_rigs/grp_move4/j_globo_013/j_globo_014/j_globo_015
+        weight: 1
+      - path: grp_rigs/grp_move4/j_globo_013/j_globo_014/j_globo_015/j_globo_punta4
+        weight: 1
+      - path: grp_rigs/grp_move5
+        weight: 1
+      - path: grp_rigs/grp_move5/ctl_cuerdaGlobo5
+        weight: 1
+      - path: grp_rigs/grp_move5/ctl_globo5
+        weight: 1
+      - path: grp_rigs/grp_move5/ctl_orientacion_globo5
+        weight: 1
+      - path: grp_rigs/grp_move5/grp_iks5
+        weight: 1
+      - path: grp_rigs/grp_move5/grp_iks5/grp_ik_cuerdaGlobo5
+        weight: 1
+      - path: grp_rigs/grp_move5/grp_iks5/grp_ik_cuerdaGlobo5/ik_cuerdaGlobo5
+        weight: 1
+      - path: grp_rigs/grp_move5/grp_iks5/grp_ik_globo5
+        weight: 1
+      - path: grp_rigs/grp_move5/grp_iks5/grp_ik_globo5/ik_globo5
+        weight: 1
+      - path: grp_rigs/grp_move5/j_globo_016
+        weight: 1
+      - path: grp_rigs/grp_move5/j_globo_016/j_globo_017
+        weight: 1
+      - path: grp_rigs/grp_move5/j_globo_016/j_globo_017/j_globo_018
+        weight: 1
+      - path: grp_rigs/grp_move5/j_globo_016/j_globo_017/j_globo_018/j_globo_punta5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: reloj_anim_altar
+      takeName: reloj_anim_altar
+      firstFrame: 240
+      lastFrame: 960
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: grp_islaAltar_geo
+        weight: 1
+      - path: grp_islaAltar_geo/grp_globos
+        weight: 1
+      - path: grp_islaAltar_geo/grp_globos/Isla_Altar_Globo_amarillo_der
+        weight: 1
+      - path: grp_islaAltar_geo/grp_globos/Isla_Altar_Globo_amarillo_izq
+        weight: 1
+      - path: grp_islaAltar_geo/grp_globos/Isla_Altar_Globo_azul_der
+        weight: 1
+      - path: grp_islaAltar_geo/grp_globos/Isla_Altar_Globo_azul_izq
+        weight: 1
+      - path: grp_islaAltar_geo/grp_globos/Isla_Altar_Globo_rosa_der
+        weight: 1
+      - path: grp_islaAltar_geo/grp_globos/Isla_Altar_Globo_rosa_izq
+        weight: 1
+      - path: grp_islaAltar_geo/grp_islaBase
+        weight: 1
+      - path: grp_islaAltar_geo/grp_islaBase/Isla_Altar_Escalera
+        weight: 1
+      - path: grp_islaAltar_geo/grp_islaBase/Isla_Altar_Isla
+        weight: 1
+      - path: grp_islaAltar_geo/grp_islaBase/Isla_Altar_Pared_der
+        weight: 1
+      - path: grp_islaAltar_geo/grp_islaBase/Isla_Altar_Pared_izq
+        weight: 1
+      - path: grp_islaAltar_geo/grp_islaBase/Isla_Altar_Plataforma
+        weight: 1
+      - path: grp_islaAltar_geo/grp_islaBase/Isla_Altar_semituerca_der
+        weight: 1
+      - path: grp_islaAltar_geo/grp_islaBase/Isla_Altar_semituerca_izq
+        weight: 1
+      - path: grp_islaAltar_geo/grp_islaBase/Isla_Altar_Suelo
+        weight: 1
+      - path: grp_islaAltar_geo/grp_puertaEngranajes
+        weight: 1
+      - path: grp_islaAltar_geo/grp_puertaEngranajes/Isla_Altar_Engranaje_01
+        weight: 1
+      - path: grp_islaAltar_geo/grp_puertaEngranajes/Isla_Altar_Engranaje_02
+        weight: 1
+      - path: grp_islaAltar_geo/grp_puertaEngranajes/Isla_Altar_Engranaje_03
+        weight: 1
+      - path: grp_islaAltar_geo/grp_puertaEngranajes/Isla_Altar_Postes
+        weight: 1
+      - path: grp_islaAltar_geo/grp_reloj
+        weight: 1
+      - path: grp_islaAltar_geo/grp_reloj/Isla_Altar_Reloj_Aguja_01
+        weight: 1
+      - path: grp_islaAltar_geo/grp_reloj/Isla_Altar_Reloj_Aguja_02
+        weight: 1
+      - path: grp_islaAltar_geo/grp_reloj/Isla_Altar_Reloj_Base
+        weight: 1
+      - path: grp_islaAltar_geo/grp_reloj/Isla_Altar_Reloj_centro
+        weight: 1
+      - path: grp_islaAltar_geo/grp_reloj/Isla_Altar_Reloj_Cupula
+        weight: 1
+      - path: grp_islaAltar_geo/grp_reloj/Isla_Altar_Reloj_Tuerca
+        weight: 1
+      - path: grp_rigs
+        weight: 1
+      - path: grp_rigs/grp_move
+        weight: 1
+      - path: grp_rigs/grp_move/ctl_cuerdaGlobo
+        weight: 1
+      - path: grp_rigs/grp_move/ctl_globo
+        weight: 1
+      - path: grp_rigs/grp_move/ctl_orientacion_globo
+        weight: 1
+      - path: grp_rigs/grp_move/grp_iks
+        weight: 1
+      - path: grp_rigs/grp_move/grp_iks/grp_ik_cuerdaGlobo
+        weight: 1
+      - path: grp_rigs/grp_move/grp_iks/grp_ik_cuerdaGlobo/ik_cuerdaGlobo
+        weight: 1
+      - path: grp_rigs/grp_move/grp_iks/grp_ik_globo
+        weight: 1
+      - path: grp_rigs/grp_move/grp_iks/grp_ik_globo/ik_globo
+        weight: 1
+      - path: grp_rigs/grp_move/j_globo_01
+        weight: 1
+      - path: grp_rigs/grp_move/j_globo_01/j_globo_02
+        weight: 1
+      - path: grp_rigs/grp_move/j_globo_01/j_globo_02/j_globo_03
+        weight: 1
+      - path: grp_rigs/grp_move/j_globo_01/j_globo_02/j_globo_03/j_globo_punta
+        weight: 1
+      - path: grp_rigs/grp_move1
+        weight: 1
+      - path: grp_rigs/grp_move1/ctl_cuerdaGlobo1
+        weight: 1
+      - path: grp_rigs/grp_move1/ctl_globo1
+        weight: 1
+      - path: grp_rigs/grp_move1/ctl_orientacion_globo1
+        weight: 1
+      - path: grp_rigs/grp_move1/grp_iks1
+        weight: 1
+      - path: grp_rigs/grp_move1/grp_iks1/grp_ik_cuerdaGlobo1
+        weight: 1
+      - path: grp_rigs/grp_move1/grp_iks1/grp_ik_cuerdaGlobo1/ik_cuerdaGlobo1
+        weight: 1
+      - path: grp_rigs/grp_move1/grp_iks1/grp_ik_globo1
+        weight: 1
+      - path: grp_rigs/grp_move1/grp_iks1/grp_ik_globo1/ik_globo1
+        weight: 1
+      - path: grp_rigs/grp_move1/j_globo_04
+        weight: 1
+      - path: grp_rigs/grp_move1/j_globo_04/j_globo_05
+        weight: 1
+      - path: grp_rigs/grp_move1/j_globo_04/j_globo_05/j_globo_06
+        weight: 1
+      - path: grp_rigs/grp_move1/j_globo_04/j_globo_05/j_globo_06/j_globo_punta1
+        weight: 1
+      - path: grp_rigs/grp_move2
+        weight: 1
+      - path: grp_rigs/grp_move2/ctl_cuerdaGlobo2
+        weight: 1
+      - path: grp_rigs/grp_move2/ctl_globo2
+        weight: 1
+      - path: grp_rigs/grp_move2/ctl_orientacion_globo2
+        weight: 1
+      - path: grp_rigs/grp_move2/grp_iks2
+        weight: 1
+      - path: grp_rigs/grp_move2/grp_iks2/grp_ik_cuerdaGlobo2
+        weight: 1
+      - path: grp_rigs/grp_move2/grp_iks2/grp_ik_cuerdaGlobo2/ik_cuerdaGlobo2
+        weight: 1
+      - path: grp_rigs/grp_move2/grp_iks2/grp_ik_globo2
+        weight: 1
+      - path: grp_rigs/grp_move2/grp_iks2/grp_ik_globo2/ik_globo2
+        weight: 1
+      - path: grp_rigs/grp_move2/j_globo_07
+        weight: 1
+      - path: grp_rigs/grp_move2/j_globo_07/j_globo_08
+        weight: 1
+      - path: grp_rigs/grp_move2/j_globo_07/j_globo_08/j_globo_09
+        weight: 1
+      - path: grp_rigs/grp_move2/j_globo_07/j_globo_08/j_globo_09/j_globo_punta2
+        weight: 1
+      - path: grp_rigs/grp_move3
+        weight: 1
+      - path: grp_rigs/grp_move3/ctl_cuerdaGlobo3
+        weight: 1
+      - path: grp_rigs/grp_move3/ctl_globo3
+        weight: 1
+      - path: grp_rigs/grp_move3/ctl_orientacion_globo3
+        weight: 1
+      - path: grp_rigs/grp_move3/grp_iks3
+        weight: 1
+      - path: grp_rigs/grp_move3/grp_iks3/grp_ik_cuerdaGlobo3
+        weight: 1
+      - path: grp_rigs/grp_move3/grp_iks3/grp_ik_cuerdaGlobo3/ik_cuerdaGlobo3
+        weight: 1
+      - path: grp_rigs/grp_move3/grp_iks3/grp_ik_globo3
+        weight: 1
+      - path: grp_rigs/grp_move3/grp_iks3/grp_ik_globo3/ik_globo3
+        weight: 1
+      - path: grp_rigs/grp_move3/j_globo_010
+        weight: 1
+      - path: grp_rigs/grp_move3/j_globo_010/j_globo_011
+        weight: 1
+      - path: grp_rigs/grp_move3/j_globo_010/j_globo_011/j_globo_012
+        weight: 1
+      - path: grp_rigs/grp_move3/j_globo_010/j_globo_011/j_globo_012/j_globo_punta3
+        weight: 1
+      - path: grp_rigs/grp_move4
+        weight: 1
+      - path: grp_rigs/grp_move4/ctl_cuerdaGlobo4
+        weight: 1
+      - path: grp_rigs/grp_move4/ctl_globo4
+        weight: 1
+      - path: grp_rigs/grp_move4/ctl_orientacion_globo4
+        weight: 1
+      - path: grp_rigs/grp_move4/grp_iks4
+        weight: 1
+      - path: grp_rigs/grp_move4/grp_iks4/grp_ik_cuerdaGlobo4
+        weight: 1
+      - path: grp_rigs/grp_move4/grp_iks4/grp_ik_cuerdaGlobo4/ik_cuerdaGlobo4
+        weight: 1
+      - path: grp_rigs/grp_move4/grp_iks4/grp_ik_globo4
+        weight: 1
+      - path: grp_rigs/grp_move4/grp_iks4/grp_ik_globo4/ik_globo4
+        weight: 1
+      - path: grp_rigs/grp_move4/j_globo_013
+        weight: 1
+      - path: grp_rigs/grp_move4/j_globo_013/j_globo_014
+        weight: 1
+      - path: grp_rigs/grp_move4/j_globo_013/j_globo_014/j_globo_015
+        weight: 1
+      - path: grp_rigs/grp_move4/j_globo_013/j_globo_014/j_globo_015/j_globo_punta4
+        weight: 1
+      - path: grp_rigs/grp_move5
+        weight: 1
+      - path: grp_rigs/grp_move5/ctl_cuerdaGlobo5
+        weight: 1
+      - path: grp_rigs/grp_move5/ctl_globo5
+        weight: 1
+      - path: grp_rigs/grp_move5/ctl_orientacion_globo5
+        weight: 1
+      - path: grp_rigs/grp_move5/grp_iks5
+        weight: 1
+      - path: grp_rigs/grp_move5/grp_iks5/grp_ik_cuerdaGlobo5
+        weight: 1
+      - path: grp_rigs/grp_move5/grp_iks5/grp_ik_cuerdaGlobo5/ik_cuerdaGlobo5
+        weight: 1
+      - path: grp_rigs/grp_move5/grp_iks5/grp_ik_globo5
+        weight: 1
+      - path: grp_rigs/grp_move5/grp_iks5/grp_ik_globo5/ik_globo5
+        weight: 1
+      - path: grp_rigs/grp_move5/j_globo_016
+        weight: 1
+      - path: grp_rigs/grp_move5/j_globo_016/j_globo_017
+        weight: 1
+      - path: grp_rigs/grp_move5/j_globo_016/j_globo_017/j_globo_018
+        weight: 1
+      - path: grp_rigs/grp_move5/j_globo_016/j_globo_017/j_globo_018/j_globo_punta5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
