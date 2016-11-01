@@ -522,6 +522,8 @@ ModelImporter:
     7400008: Fantasma_Fallo
     7400010: Fantasma_Acierto
     7400012: Reposo_03
+    7400014: Avatar_Acierto_FinDelJuego
+    7400016: Fantasma_Acierto_FinDelJuego
     9500000: //RootNode
     13700000: avatares_animacion_v1_boca_Chica
     13700002: avatares_animacion_v1_boca_chico
@@ -2106,7 +2108,7 @@ ModelImporter:
       name: Avatar_Acierto
       takeName: Avatar_Acierto
       firstFrame: 361
-      lastFrame: 530
+      lastFrame: 528
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -3627,6 +3629,986 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: avatares_animacionCancha
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_move
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_move/avatares_animacion_v1_Ctl_avatar_todo
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_move/avatares_animacion_v1_Ctl_avatar_todo/avatares_animacion_v1_ctl_tob_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_move/avatares_animacion_v1_Ctl_avatar_todo/avatares_animacion_v1_ctl_tob_der/avatares_animacion_v1_ctl_punta_pie_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_move/avatares_animacion_v1_Ctl_avatar_todo/avatares_animacion_v1_ctl_tob_der/avatares_animacion_v1_ctl_rod_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_move/avatares_animacion_v1_Ctl_avatar_todo/avatares_animacion_v1_ctl_tob_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_move/avatares_animacion_v1_Ctl_avatar_todo/avatares_animacion_v1_ctl_tob_izq/avatares_animacion_v1_ctl_punta_pie_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_move/avatares_animacion_v1_Ctl_avatar_todo/avatares_animacion_v1_ctl_tob_izq/avatares_animacion_v1_ctl_rod_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_move/avatares_animacion_v1_Ctl_avatar_todo/avatares_animacion_v1_Ctrl_Sup
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_move/avatares_animacion_v1_Ctl_avatar_todo/avatares_animacion_v1_Ctrl_Sup/avatares_animacion_v1_Ctrl_Cadera
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_move/avatares_animacion_v1_Ctl_avatar_todo/avatares_animacion_v1_Ctrl_Sup/avatares_animacion_v1_Ctrl_Cintura
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_move/avatares_animacion_v1_Ctl_avatar_todo/avatares_animacion_v1_Ctrl_Sup/avatares_animacion_v1_Ctrl_Cintura/avatares_animacion_v1_Ctrl_Costillas
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_move/avatares_animacion_v1_Ctl_avatar_todo/avatares_animacion_v1_Ctrl_Sup/avatares_animacion_v1_Ctrl_Cintura/avatares_animacion_v1_Ctrl_Costillas/avatares_animacion_v1_ctl_hombro_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_move/avatares_animacion_v1_Ctl_avatar_todo/avatares_animacion_v1_Ctrl_Sup/avatares_animacion_v1_Ctrl_Cintura/avatares_animacion_v1_Ctrl_Costillas/avatares_animacion_v1_ctl_hombro_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_move/avatares_animacion_v1_Ctl_avatar_todo/avatares_animacion_v1_Ctrl_Sup/avatares_animacion_v1_Ctrl_Cintura/avatares_animacion_v1_Ctrl_Costillas/avatares_animacion_v1_Ctrl_Cabeza
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenInferior
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenInferior/avatares_animacion_v1_chica_pantalon_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenInferior/avatares_animacion_v1_chica_pantalon_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenInferior/avatares_animacion_v1_chica_pierna_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenInferior/avatares_animacion_v1_chica_pierna_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_boca_Chica
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_Cabeza
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_Grupo_Cejas
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_Grupo_Cejas/avatares_animacion_v1_Ceja_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_Grupo_Cejas/avatares_animacion_v1_Ceja_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_Grupo_Coletas
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_Grupo_Coletas/avatares_animacion_v1_ColetaDer
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_Grupo_Coletas/avatares_animacion_v1_ColetaIzq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_Grupo_Ojos
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_Grupo_Ojos/avatares_animacion_v1_Ojo_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_Grupo_Ojos/avatares_animacion_v1_Ojo_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_Grupo_Pestanias_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_Grupo_Pestanias_der/avatares_animacion_v1_pestania
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_Grupo_Pestanias_der/avatares_animacion_v1_pestania1
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_Grupo_Pestanias_der/avatares_animacion_v1_pestania3
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_Grupo_Pestanias_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_Grupo_Pestanias_izq/avatares_animacion_v1_pestania
+          1
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_Grupo_Pestanias_izq/avatares_animacion_v1_pestania1
+          1
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_Grupo_Pestanias_izq/avatares_animacion_v1_pestania3
+          1
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_Pelo
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_mano_der_Chica
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_mano_izq_Chica
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Sudadera_Chica
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenInferior
+          1
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenInferior
+          1/avatares_animacion_v1_Pantalon_der_chico
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenInferior
+          1/avatares_animacion_v1_Pantalon_izq_chico
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenInferior
+          1/avatares_animacion_v1_Pierna_der_chicoNueva
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenInferior
+          1/avatares_animacion_v1_Pierna_izq_chicoNueva
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenSuperior
+          1
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenSuperior
+          1/avatares_animacion_v1_Grupo_Cabeza 1
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenSuperior
+          1/avatares_animacion_v1_Grupo_Cabeza 1/avatares_animacion_v1_boca_chico
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenSuperior
+          1/avatares_animacion_v1_Grupo_Cabeza 1/avatares_animacion_v1_Cabeza 1
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenSuperior
+          1/avatares_animacion_v1_Grupo_Cabeza 1/avatares_animacion_v1_Gorra
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenSuperior
+          1/avatares_animacion_v1_Grupo_Cabeza 1/avatares_animacion_v1_Grupo_Cejas
+          1
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenSuperior
+          1/avatares_animacion_v1_Grupo_Cabeza 1/avatares_animacion_v1_Grupo_Cejas
+          1/avatares_animacion_v1_Ceja_der 1
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenSuperior
+          1/avatares_animacion_v1_Grupo_Cabeza 1/avatares_animacion_v1_Grupo_Cejas
+          1/avatares_animacion_v1_Ceja_izq 1
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenSuperior
+          1/avatares_animacion_v1_Grupo_Cabeza 1/avatares_animacion_v1_Grupo_Ojos
+          1
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenSuperior
+          1/avatares_animacion_v1_Grupo_Cabeza 1/avatares_animacion_v1_Grupo_Ojos
+          1/avatares_animacion_v1_Ojo_der 1
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenSuperior
+          1/avatares_animacion_v1_Grupo_Cabeza 1/avatares_animacion_v1_Grupo_Ojos
+          1/avatares_animacion_v1_Ojo_izq 1
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenSuperior
+          1/avatares_animacion_v1_Grupo_Cabeza 1/avatares_animacion_v1_Pelo 1
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenSuperior
+          1/avatares_animacion_v1_mano_der_chico
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenSuperior
+          1/avatares_animacion_v1_mano_izq_chico
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenSuperior
+          1/avatares_animacion_v1_Sudadera_chico
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_cintura
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_cintura/avatares_animacion_v1_j_costillas
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_cintura/avatares_animacion_v1_j_costillas/avatares_animacion_v1_j_cabeza
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_cintura/avatares_animacion_v1_j_costillas/avatares_animacion_v1_j_cabeza/avatares_animacion_v1_j_ceja_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_cintura/avatares_animacion_v1_j_costillas/avatares_animacion_v1_j_cabeza/avatares_animacion_v1_j_ceja_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_cintura/avatares_animacion_v1_j_costillas/avatares_animacion_v1_j_cabeza/avatares_animacion_v1_j_ojo_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_cintura/avatares_animacion_v1_j_costillas/avatares_animacion_v1_j_cabeza/avatares_animacion_v1_j_ojo_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_cintura/avatares_animacion_v1_j_costillas/avatares_animacion_v1_j_cabeza/avatares_animacion_v1_j_punta_cabeza
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_cintura/avatares_animacion_v1_j_costillas/avatares_animacion_v1_j_hombro_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_cintura/avatares_animacion_v1_j_costillas/avatares_animacion_v1_j_hombro_der/avatares_animacion_v1_j_brazo_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_cintura/avatares_animacion_v1_j_costillas/avatares_animacion_v1_j_hombro_der/avatares_animacion_v1_j_brazo_der/avatares_animacion_v1_j_antebrazo_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_cintura/avatares_animacion_v1_j_costillas/avatares_animacion_v1_j_hombro_der/avatares_animacion_v1_j_brazo_der/avatares_animacion_v1_j_antebrazo_der/avatares_animacion_v1_j_mano_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_cintura/avatares_animacion_v1_j_costillas/avatares_animacion_v1_j_hombro_der/avatares_animacion_v1_j_brazo_der/avatares_animacion_v1_j_antebrazo_der/avatares_animacion_v1_j_mano_der/avatares_animacion_v1_j_punta_brazo_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_cintura/avatares_animacion_v1_j_costillas/avatares_animacion_v1_j_hombro_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_cintura/avatares_animacion_v1_j_costillas/avatares_animacion_v1_j_hombro_izq/avatares_animacion_v1_j_brazo_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_cintura/avatares_animacion_v1_j_costillas/avatares_animacion_v1_j_hombro_izq/avatares_animacion_v1_j_brazo_izq/avatares_animacion_v1_j_antebrazo_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_cintura/avatares_animacion_v1_j_costillas/avatares_animacion_v1_j_hombro_izq/avatares_animacion_v1_j_brazo_izq/avatares_animacion_v1_j_antebrazo_izq/avatares_animacion_v1_j_mano_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_cintura/avatares_animacion_v1_j_costillas/avatares_animacion_v1_j_hombro_izq/avatares_animacion_v1_j_brazo_izq/avatares_animacion_v1_j_antebrazo_izq/avatares_animacion_v1_j_mano_izq/avatares_animacion_v1_j_punta_brazo_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_muslo_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_muslo_der/avatares_animacion_v1_j_espinilla_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_muslo_der/avatares_animacion_v1_j_espinilla_der/avatares_animacion_v1_j_tobillo_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_muslo_der/avatares_animacion_v1_j_espinilla_der/avatares_animacion_v1_j_tobillo_der/avatares_animacion_v1_j_planta_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_muslo_der/avatares_animacion_v1_j_espinilla_der/avatares_animacion_v1_j_tobillo_der/avatares_animacion_v1_j_planta_der/avatares_animacion_v1_j_punta_pie_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_muslo_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_muslo_izq/avatares_animacion_v1_j_espinilla_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_muslo_izq/avatares_animacion_v1_j_espinilla_izq/avatares_animacion_v1_j_tobillo_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_muslo_izq/avatares_animacion_v1_j_espinilla_izq/avatares_animacion_v1_j_tobillo_izq/avatares_animacion_v1_j_planta_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_muslo_izq/avatares_animacion_v1_j_espinilla_izq/avatares_animacion_v1_j_tobillo_izq/avatares_animacion_v1_j_planta_izq/avatares_animacion_v1_j_punta_pie_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_grp_iks_tobillo_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_grp_iks_tobillo_der/avatares_animacion_v1_grp_iks_punta_pie_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_grp_iks_tobillo_der/avatares_animacion_v1_grp_iks_punta_pie_der/avatares_animacion_v1_ik_punta_pie_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_grp_iks_tobillo_der/avatares_animacion_v1_ik_planta_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_grp_iks_tobillo_der/avatares_animacion_v1_ik_tob_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_grp_iks_tobillo_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_grp_iks_tobillo_izq/avatares_animacion_v1_grp_iks_punta_pie_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_grp_iks_tobillo_izq/avatares_animacion_v1_grp_iks_punta_pie_izq/avatares_animacion_v1_ik_punta_pie_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_grp_iks_tobillo_izq/avatares_animacion_v1_ik_planta_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_grp_iks_tobillo_izq/avatares_animacion_v1_ik_tob_izq
+        weight: 1
+      - path: Canasta
+        weight: 1
+      - path: fantasma_animacionCancha
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_move
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_move/fantasma_v1_anima_CTrl_Personaje
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_move/fantasma_v1_anima_CTrl_Personaje/fantasma_v1_anima_Ctrl_Cabeza
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_move/fantasma_v1_anima_CTrl_Personaje/fantasma_v1_anima_Ctrl_Cabeza/fantasma_v1_anima_Ctrl_Boca
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_move/fantasma_v1_anima_CTrl_Personaje/fantasma_v1_anima_Ctrl_Cabeza/fantasma_v1_anima_Ctrl_Mano_der
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_move/fantasma_v1_anima_CTrl_Personaje/fantasma_v1_anima_Ctrl_Cabeza/fantasma_v1_anima_Ctrl_Mano_der/fantasma_v1_anima_Ctrl_Corazon_der
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_move/fantasma_v1_anima_CTrl_Personaje/fantasma_v1_anima_Ctrl_Cabeza/fantasma_v1_anima_Ctrl_Mano_der/fantasma_v1_anima_Ctrl_Ind_der
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_move/fantasma_v1_anima_CTrl_Personaje/fantasma_v1_anima_Ctrl_Cabeza/fantasma_v1_anima_Ctrl_Mano_der/fantasma_v1_anima_Ctrl_Menique_der
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_move/fantasma_v1_anima_CTrl_Personaje/fantasma_v1_anima_Ctrl_Cabeza/fantasma_v1_anima_Ctrl_Mano_der/fantasma_v1_anima_Ctrl_Pulgar_der
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_move/fantasma_v1_anima_CTrl_Personaje/fantasma_v1_anima_Ctrl_Cabeza/fantasma_v1_anima_Ctrl_Mano_izq
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_move/fantasma_v1_anima_CTrl_Personaje/fantasma_v1_anima_Ctrl_Cabeza/fantasma_v1_anima_Ctrl_Mano_izq/fantasma_v1_anima_Ctrl_Corazon_izq
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_move/fantasma_v1_anima_CTrl_Personaje/fantasma_v1_anima_Ctrl_Cabeza/fantasma_v1_anima_Ctrl_Mano_izq/fantasma_v1_anima_Ctrl_Ind_izq
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_move/fantasma_v1_anima_CTrl_Personaje/fantasma_v1_anima_Ctrl_Cabeza/fantasma_v1_anima_Ctrl_Mano_izq/fantasma_v1_anima_Ctrl_Menique_izq
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_move/fantasma_v1_anima_CTrl_Personaje/fantasma_v1_anima_Ctrl_Cabeza/fantasma_v1_anima_Ctrl_Mano_izq/fantasma_v1_anima_Ctrl_Pulgar_izq
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_move/fantasma_v1_anima_CTrl_Personaje/fantasma_v1_anima_Ctrl_Cabeza/fantasma_v1_anima_Ctrl_Punta_Cabeza
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_move/fantasma_v1_anima_CTrl_Personaje/fantasma_v1_anima_Ctrl_Cadera
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_cuerpo
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_Diente
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_Diente1
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_Diente2
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_Diente3
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_Diente4
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_Diente5
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_Diente6
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_Diente7
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_Diente8
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_Diente9
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_Diente10
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_Diente11
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_Encias
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_G_Aparato
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_G_Aparato/fantasma_v1_anima_Diente12
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_G_Aparato/fantasma_v1_anima_Diente13
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_G_Aparato/fantasma_v1_anima_Diente14
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_G_Aparato/fantasma_v1_anima_Diente15
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_G_Aparato/fantasma_v1_anima_Diente16
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_G_Aparato/fantasma_v1_anima_Diente17
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_G_Aparato/fantasma_v1_anima_Diente18
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_G_Aparato/fantasma_v1_anima_Diente19
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_G_Aparato/fantasma_v1_anima_Diente20
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_G_Aparato/fantasma_v1_anima_Diente21
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_G_Aparato/fantasma_v1_anima_Diente22
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_G_Aparato/fantasma_v1_anima_Diente23
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_G_Aparato/fantasma_v1_anima_pCube9
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_G_Aparato/fantasma_v1_anima_pCube10
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_grupo_cejas
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_grupo_cejas/fantasma_v1_anima_pCube1
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_grupo_cejas/fantasma_v1_anima_pCube8
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_grupo_gafas
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_grupo_gafas/fantasma_v1_anima_pCube3
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_grupo_gafas/fantasma_v1_anima_pCube4
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_grupo_gafas/fantasma_v1_anima_pCube5
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_grupo_gafas/fantasma_v1_anima_pCube6
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_grupo_gafas/fantasma_v1_anima_pCube7
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_grupo_manos
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_grupo_manos/fantasma_v1_anima_mano_der
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_grupo_manos/fantasma_v1_anima_mano_izq
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_ojo_der
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_ojo_izq
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_Mandibula
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_Mandibula/fantasma_v1_anima_j_Punta_Mandibula
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_der
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_der/fantasma_v1_anima_joint10
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_der/fantasma_v1_anima_joint10/fantasma_v1_anima_j_dedo_ind_der
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_der/fantasma_v1_anima_joint10/fantasma_v1_anima_j_dedo_ind_der/fantasma_v1_anima_joint6
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_der/fantasma_v1_anima_joint10/fantasma_v1_anima_j_dedo_med_der
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_der/fantasma_v1_anima_joint10/fantasma_v1_anima_j_dedo_med_der/fantasma_v1_anima_joint4
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_der/fantasma_v1_anima_joint10/fantasma_v1_anima_j_dedo_men_der
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_der/fantasma_v1_anima_joint10/fantasma_v1_anima_j_dedo_men_der/fantasma_v1_anima_joint2
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_der/fantasma_v1_anima_joint10/fantasma_v1_anima_j_pulgar_der
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_der/fantasma_v1_anima_joint10/fantasma_v1_anima_j_pulgar_der/fantasma_v1_anima_joint8
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_der/fantasma_v1_anima_joint12
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_izq
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_izq/fantasma_v1_anima_joint10
+          1
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_izq/fantasma_v1_anima_joint10
+          1/fantasma_v1_anima_j_dedo_ind_izq
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_izq/fantasma_v1_anima_joint10
+          1/fantasma_v1_anima_j_dedo_ind_izq/fantasma_v1_anima_joint6 1
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_izq/fantasma_v1_anima_joint10
+          1/fantasma_v1_anima_j_dedo_med_izq
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_izq/fantasma_v1_anima_joint10
+          1/fantasma_v1_anima_j_dedo_med_izq/fantasma_v1_anima_joint4 1
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_izq/fantasma_v1_anima_joint10
+          1/fantasma_v1_anima_j_dedo_men_izq
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_izq/fantasma_v1_anima_joint10
+          1/fantasma_v1_anima_j_dedo_men_izq/fantasma_v1_anima_joint2 1
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_izq/fantasma_v1_anima_joint10
+          1/fantasma_v1_anima_j_pulgar_izq
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_izq/fantasma_v1_anima_joint10
+          1/fantasma_v1_anima_j_pulgar_izq/fantasma_v1_anima_joint8 1
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_izq/fantasma_v1_anima_joint11
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_Punta_Cabeza_1
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_Punta_Cabeza_1/fantasma_v1_anima_j_Punta_Cabeza_2
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_Punta_Cabeza_1/fantasma_v1_anima_j_Punta_Cabeza_2/fantasma_v1_anima_j_Punta_Cabeza_3
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_Punta_Cabeza_1/fantasma_v1_anima_j_Punta_Cabeza_2/fantasma_v1_anima_j_Punta_Cabeza_3/fantasma_v1_anima_j_Punta_Cabeza_4
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_Punta_Cabeza_1/fantasma_v1_anima_j_Punta_Cabeza_2/fantasma_v1_anima_j_Punta_Cabeza_3/fantasma_v1_anima_j_Punta_Cabeza_4/fantasma_v1_anima_j_Punta_Cabeza_5
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_Punta_Cabeza_1/fantasma_v1_anima_j_Punta_Cabeza_2/fantasma_v1_anima_j_Punta_Cabeza_3/fantasma_v1_anima_j_Punta_Cabeza_4/fantasma_v1_anima_j_Punta_Cabeza_5/fantasma_v1_anima_j_Punta_Cabeza_6
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_Punta_Cabeza_1/fantasma_v1_anima_j_Punta_Cabeza_2/fantasma_v1_anima_j_Punta_Cabeza_3/fantasma_v1_anima_j_Punta_Cabeza_4/fantasma_v1_anima_j_Punta_Cabeza_5/fantasma_v1_anima_j_Punta_Cabeza_6/fantasma_v1_anima_j_Punta_Punta
+        weight: 1
+      - path: pelotaAvatar
+        weight: 1
+      - path: pelotaFantasma
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Avatar_Acierto_FinDelJuego
+      takeName: Avatar_Acierto
+      firstFrame: 476
+      lastFrame: 530
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: avatares_animacionCancha
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_move
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_move/avatares_animacion_v1_Ctl_avatar_todo
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_move/avatares_animacion_v1_Ctl_avatar_todo/avatares_animacion_v1_ctl_tob_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_move/avatares_animacion_v1_Ctl_avatar_todo/avatares_animacion_v1_ctl_tob_der/avatares_animacion_v1_ctl_punta_pie_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_move/avatares_animacion_v1_Ctl_avatar_todo/avatares_animacion_v1_ctl_tob_der/avatares_animacion_v1_ctl_rod_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_move/avatares_animacion_v1_Ctl_avatar_todo/avatares_animacion_v1_ctl_tob_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_move/avatares_animacion_v1_Ctl_avatar_todo/avatares_animacion_v1_ctl_tob_izq/avatares_animacion_v1_ctl_punta_pie_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_move/avatares_animacion_v1_Ctl_avatar_todo/avatares_animacion_v1_ctl_tob_izq/avatares_animacion_v1_ctl_rod_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_move/avatares_animacion_v1_Ctl_avatar_todo/avatares_animacion_v1_Ctrl_Sup
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_move/avatares_animacion_v1_Ctl_avatar_todo/avatares_animacion_v1_Ctrl_Sup/avatares_animacion_v1_Ctrl_Cadera
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_move/avatares_animacion_v1_Ctl_avatar_todo/avatares_animacion_v1_Ctrl_Sup/avatares_animacion_v1_Ctrl_Cintura
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_move/avatares_animacion_v1_Ctl_avatar_todo/avatares_animacion_v1_Ctrl_Sup/avatares_animacion_v1_Ctrl_Cintura/avatares_animacion_v1_Ctrl_Costillas
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_move/avatares_animacion_v1_Ctl_avatar_todo/avatares_animacion_v1_Ctrl_Sup/avatares_animacion_v1_Ctrl_Cintura/avatares_animacion_v1_Ctrl_Costillas/avatares_animacion_v1_ctl_hombro_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_move/avatares_animacion_v1_Ctl_avatar_todo/avatares_animacion_v1_Ctrl_Sup/avatares_animacion_v1_Ctrl_Cintura/avatares_animacion_v1_Ctrl_Costillas/avatares_animacion_v1_ctl_hombro_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_move/avatares_animacion_v1_Ctl_avatar_todo/avatares_animacion_v1_Ctrl_Sup/avatares_animacion_v1_Ctrl_Cintura/avatares_animacion_v1_Ctrl_Costillas/avatares_animacion_v1_Ctrl_Cabeza
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenInferior
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenInferior/avatares_animacion_v1_chica_pantalon_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenInferior/avatares_animacion_v1_chica_pantalon_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenInferior/avatares_animacion_v1_chica_pierna_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenInferior/avatares_animacion_v1_chica_pierna_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_boca_Chica
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_Cabeza
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_Grupo_Cejas
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_Grupo_Cejas/avatares_animacion_v1_Ceja_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_Grupo_Cejas/avatares_animacion_v1_Ceja_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_Grupo_Coletas
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_Grupo_Coletas/avatares_animacion_v1_ColetaDer
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_Grupo_Coletas/avatares_animacion_v1_ColetaIzq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_Grupo_Ojos
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_Grupo_Ojos/avatares_animacion_v1_Ojo_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_Grupo_Ojos/avatares_animacion_v1_Ojo_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_Grupo_Pestanias_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_Grupo_Pestanias_der/avatares_animacion_v1_pestania
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_Grupo_Pestanias_der/avatares_animacion_v1_pestania1
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_Grupo_Pestanias_der/avatares_animacion_v1_pestania3
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_Grupo_Pestanias_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_Grupo_Pestanias_izq/avatares_animacion_v1_pestania
+          1
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_Grupo_Pestanias_izq/avatares_animacion_v1_pestania1
+          1
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_Grupo_Pestanias_izq/avatares_animacion_v1_pestania3
+          1
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Grupo_Cabeza/avatares_animacion_v1_Pelo
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_mano_der_Chica
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_mano_izq_Chica
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chica_Geometria/avatares_animacion_v1_Grupo_TrenSuperior/avatares_animacion_v1_Sudadera_Chica
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenInferior
+          1
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenInferior
+          1/avatares_animacion_v1_Pantalon_der_chico
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenInferior
+          1/avatares_animacion_v1_Pantalon_izq_chico
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenInferior
+          1/avatares_animacion_v1_Pierna_der_chicoNueva
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenInferior
+          1/avatares_animacion_v1_Pierna_izq_chicoNueva
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenSuperior
+          1
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenSuperior
+          1/avatares_animacion_v1_Grupo_Cabeza 1
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenSuperior
+          1/avatares_animacion_v1_Grupo_Cabeza 1/avatares_animacion_v1_boca_chico
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenSuperior
+          1/avatares_animacion_v1_Grupo_Cabeza 1/avatares_animacion_v1_Cabeza 1
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenSuperior
+          1/avatares_animacion_v1_Grupo_Cabeza 1/avatares_animacion_v1_Gorra
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenSuperior
+          1/avatares_animacion_v1_Grupo_Cabeza 1/avatares_animacion_v1_Grupo_Cejas
+          1
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenSuperior
+          1/avatares_animacion_v1_Grupo_Cabeza 1/avatares_animacion_v1_Grupo_Cejas
+          1/avatares_animacion_v1_Ceja_der 1
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenSuperior
+          1/avatares_animacion_v1_Grupo_Cabeza 1/avatares_animacion_v1_Grupo_Cejas
+          1/avatares_animacion_v1_Ceja_izq 1
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenSuperior
+          1/avatares_animacion_v1_Grupo_Cabeza 1/avatares_animacion_v1_Grupo_Ojos
+          1
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenSuperior
+          1/avatares_animacion_v1_Grupo_Cabeza 1/avatares_animacion_v1_Grupo_Ojos
+          1/avatares_animacion_v1_Ojo_der 1
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenSuperior
+          1/avatares_animacion_v1_Grupo_Cabeza 1/avatares_animacion_v1_Grupo_Ojos
+          1/avatares_animacion_v1_Ojo_izq 1
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenSuperior
+          1/avatares_animacion_v1_Grupo_Cabeza 1/avatares_animacion_v1_Pelo 1
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenSuperior
+          1/avatares_animacion_v1_mano_der_chico
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenSuperior
+          1/avatares_animacion_v1_mano_izq_chico
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_Geometria/avatares_animacion_v1_Chico_Geometria/avatares_animacion_v1_Grupo_TrenSuperior
+          1/avatares_animacion_v1_Sudadera_chico
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_cintura
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_cintura/avatares_animacion_v1_j_costillas
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_cintura/avatares_animacion_v1_j_costillas/avatares_animacion_v1_j_cabeza
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_cintura/avatares_animacion_v1_j_costillas/avatares_animacion_v1_j_cabeza/avatares_animacion_v1_j_ceja_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_cintura/avatares_animacion_v1_j_costillas/avatares_animacion_v1_j_cabeza/avatares_animacion_v1_j_ceja_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_cintura/avatares_animacion_v1_j_costillas/avatares_animacion_v1_j_cabeza/avatares_animacion_v1_j_ojo_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_cintura/avatares_animacion_v1_j_costillas/avatares_animacion_v1_j_cabeza/avatares_animacion_v1_j_ojo_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_cintura/avatares_animacion_v1_j_costillas/avatares_animacion_v1_j_cabeza/avatares_animacion_v1_j_punta_cabeza
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_cintura/avatares_animacion_v1_j_costillas/avatares_animacion_v1_j_hombro_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_cintura/avatares_animacion_v1_j_costillas/avatares_animacion_v1_j_hombro_der/avatares_animacion_v1_j_brazo_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_cintura/avatares_animacion_v1_j_costillas/avatares_animacion_v1_j_hombro_der/avatares_animacion_v1_j_brazo_der/avatares_animacion_v1_j_antebrazo_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_cintura/avatares_animacion_v1_j_costillas/avatares_animacion_v1_j_hombro_der/avatares_animacion_v1_j_brazo_der/avatares_animacion_v1_j_antebrazo_der/avatares_animacion_v1_j_mano_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_cintura/avatares_animacion_v1_j_costillas/avatares_animacion_v1_j_hombro_der/avatares_animacion_v1_j_brazo_der/avatares_animacion_v1_j_antebrazo_der/avatares_animacion_v1_j_mano_der/avatares_animacion_v1_j_punta_brazo_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_cintura/avatares_animacion_v1_j_costillas/avatares_animacion_v1_j_hombro_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_cintura/avatares_animacion_v1_j_costillas/avatares_animacion_v1_j_hombro_izq/avatares_animacion_v1_j_brazo_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_cintura/avatares_animacion_v1_j_costillas/avatares_animacion_v1_j_hombro_izq/avatares_animacion_v1_j_brazo_izq/avatares_animacion_v1_j_antebrazo_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_cintura/avatares_animacion_v1_j_costillas/avatares_animacion_v1_j_hombro_izq/avatares_animacion_v1_j_brazo_izq/avatares_animacion_v1_j_antebrazo_izq/avatares_animacion_v1_j_mano_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_cintura/avatares_animacion_v1_j_costillas/avatares_animacion_v1_j_hombro_izq/avatares_animacion_v1_j_brazo_izq/avatares_animacion_v1_j_antebrazo_izq/avatares_animacion_v1_j_mano_izq/avatares_animacion_v1_j_punta_brazo_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_muslo_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_muslo_der/avatares_animacion_v1_j_espinilla_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_muslo_der/avatares_animacion_v1_j_espinilla_der/avatares_animacion_v1_j_tobillo_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_muslo_der/avatares_animacion_v1_j_espinilla_der/avatares_animacion_v1_j_tobillo_der/avatares_animacion_v1_j_planta_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_muslo_der/avatares_animacion_v1_j_espinilla_der/avatares_animacion_v1_j_tobillo_der/avatares_animacion_v1_j_planta_der/avatares_animacion_v1_j_punta_pie_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_muslo_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_muslo_izq/avatares_animacion_v1_j_espinilla_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_muslo_izq/avatares_animacion_v1_j_espinilla_izq/avatares_animacion_v1_j_tobillo_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_muslo_izq/avatares_animacion_v1_j_espinilla_izq/avatares_animacion_v1_j_tobillo_izq/avatares_animacion_v1_j_planta_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_G_J_IK/avatares_animacion_v1_j_cadera/avatares_animacion_v1_j_muslo_izq/avatares_animacion_v1_j_espinilla_izq/avatares_animacion_v1_j_tobillo_izq/avatares_animacion_v1_j_planta_izq/avatares_animacion_v1_j_punta_pie_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_grp_iks_tobillo_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_grp_iks_tobillo_der/avatares_animacion_v1_grp_iks_punta_pie_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_grp_iks_tobillo_der/avatares_animacion_v1_grp_iks_punta_pie_der/avatares_animacion_v1_ik_punta_pie_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_grp_iks_tobillo_der/avatares_animacion_v1_ik_planta_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_grp_iks_tobillo_der/avatares_animacion_v1_ik_tob_der
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_grp_iks_tobillo_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_grp_iks_tobillo_izq/avatares_animacion_v1_grp_iks_punta_pie_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_grp_iks_tobillo_izq/avatares_animacion_v1_grp_iks_punta_pie_izq/avatares_animacion_v1_ik_punta_pie_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_grp_iks_tobillo_izq/avatares_animacion_v1_ik_planta_izq
+        weight: 1
+      - path: avatares_animacionCancha/avatares_animacion_v1_ChicosTEApp/avatares_animacion_v1_grp_escalar/avatares_animacion_v1_grp_static/avatares_animacion_v1_grp_iks_tobillo_izq/avatares_animacion_v1_ik_tob_izq
+        weight: 1
+      - path: Canasta
+        weight: 1
+      - path: fantasma_animacionCancha
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_move
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_move/fantasma_v1_anima_CTrl_Personaje
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_move/fantasma_v1_anima_CTrl_Personaje/fantasma_v1_anima_Ctrl_Cabeza
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_move/fantasma_v1_anima_CTrl_Personaje/fantasma_v1_anima_Ctrl_Cabeza/fantasma_v1_anima_Ctrl_Boca
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_move/fantasma_v1_anima_CTrl_Personaje/fantasma_v1_anima_Ctrl_Cabeza/fantasma_v1_anima_Ctrl_Mano_der
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_move/fantasma_v1_anima_CTrl_Personaje/fantasma_v1_anima_Ctrl_Cabeza/fantasma_v1_anima_Ctrl_Mano_der/fantasma_v1_anima_Ctrl_Corazon_der
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_move/fantasma_v1_anima_CTrl_Personaje/fantasma_v1_anima_Ctrl_Cabeza/fantasma_v1_anima_Ctrl_Mano_der/fantasma_v1_anima_Ctrl_Ind_der
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_move/fantasma_v1_anima_CTrl_Personaje/fantasma_v1_anima_Ctrl_Cabeza/fantasma_v1_anima_Ctrl_Mano_der/fantasma_v1_anima_Ctrl_Menique_der
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_move/fantasma_v1_anima_CTrl_Personaje/fantasma_v1_anima_Ctrl_Cabeza/fantasma_v1_anima_Ctrl_Mano_der/fantasma_v1_anima_Ctrl_Pulgar_der
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_move/fantasma_v1_anima_CTrl_Personaje/fantasma_v1_anima_Ctrl_Cabeza/fantasma_v1_anima_Ctrl_Mano_izq
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_move/fantasma_v1_anima_CTrl_Personaje/fantasma_v1_anima_Ctrl_Cabeza/fantasma_v1_anima_Ctrl_Mano_izq/fantasma_v1_anima_Ctrl_Corazon_izq
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_move/fantasma_v1_anima_CTrl_Personaje/fantasma_v1_anima_Ctrl_Cabeza/fantasma_v1_anima_Ctrl_Mano_izq/fantasma_v1_anima_Ctrl_Ind_izq
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_move/fantasma_v1_anima_CTrl_Personaje/fantasma_v1_anima_Ctrl_Cabeza/fantasma_v1_anima_Ctrl_Mano_izq/fantasma_v1_anima_Ctrl_Menique_izq
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_move/fantasma_v1_anima_CTrl_Personaje/fantasma_v1_anima_Ctrl_Cabeza/fantasma_v1_anima_Ctrl_Mano_izq/fantasma_v1_anima_Ctrl_Pulgar_izq
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_move/fantasma_v1_anima_CTrl_Personaje/fantasma_v1_anima_Ctrl_Cabeza/fantasma_v1_anima_Ctrl_Punta_Cabeza
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_move/fantasma_v1_anima_CTrl_Personaje/fantasma_v1_anima_Ctrl_Cadera
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_cuerpo
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_Diente
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_Diente1
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_Diente2
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_Diente3
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_Diente4
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_Diente5
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_Diente6
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_Diente7
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_Diente8
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_Diente9
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_Diente10
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_Diente11
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_Encias
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_G_Aparato
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_G_Aparato/fantasma_v1_anima_Diente12
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_G_Aparato/fantasma_v1_anima_Diente13
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_G_Aparato/fantasma_v1_anima_Diente14
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_G_Aparato/fantasma_v1_anima_Diente15
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_G_Aparato/fantasma_v1_anima_Diente16
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_G_Aparato/fantasma_v1_anima_Diente17
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_G_Aparato/fantasma_v1_anima_Diente18
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_G_Aparato/fantasma_v1_anima_Diente19
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_G_Aparato/fantasma_v1_anima_Diente20
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_G_Aparato/fantasma_v1_anima_Diente21
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_G_Aparato/fantasma_v1_anima_Diente22
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_G_Aparato/fantasma_v1_anima_Diente23
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_G_Aparato/fantasma_v1_anima_pCube9
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_G_Boca/fantasma_v1_anima_G_Aparato/fantasma_v1_anima_pCube10
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_grupo_cejas
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_grupo_cejas/fantasma_v1_anima_pCube1
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_grupo_cejas/fantasma_v1_anima_pCube8
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_grupo_gafas
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_grupo_gafas/fantasma_v1_anima_pCube3
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_grupo_gafas/fantasma_v1_anima_pCube4
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_grupo_gafas/fantasma_v1_anima_pCube5
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_grupo_gafas/fantasma_v1_anima_pCube6
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_grupo_gafas/fantasma_v1_anima_pCube7
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_grupo_manos
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_grupo_manos/fantasma_v1_anima_mano_der
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_grupo_manos/fantasma_v1_anima_mano_izq
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_ojo_der
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_Fantasma_geometria/fantasma_v1_anima_ojo_izq
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_Mandibula
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_Mandibula/fantasma_v1_anima_j_Punta_Mandibula
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_der
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_der/fantasma_v1_anima_joint10
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_der/fantasma_v1_anima_joint10/fantasma_v1_anima_j_dedo_ind_der
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_der/fantasma_v1_anima_joint10/fantasma_v1_anima_j_dedo_ind_der/fantasma_v1_anima_joint6
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_der/fantasma_v1_anima_joint10/fantasma_v1_anima_j_dedo_med_der
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_der/fantasma_v1_anima_joint10/fantasma_v1_anima_j_dedo_med_der/fantasma_v1_anima_joint4
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_der/fantasma_v1_anima_joint10/fantasma_v1_anima_j_dedo_men_der
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_der/fantasma_v1_anima_joint10/fantasma_v1_anima_j_dedo_men_der/fantasma_v1_anima_joint2
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_der/fantasma_v1_anima_joint10/fantasma_v1_anima_j_pulgar_der
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_der/fantasma_v1_anima_joint10/fantasma_v1_anima_j_pulgar_der/fantasma_v1_anima_joint8
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_der/fantasma_v1_anima_joint12
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_izq
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_izq/fantasma_v1_anima_joint10
+          1
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_izq/fantasma_v1_anima_joint10
+          1/fantasma_v1_anima_j_dedo_ind_izq
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_izq/fantasma_v1_anima_joint10
+          1/fantasma_v1_anima_j_dedo_ind_izq/fantasma_v1_anima_joint6 1
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_izq/fantasma_v1_anima_joint10
+          1/fantasma_v1_anima_j_dedo_med_izq
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_izq/fantasma_v1_anima_joint10
+          1/fantasma_v1_anima_j_dedo_med_izq/fantasma_v1_anima_joint4 1
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_izq/fantasma_v1_anima_joint10
+          1/fantasma_v1_anima_j_dedo_men_izq
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_izq/fantasma_v1_anima_joint10
+          1/fantasma_v1_anima_j_dedo_men_izq/fantasma_v1_anima_joint2 1
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_izq/fantasma_v1_anima_joint10
+          1/fantasma_v1_anima_j_pulgar_izq
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_izq/fantasma_v1_anima_joint10
+          1/fantasma_v1_anima_j_pulgar_izq/fantasma_v1_anima_joint8 1
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_mano_izq/fantasma_v1_anima_joint11
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_Punta_Cabeza_1
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_Punta_Cabeza_1/fantasma_v1_anima_j_Punta_Cabeza_2
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_Punta_Cabeza_1/fantasma_v1_anima_j_Punta_Cabeza_2/fantasma_v1_anima_j_Punta_Cabeza_3
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_Punta_Cabeza_1/fantasma_v1_anima_j_Punta_Cabeza_2/fantasma_v1_anima_j_Punta_Cabeza_3/fantasma_v1_anima_j_Punta_Cabeza_4
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_Punta_Cabeza_1/fantasma_v1_anima_j_Punta_Cabeza_2/fantasma_v1_anima_j_Punta_Cabeza_3/fantasma_v1_anima_j_Punta_Cabeza_4/fantasma_v1_anima_j_Punta_Cabeza_5
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_Punta_Cabeza_1/fantasma_v1_anima_j_Punta_Cabeza_2/fantasma_v1_anima_j_Punta_Cabeza_3/fantasma_v1_anima_j_Punta_Cabeza_4/fantasma_v1_anima_j_Punta_Cabeza_5/fantasma_v1_anima_j_Punta_Cabeza_6
+        weight: 1
+      - path: fantasma_animacionCancha/fantasma_v1_anima_FANTASMA/fantasma_v1_anima_grp_static/fantasma_v1_anima_j_Cadera/fantasma_v1_anima_j_Cabeza/fantasma_v1_anima_j_Punta_Cabeza_1/fantasma_v1_anima_j_Punta_Cabeza_2/fantasma_v1_anima_j_Punta_Cabeza_3/fantasma_v1_anima_j_Punta_Cabeza_4/fantasma_v1_anima_j_Punta_Cabeza_5/fantasma_v1_anima_j_Punta_Cabeza_6/fantasma_v1_anima_j_Punta_Punta
+        weight: 1
+      - path: pelotaAvatar
+        weight: 1
+      - path: pelotaFantasma
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Fantasma_Acierto_FinDelJuego
+      takeName: Fantasma_Acierto
+      firstFrame: 778
+      lastFrame: 835
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0

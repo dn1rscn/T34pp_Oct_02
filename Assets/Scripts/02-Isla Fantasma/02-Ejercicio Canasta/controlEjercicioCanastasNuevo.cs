@@ -53,7 +53,8 @@ public class controlEjercicioCanastasNuevo : MonoBehaviour {
 		//Accedemos al animator global de la escena
 		animatorEscena = gameObject.GetComponent<Animator>();
 		animatorSlider = barraPotencia.GetComponent<Animator>();
-		turnoMascota();
+		//turnoMascota();
+		botonTurnoJugador.SetActive(false);
 
 		ControlMonedas = GameObject.Find ("controlMonedas");
 		//cM = ControlMonedas.GetComponent<Control_monedas> ();
@@ -64,9 +65,9 @@ public class controlEjercicioCanastasNuevo : MonoBehaviour {
 //1-- TURNO DE LA MASCOTA*********************************************************
 	public void turnoMascota(){
 
-		botonTurnoJugador.SetActive(false);
 		botonStart.SetActive(false);
-		
+		botonTurnoJugador.SetActive(false);
+
 		if (num_turnoMascota < 6) {
 			//numero random, acierto o fallo de la mascota
 			lanzamientoMascota = Random.Range (0, 2);
@@ -83,10 +84,10 @@ public class controlEjercicioCanastasNuevo : MonoBehaviour {
 
 			//mostramos el marcador actual;
 			//actualizarMarcadorMascota();
-			print (marcador);
+			//print (marcador);
 
 		} else {
-			print ("FIN DEL JUEGO PARA LA MASCOTA");
+			finDelJuego();
 		}
 	}
 //***********************************************************************************
@@ -110,9 +111,9 @@ public class controlEjercicioCanastasNuevo : MonoBehaviour {
 				animatorSlider.Play("animSlider_03");
 				break;
 			case 4: 
+				animatorSlider.Play("animSlider_Acierto");
 				aciertoJugador ();
-				botonTurnoJugador.SetActive(false);
-				miniAciertos=1;
+				//botonTurnoJugador.SetActive(false);
 				break;
 				
 			}
@@ -140,56 +141,6 @@ public class controlEjercicioCanastasNuevo : MonoBehaviour {
 
 			aciertoJugador ();
 
-
-			print ("FIN DEL JUEGO!!");
-
-			//escondemos los botones de juego
-			botonTurnoMascota.SetActive(false);
-			botonTurnoJugador.SetActive(false);
-
-			if(puntuacionMascota>puntuacionJugador){
-		
-				//*****************************************************************
-				//HAS PERDIDO!!
-
-				print ("<color=red><size=20>HAS PERDIDO!!</size></color>");
-
-				Invoke ("activar_FinJuego_lose", 3);
-			
-				//*****************************************************************
-
-			}else if(puntuacionMascota<puntuacionJugador){
-				if(puntuacionJugador==5){
-					//activar animacion de mate
-					animatorEscena.SetBool("avatar_PERFECT",true);
-				}
-				//*****************************************************************
-				//HAS GANADO!!
-
-				print ("<color=green><size=20>HAS GANADO!!</size></color>");
-				
-				Invoke ("activar_FinJuego_win", 3);
-				
-
-
-
-				//*****************************************************************
-
-
-
-			}else{
-
-
-				//HAS EMPATADO!!
-
-
-				print ("<size=20>HAS EMPATADO!!</size>");
-
-				Invoke ("activar_FinJuego_lose", 3);
-
-			}
-			//mostramos el marcador final
-			print (marcador);
 
 		}
 	}
@@ -224,7 +175,7 @@ public class controlEjercicioCanastasNuevo : MonoBehaviour {
 	void aciertoJugador(){
 		//activamos la animacion de acierto del avatar*********************************************
 		animatorEscena.Play("Avatar_Acierto");
-
+		miniAciertos=1;
 		puntuacionJugador++;
 		print ("HAS ENCESTADO!");
 
@@ -291,7 +242,63 @@ public class controlEjercicioCanastasNuevo : MonoBehaviour {
 
 	}
 
+	//REINICIAR LA ESCENA
+	public void reiniciarEscena(){
+		Application.LoadLevel(Application.loadedLevel);
+		botonStart.SetActive(true);
+		
+	}
+
+	//FIN DEL JUEGO
+	public void finDelJuego(){
+
+	print ("FIN DEL JUEGO!!");
 	
+	//escondemos los botones de juego
+	botonTurnoMascota.SetActive(false);
+	botonTurnoJugador.SetActive(false);
+	
+	if(puntuacionMascota>puntuacionJugador){
+		
+		//*****************************************************************
+		//HAS PERDIDO!!
+		
+		animatorEscena.Play("Fantasma_Acierto_FinDelJuego");
+
+		print ("<color=red><size=20>HAS PERDIDO!!</size></color>");
+
+		Invoke ("activar_FinJuego_lose", 3);
+		
+		//*****************************************************************
+		
+	}else if(puntuacionMascota<puntuacionJugador){
+		if(puntuacionJugador==5){
+			//activar animacion de mate
+			animatorEscena.SetBool("avatar_PERFECT",true);
+		}
+		//*****************************************************************
+		//HAS GANADO!!
+		animatorEscena.Play("Avatar_Acierto_FinDelJuego");
+
+		print ("<color=green><size=20>HAS GANADO!!</size></color>");
+		
+		Invoke ("activar_FinJuego_win", 3);
+		
+		//*****************************************************************
+
+	}else{
+
+		//HAS EMPATADO!!
+	
+		print ("<size=20>HAS EMPATADO!!</size>");
+		
+		Invoke ("activar_FinJuego_lose", 3);
+		
+	}
+	//mostramos el marcador final
+	print (marcador);
+
+	}
 
 	void ActivarEstrella1()
 	{
