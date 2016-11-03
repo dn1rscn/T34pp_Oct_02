@@ -29,7 +29,12 @@ public class Control_animaciondino_saludar : MonoBehaviour
 	}
 	void OnTriggerExit(Collider coli)
 	{
-
+		if (coli.gameObject.name == "Chico_TEAPlay") 
+		{
+			GameObject dino = GameObject.Find ("Dinoi_animaciones_v3");
+			Animator dino_animator = dino.GetComponent<Animator> ();
+			dino_animator.SetBool ("bAccionDino", false);
+		}
 		
 	}
 }
