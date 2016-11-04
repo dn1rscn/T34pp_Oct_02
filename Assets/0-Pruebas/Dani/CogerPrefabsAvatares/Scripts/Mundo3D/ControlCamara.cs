@@ -8,24 +8,78 @@ public class ControlCamara : MonoBehaviour {
 	
 	
 	public GameObject jugador;
+	int estadoRotacion;
 	
 	Rigidbody rb_jugador;
 	
 	private Vector3 offset;
 	private float zoomCamara;
+	Animator animatorPivote;
 	
 	void Start ()
 	{
 		offset = transform.position - jugador.transform.position;
 		rb_jugador = jugador.GetComponent<Rigidbody>();
+
+		animatorPivote = gameObject.GetComponent<Animator>();
 		
 	}
 	
 	void LateUpdate ()
 	{
-		zoomCamara=rb_jugador.velocity.z;
-		Vector3 zoomV3 = new Vector3 (8*zoomCamara,8*zoomCamara,0f); 
-		
-		transform.position =  new Vector3( 4*jugador.transform.position.x/5 + offset.x,jugador.transform.position.x/5 + offset.y,jugador.transform.position.z + offset.z);
+		//zoomCamara=rb_jugador.velocity.z;
+		//Vector3 zoomV3 = new Vector3 (8*zoomCamara,8*zoomCamara,0f); 
+
+		//MovimientoNormal
+		transform.position =  new Vector3( jugador.transform.position.x + offset.x,jugador.transform.position.y + offset.y,jugador.transform.position.z + offset.z);
+
+		//Movimiento con zoom y cambio de altura
+		//transform.position =  new Vector3( 4*jugador.transform.position.x/5 + offset.x,jugador.transform.position.x/5 + offset.y,jugador.transform.position.z + offset.z);
 	}
+
+
+	public void rotarCam_Izq(){
+		if(estadoRotacion<=2){
+			estadoRotacion++;
+			print (estadoRotacion);
+
+			actualizarRotarCam();
+
+		} else {
+			print ("La camara no gira mas hacia la der");
+		}
+	}
+	public void rotarCam_Der(){
+		if(estadoRotacion>=1){
+			estadoRotacion--;
+			print (estadoRotacion);
+
+			actualizarRotarCam();
+
+		} else {
+			print ("La camara no gira mas hacia la izq");
+		}
+	}
+
+	private void actualizarRotarCam(){
+	
+		switch(estadoRotacion)
+		{
+		case 0: 
+			animatorPivote.SetBool("Pivote30",false);
+			break;
+		case 1: 
+			animatorPivote.SetBool("Pivote30",true);
+			animatorPivote.SetBool("Pivote60",false);
+			break;
+		case 2: 
+			animatorPivote.SetBool("Pivote30",false);
+			animatorPivote.SetBool("Pivote60",true);
+			break;	
+			
+		}
+
+	}
+
+
 }
