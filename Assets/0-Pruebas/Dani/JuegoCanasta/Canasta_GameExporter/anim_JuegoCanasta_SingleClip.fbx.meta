@@ -642,7 +642,47 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: .197431579
+        functionName: Botar
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 2b03c9e15558b574aaa84af5ce264b6d,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: .383372992
+        functionName: Botar
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 2b03c9e15558b574aaa84af5ce264b6d,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: .568588734
+        functionName: Botar
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 2b03c9e15558b574aaa84af5ce264b6d,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: .76133275
+        functionName: Botar
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 2b03c9e15558b574aaa84af5ce264b6d,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: .929767847
+        functionName: Botar
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 2b03c9e15558b574aaa84af5ce264b6d,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask:
       - path: 
         weight: 1
@@ -1133,15 +1173,47 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
-      - time: .921355486
-        functionName: turnoMascota
+      - time: .318187267
+        functionName: Rebote
         data: 
-        objectReferenceParameter: {instanceID: 0}
+        objectReferenceParameter: {fileID: 11500000, guid: 2b03c9e15558b574aaa84af5ce264b6d,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: .449704766
+        functionName: Botar
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 2b03c9e15558b574aaa84af5ce264b6d,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: .558272779
+        functionName: Botar
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 2b03c9e15558b574aaa84af5ce264b6d,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: .623393297
+        functionName: Fallo
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 2b03c9e15558b574aaa84af5ce264b6d,
+          type: 3}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
       - time: .648337603
         functionName: actualizarMarcadorJugador
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: .921355486
+        functionName: turnoMascota
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
@@ -1636,7 +1708,15 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: .757856846
+        functionName: Botar
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 2b03c9e15558b574aaa84af5ce264b6d,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask:
       - path: 
         weight: 1
@@ -2127,6 +2207,38 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
+      - time: .251014888
+        functionName: Rebote
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 2b03c9e15558b574aaa84af5ce264b6d,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: .348204851
+        functionName: Rebote
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 2b03c9e15558b574aaa84af5ce264b6d,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: .355825871
+        functionName: Encestar
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 2b03c9e15558b574aaa84af5ce264b6d,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: .398609102
+        functionName: Rebote
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 2b03c9e15558b574aaa84af5ce264b6d,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       - time: .473785162
         functionName: actualizarMarcadorJugador
         data: 
@@ -2139,6 +2251,30 @@ ModelImporter:
         functionName: turnoMascota
         data: 
         objectReferenceParameter: {fileID: 11500000, guid: 996b3b131c568bc4cadb25201407df73,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: .699086428
+        functionName: Musicaacierto
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 2b03c9e15558b574aaa84af5ce264b6d,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: .496061742
+        functionName: Botar
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 2b03c9e15558b574aaa84af5ce264b6d,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: .59937346
+        functionName: Botar
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 2b03c9e15558b574aaa84af5ce264b6d,
           type: 3}
         floatParameter: 0
         intParameter: 0
@@ -2633,6 +2769,21 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
+      - time: .421355546
+        functionName: actualizarMarcadorMascota
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: .47563985
+        functionName: Fallo
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 2b03c9e15558b574aaa84af5ce264b6d,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       - time: .972506464
         functionName: mostrarBotonJugador
         data: 
@@ -2640,10 +2791,19 @@ ModelImporter:
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
-      - time: .421355546
-        functionName: actualizarMarcadorMascota
+      - time: .425764114
+        functionName: Botar
         data: 
-        objectReferenceParameter: {instanceID: 0}
+        objectReferenceParameter: {fileID: 11500000, guid: 2b03c9e15558b574aaa84af5ce264b6d,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: .192912698
+        functionName: Golpefantasma
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 2b03c9e15558b574aaa84af5ce264b6d,
+          type: 3}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
@@ -3151,6 +3311,22 @@ ModelImporter:
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
+      - time: .345540255
+        functionName: Encestar
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 2b03c9e15558b574aaa84af5ce264b6d,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: .62165612
+        functionName: Musicaacierto
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 2b03c9e15558b574aaa84af5ce264b6d,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask:
       - path: 
         weight: 1
@@ -3640,7 +3816,23 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: .0481881984
+        functionName: Botar
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 2b03c9e15558b574aaa84af5ce264b6d,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: .741772532
+        functionName: Botar
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 2b03c9e15558b574aaa84af5ce264b6d,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask:
       - path: 
         weight: 1
