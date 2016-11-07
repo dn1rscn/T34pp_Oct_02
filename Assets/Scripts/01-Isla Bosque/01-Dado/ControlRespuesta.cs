@@ -31,6 +31,8 @@ public class ControlRespuesta : MonoBehaviour
 	public GameObject estrella1;
 	public GameObject estrella2;
 	public GameObject estrella3;
+
+	Renderer miRender;
 	
 	GameObject puntuacionfin;
 	Text TpuntuacionFin;
@@ -46,6 +48,7 @@ public class ControlRespuesta : MonoBehaviour
 		DD = GameObject.Find ("ctrDesbloqueo").GetComponent<DatosDesbloqueo> ();
 		DGlobales = GameObject.Find ("DatosGlobales");
 		cdg = DGlobales.GetComponent<ControlDatosGlobales_PICTOGRAMAS> ();
+		cdg_3d=GameObject.Find ("ControlDatosGlobales").GetComponent<ControlDatosGlobales_Mundo3D> ();
 		resetearDado ();
 		actualizarPuntuacion ();
 		IfinJuego.SetActive (false);
@@ -99,6 +102,8 @@ public class ControlRespuesta : MonoBehaviour
 	void correcto()
 	{
 		CSlider = GameObject.Find ("Progreso").GetComponent<ControlSlider> ();
+		ControlMonedas = GameObject.Find ("controlMonedas");
+		cM = ControlMonedas.GetComponent<Control_monedas> ();
 
 		print ("correcto");
 
@@ -109,7 +114,7 @@ public class ControlRespuesta : MonoBehaviour
 		//ejecutarSonidoAcierto
 		//GameObject.Find("SonidoAcierto").GetComponent<AudioSource>().Play();
 
-		GameObject.Find("Fantasma_bake").GetComponent<Animator>().Play("Fantasmaacierto");
+		GameObject.Find("Dinoi_animaciones_v3").GetComponent<Animator>().Play("Acierto_01_dino");
 		
 		GameObject.Find("Panel_Canvas").GetComponent<Animator>().Play("acierto");
 
@@ -122,6 +127,8 @@ public class ControlRespuesta : MonoBehaviour
 		}
 		if (cdg.aciertos == 10 && DD.Nivel2Dado == false) 
 		{
+			GameObject.Find ("Dado").GetComponent<ControlDado>().enabled=false;
+
 			if(DD.Posicion+1<DD.ADado.Length)
 			{
 				DD.ADado[DD.Posicion=DD.Posicion+1]=true;
@@ -140,6 +147,7 @@ public class ControlRespuesta : MonoBehaviour
 			
 			cM.calcular_monedasDado ();
 			cM.calcular_monedasGenerales ();
+
 			
 			if (cdg.aciertos >= 5) 
 			{
@@ -172,7 +180,7 @@ public class ControlRespuesta : MonoBehaviour
 		cM = ControlMonedas.GetComponent<Control_monedas> ();
 
 		print ("error");
-		GameObject.Find("Fantasma_bake").GetComponent<Animator>().Play("Fantasmafallo");
+		GameObject.Find("Dinoi_animaciones_v3").GetComponent<Animator>().Play("Fallo_01_dino");
 
 		cdg.fallos++;
 		cdg.aciertosSeguidos=0;
@@ -288,5 +296,6 @@ public class ControlRespuesta : MonoBehaviour
 	public void seguirJugando()
 	{
 		IfinJuego2.SetActive (false);
+		GameObject.Find ("Dado").GetComponent<ControlDado>().enabled=true;
 	}
 }
