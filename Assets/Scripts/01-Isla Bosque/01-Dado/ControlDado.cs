@@ -28,9 +28,6 @@ public class ControlDado : MonoBehaviour
 
 	void Start () 
 	{
-
-	
-
 		DGlobales = GameObject.Find ("DatosGlobales");			
 		cdg = DGlobales.GetComponent<ControlDatosGlobales_PICTOGRAMAS> ();
 		
