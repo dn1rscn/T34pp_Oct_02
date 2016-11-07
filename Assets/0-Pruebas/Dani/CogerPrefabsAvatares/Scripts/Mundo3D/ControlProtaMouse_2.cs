@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class ControlProtaMouse_2 : MonoBehaviour {
-
+	
 	NavMeshAgent agente;
 	Animator animatorProta;
 
@@ -10,20 +10,19 @@ public class ControlProtaMouse_2 : MonoBehaviour {
 
 	Animator animatorHaloTarget;
 	GameObject gObj_haloTarget;
-
-	//public float distanciaMinima;
-
-	public Texture2D cursorTexture;
-	public CursorMode cursorMode = CursorMode.Auto;
-	public Vector2 hotSpot = Vector2.zero;
 	
+	//public Texture2D cursorTexture;
+	//public CursorMode cursorMode = CursorMode.Auto;
+	//public Vector2 hotSpot = Vector2.zero;
+
+
 	void Start () 
 	{
+
 		//Cursor.SetCursor(cursorTexture, hotSpot, cursorMode);
 
 		gObj_haloTarget = GameObject.Find ("HaloTarget");
 
-		//print ("HaloDetectado");
 
 		animatorHaloTarget=gObj_haloTarget.GetComponent<Animator>();
 
@@ -47,27 +46,25 @@ public class ControlProtaMouse_2 : MonoBehaviour {
 		{
 			animatorProta.SetBool("andar",false);
 		}
-	
+
+		//EventSystem = GameObject.Find("EventSystem").GetComponent(UnityEngine.EventSystems.EventSystem);
+		//print(UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject());
 
 		if(Physics.Raycast(rayoPantalla,out impacto))
 		{
-			//print ("rayoDetectado");
-
 			//Si queremos que el prota mire siempre al puntero
 			//agente.transform.LookAt(impacto.point);
-		
-			if (Input.GetMouseButtonDown (0)) 
-			{
-				agente.SetDestination(impacto.point);
 
-				gObj_haloTarget.transform.position = impacto.point;
-				animatorHaloTarget.Play("animHalo");	
-			}
+				if (Input.GetMouseButtonDown (0)) 
+				{
+					//print (impacto.collider.tag);
+					//if(impacto.collider.tag=="Suelo"){
+						agente.SetDestination(impacto.point);
+					
+						gObj_haloTarget.transform.position = impacto.point;
+						animatorHaloTarget.Play("animHalo");
+					//}
+				}
 		}
-
-
-
-
-	
 	}
 }

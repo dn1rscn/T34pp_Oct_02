@@ -14,7 +14,7 @@ public class controlPortales : MonoBehaviour {
 	void Start ()
 	{
 		//ACCEDEMOS AL SCRIPT DE DATOS GLOBALES
-		CDG_Mundo3D = GameObject.Find("ControlDatosGlobales").GetComponent<ControlDatosGlobales_Mundo3D>();
+//		CDG_Mundo3D = GameObject.Find("ControlDatosGlobales").GetComponent<ControlDatosGlobales_Mundo3D>();
 
 		animator_PanelCanvas = GameObject.Find ("CanvasPortal_Verde").GetComponent<Animator> ();
 		animator_botonesPortal = GameObject.Find("botonesPortal").GetComponent<Animator>();
@@ -24,6 +24,7 @@ public class controlPortales : MonoBehaviour {
 	{
 		if (coli.gameObject.tag == "Portal")
 		{
+			print ("Colision con: "+coli.gameObject.name);
 			//Ejecutamos la animacion del canvas al entrar en algun portal
  			animator_PanelCanvas.Play("CanvasPortal_animIntro");
 			animator_botonesPortal.Play("IntroBotonesPortales");

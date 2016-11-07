@@ -61,24 +61,18 @@ public class ControlMisionesInterfaz : MonoBehaviour
 		}
 
 	}
-	
-	// Update is called once per frame
-	void Update () 
-	{
-	
-	}
 
 	public void MisionDinoOK()
 	{
 		//sumar mas monedas
 		print ("Sumas monedas");
-		misionDino.SetActive (false);
+		//misionDino.SetActive (false);
 
 	}
 	public void MisionFantasmaOK()
 	{
 		//sumar monedas
-		misionFantasma.SetActive (false);
+		//misionFantasma.SetActive (false);
 	}
 	public void MisionRobotOK()
 	{
