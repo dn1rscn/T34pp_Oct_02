@@ -4,18 +4,14 @@ using System.Collections;
 public class Control_animaciondino_saludar : MonoBehaviour
 {
 
+	SpriteRenderer flechaDestino_Dino;
+
 	// Use this for initialization
 	void Start ()
 	{
-		
+		flechaDestino_Dino = GameObject.Find("flechaDestino_Dino").GetComponent<SpriteRenderer>();
 	}
-	
-	// Update is called once per frame
-	void Update ()
-	{
-		
-	}
-	
+
 	void OnTriggerEnter(Collider coli)
 		
 	{
@@ -24,6 +20,7 @@ public class Control_animaciondino_saludar : MonoBehaviour
 			GameObject dino = GameObject.Find ("Dinoi_animaciones_v3");
 			Animator dino_animator = dino.GetComponent<Animator> ();
 			dino_animator.SetBool ("bAccionDino", true);
+			flechaDestino_Dino.enabled = true;
 		}
 		
 	}

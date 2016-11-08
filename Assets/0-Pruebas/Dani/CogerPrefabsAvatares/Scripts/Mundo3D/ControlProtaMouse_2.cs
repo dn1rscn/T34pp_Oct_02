@@ -34,7 +34,6 @@ public class ControlProtaMouse_2 : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-
 		rayoPantalla = Camera.main.ScreenPointToRay(Input.mousePosition);
 		RaycastHit impacto;
 
@@ -58,13 +57,13 @@ public class ControlProtaMouse_2 : MonoBehaviour {
 				if (Input.GetMouseButtonDown (0)) 
 				{
 					//print (impacto.collider.tag);
-					//if(impacto.collider.tag=="Suelo"){
+				//if(impacto.collider.tag!="Canvas" && impacto.collider.tag=="Suelo"){
 						agente.SetDestination(impacto.point);
 					
 						gObj_haloTarget.transform.position = impacto.point;
 						animatorHaloTarget.Play("animHalo");
-					//}
-				}
+					}
+				//}
 		}
 	}
 }
