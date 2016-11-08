@@ -5,6 +5,7 @@ public class reproducirSonido : MonoBehaviour
 {
 
 	public AudioSource[] ASonidos;
+	public bool[] SonidosOK;
 
 	ControlSonidos CS;
 	RespuestaSonidos RS;
@@ -72,7 +73,7 @@ public class reproducirSonido : MonoBehaviour
 			//MaquinaDiscos.GetComponent<Animation> ().Play ("disco");
 
 
-			while(SonidoAleatorio==sonidoOK)
+			while(SonidosOK[SonidoAleatorio]==true)
 			{
 				SonidoAleatorio = Random.Range (0, 4);
 			}

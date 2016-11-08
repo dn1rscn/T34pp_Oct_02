@@ -59,19 +59,24 @@ public class RespuestaSonidos : MonoBehaviour
 
 	public void respuesta1()
 	{
-	if (respuesta == false) 
+		if (respuesta == false) 
 		{
 			//MaquinaDiscos.GetComponent<Animation> ().Play ("boton1");
 			//GameObject.Find("IM_Botones").GetComponent<Animator> ().Play("AnimBoton1");
 			if (RS.SonidoAleatorio == 0) 
 			{
 				correcto ();
-				respuesta=true;
+				//gameObject.SetActive(false);
+				respuesta = true;
 			} 
 			else 
 			{
 				incorrecto ();
 			}
+		} 
+		else 
+		{
+			GameObject.Find("Isla_Bosque_Boton_Play").GetComponent<Animator>().Play ("anim_Play");
 		}
 		
 	
@@ -86,12 +91,17 @@ public class RespuestaSonidos : MonoBehaviour
 			if (RS.SonidoAleatorio == 1) 
 			{
 				correcto ();
+				//gameObject.SetActive(false);
 				respuesta=true;
 			} 
 			else 
 			{
 				incorrecto ();
 			}
+		}
+		else 
+		{
+			GameObject.Find("Isla_Bosque_Boton_Play").GetComponent<Animator>().Play ("anim_Play");
 		}
 	}
 	public void respuesta3()
@@ -103,12 +113,17 @@ public class RespuestaSonidos : MonoBehaviour
 			if (RS.SonidoAleatorio == 2) 
 			{
 				correcto ();
+				//gameObject.SetActive(false);
 				respuesta=true;
 			} 
 			else 
 			{
 				incorrecto ();
 			}
+		}
+		else 
+		{
+			GameObject.Find("Isla_Bosque_Boton_Play").GetComponent<Animator>().Play ("anim_Play");
 		}
 	}
 	public void respuesta4()
@@ -120,6 +135,7 @@ public class RespuestaSonidos : MonoBehaviour
 			if (RS.SonidoAleatorio == 3) 
 			{
 				correcto ();
+				//gameObject.SetActive(false);
 				respuesta=true;
 			} 
 			else 
@@ -127,11 +143,19 @@ public class RespuestaSonidos : MonoBehaviour
 				incorrecto ();
 			}
 		}
+		else 
+		{
+			GameObject.Find("Isla_Bosque_Boton_Play").GetComponent<Animator>().Play ("anim_Play");
+		}
 	}
 
 	void correcto()
 	{
 		CSlider = GameObject.Find ("Progreso").GetComponent<ControlSlider> ();
+
+		GameObject.Find("Dinoi_animaciones_v3").GetComponent<Animator>().Play("Acierto_01_dino");
+		
+		GameObject.Find("Panel_Canvas").GetComponent<Animator>().Play("acierto");
 
 		CS.aciertos++;
 		BotonPlay.SetActive (true);
@@ -141,135 +165,25 @@ public class RespuestaSonidos : MonoBehaviour
 
 		actualizarPuntuacion ();
 
-		if(CS.aciertos==10)
+		RS.SonidosOK [RS.SonidoAleatorio] = true;
+
+		if(CS.aciertos==2)
 		{
 
 			if(CS.nivel==1&&DD.Nivel2Sonidos==false)
 			{
-				cdg_3d=GameObject.Find ("ControlDatosGlobales").GetComponent<ControlDatosGlobales_Mundo3D> ();
-				CMisiones=GameObject.Find ("Misiones").GetComponent<ControlMisiones>();
-				
-				IfinJuego2.SetActive (true);
-				IfinJuego2.GetComponent<Animator>().Play ("AnimFinPartida");
-				
-				RS.StopSonido();
-				
-				puntuacionfin = GameObject.Find ("puntuacionFin");
-				TpuntuacionFin = puntuacionfin.GetComponent<Text> ();
-				
-				monedasSonidos = GameObject.Find ("monedas");
-				TmonedasSonidos = monedasSonidos.GetComponent<Text> ();
-				
-				cM=GameObject.Find("controlMonedas").GetComponent<Control_monedas>();
-				
-				cM.calcular_monedasSonidos ();
-				cM.calcular_monedasGenerales ();
-				
-				if (CS.aciertos >= 5) 
-				{
-					Invoke ("ActivarEstrella1", 1.0f);
-					//desbloquear su¡iguiente nivel
-					BotonSiguienteNivel.SetActive(true);
-					if(CS.nivel<DD.ASonidos.Length)
-					{
-						DD.ASonidos[CS.nivel]=true;
-					}
-					cdg_3d.IslaFantasma_Desbloqueada=true;
-				}
-				if (CS.aciertos >= 10) {
-					Invoke ("ActivarEstrella2", 2.0f);
-				}
-				if (CS.aciertos >= 15) {
-					Invoke ("ActivarEstrella3", 3.0f);
-					if(CS.nivel == 1 &&CMisiones.ejerB_3estrellas[2]==false)
-					{
-						CMisiones.ejerB_3estrellas[2]=true;
-						CMisiones.Mision_Dino();
-					}
-					if(CS.nivel==2&&CMisiones.ejerB_3estrellas[3]==false)
-					{
-						CMisiones.ejerB_3estrellas[3]=true;
-						CMisiones.Mision_Dino();
-					}
-					if(CS.nivel==2&&CMisiones.ejerB_3estrellas[4]==false)
-					{
-						CMisiones.ejerB_3estrellas[4]=true;
-						CMisiones.Mision_Dino();
-					}
-				}
-				
-				
-				TpuntuacionFin.text ="NIVEL "+ (CS.nivel+1)+ " DESBLOQUEADO" + "\n" + "\nACIERTOS: " + CS.aciertos.ToString ();
-				
-				TmonedasSonidos.text = cM.MonedasSonidos.ToString();
-				
-				cdg_3d.IslaFantasma_Desbloqueada=true;
-				DD.ASonidos[CS.nivel]=true;
+				Notificacion();
 
 			}
 			if(CS.nivel==2&&DD.Nivel3Sonidos==false)
 			{
-				cdg_3d=GameObject.Find ("ControlDatosGlobales").GetComponent<ControlDatosGlobales_Mundo3D> ();
-				CMisiones=GameObject.Find ("Misiones").GetComponent<ControlMisiones>();
-				
-				IfinJuego2.SetActive (true);
-				IfinJuego2.GetComponent<Animator>().Play ("AnimFinPartida");
-				
-				RS.StopSonido();
-				
-				puntuacionfin = GameObject.Find ("puntuacionFin");
-				TpuntuacionFin = puntuacionfin.GetComponent<Text> ();
-				
-				monedasSonidos = GameObject.Find ("monedas");
-				TmonedasSonidos = monedasSonidos.GetComponent<Text> ();
-				
-				cM=GameObject.Find("controlMonedas").GetComponent<Control_monedas>();
-				
-				cM.calcular_monedasSonidos ();
-				cM.calcular_monedasGenerales ();
-				
-				if (CS.aciertos >= 5) 
-				{
-					Invoke ("ActivarEstrella1", 1.0f);
-					//desbloquear su¡iguiente nivel
-					BotonSiguienteNivel.SetActive(true);
-					if(CS.nivel<DD.ASonidos.Length)
-					{
-						DD.ASonidos[CS.nivel]=true;
-					}
-					cdg_3d.IslaFantasma_Desbloqueada=true;
-				}
-				if (CS.aciertos >= 10) {
-					Invoke ("ActivarEstrella2", 2.0f);
-				}
-				if (CS.aciertos >= 15) {
-					Invoke ("ActivarEstrella3", 3.0f);
-					if(CS.nivel == 1 &&CMisiones.ejerB_3estrellas[2]==false)
-					{
-						CMisiones.ejerB_3estrellas[2]=true;
-						CMisiones.Mision_Dino();
-					}
-					if(CS.nivel==2&&CMisiones.ejerB_3estrellas[3]==false)
-					{
-						CMisiones.ejerB_3estrellas[3]=true;
-						CMisiones.Mision_Dino();
-					}
-					if(CS.nivel==2&&CMisiones.ejerB_3estrellas[4]==false)
-					{
-						CMisiones.ejerB_3estrellas[4]=true;
-						CMisiones.Mision_Dino();
-					}
-				}
-				
-				
-				TpuntuacionFin.text = "\nACIERTOS: " + CS.aciertos.ToString ();
-				
-				TmonedasSonidos.text = cM.MonedasSonidos.ToString();
-
-				cdg_3d.IslaFantasma_Desbloqueada=true;
-				DD.ASonidos[CS.nivel]=true;
-
+				Notificacion();
 			}
+		}
+
+		if (CS.aciertos == 4) 
+		{
+			FinPartida();
 		}
 
 		print ("correcto");
@@ -277,72 +191,14 @@ public class RespuestaSonidos : MonoBehaviour
 	void incorrecto()
 	{
 		CS.fallos++;
+
+		GameObject.Find("Dinoi_animaciones_v3").GetComponent<Animator>().Play("Fallo_01_dino");
+		GameObject.Find("Panel_Canvas").GetComponent<Animator>().Play("Fallo");
+
 		if(CS.fallos==3)
 		{
 			vidas [CS.fallos-1].SetActive (false);
-
-			cdg_3d=GameObject.Find ("ControlDatosGlobales").GetComponent<ControlDatosGlobales_Mundo3D> ();
-			CMisiones=GameObject.Find ("Misiones").GetComponent<ControlMisiones>();
-
-			IfinJuego.SetActive (true);
-			IfinJuego.GetComponent<Animator>().Play ("AnimFinPartida");
-
-			RS.StopSonido();
-
-			puntuacionfin = GameObject.Find ("puntuacionFin");
-			TpuntuacionFin = puntuacionfin.GetComponent<Text> ();
-			
-			monedasSonidos = GameObject.Find ("monedas");
-			TmonedasSonidos = monedasSonidos.GetComponent<Text> ();
-
-			cM=GameObject.Find("controlMonedas").GetComponent<Control_monedas>();
-			
-			cM.calcular_monedasSonidos ();
-			cM.calcular_monedasGenerales ();
-			
-			if (CS.aciertos >= 5) 
-			{
-				Invoke ("ActivarEstrella1", 1.0f);
-				//desbloquear su¡iguiente nivel
-				BotonSiguienteNivel.SetActive(true);
-				if(CS.nivel<DD.ASonidos.Length)
-				{
-					DD.ASonidos[CS.nivel]=true;
-				}
-				cdg_3d.IslaFantasma_Desbloqueada=true;
-			}
-			if (CS.aciertos >= 10) {
-				Invoke ("ActivarEstrella2", 2.0f);
-			}
-			if (CS.aciertos >= 15) {
-				Invoke ("ActivarEstrella3", 3.0f);
-				if(CS.nivel == 1 &&CMisiones.ejerB_3estrellas[2]==false)
-				{
-					CMisiones.ejerB_3estrellas[2]=true;
-					CMisiones.Mision_Dino();
-				}
-				if(CS.nivel==2&&CMisiones.ejerB_3estrellas[3]==false)
-				{
-					CMisiones.ejerB_3estrellas[3]=true;
-					CMisiones.Mision_Dino();
-				}
-				if(CS.nivel==2&&CMisiones.ejerB_3estrellas[4]==false)
-				{
-					CMisiones.ejerB_3estrellas[4]=true;
-					CMisiones.Mision_Dino();
-				}
-			}
-			
-			
-			TpuntuacionFin.text = "\nACIERTOS: " + CS.aciertos.ToString ();
-			
-			TmonedasSonidos.text = cM.MonedasSonidos.ToString();
-			
-			CS.aciertos = 0;
-			CS.fallos = 0;
-			//cdg.aciertosSeguidos = 0;
-			//cdg.combos = 0;
-			cM.MonedasSonidos = 0;
+			FinPartida();
 		}
 		else
 		{
@@ -373,6 +229,135 @@ public class RespuestaSonidos : MonoBehaviour
 		//yield return new WaitForSeconds (2.0f);
 		GameObject.Find ("estrellas").GetComponent<Animator> ().Play ("AnimEstrella3");
 	}
+	void FinPartida()
+	{
+		cdg_3d=GameObject.Find ("ControlDatosGlobales").GetComponent<ControlDatosGlobales_Mundo3D> ();
+		CMisiones=GameObject.Find ("Misiones").GetComponent<ControlMisiones>();
+		
+		IfinJuego.SetActive (true);
+		IfinJuego.GetComponent<Animator>().Play ("AnimFinPartida");
+		
+		RS.StopSonido();
+		
+		puntuacionfin = GameObject.Find ("puntuacionFin");
+		TpuntuacionFin = puntuacionfin.GetComponent<Text> ();
+		
+		monedasSonidos = GameObject.Find ("monedas");
+		TmonedasSonidos = monedasSonidos.GetComponent<Text> ();
+		
+		cM=GameObject.Find("controlMonedas").GetComponent<Control_monedas>();
+		
+		cM.calcular_monedasSonidos ();
+		cM.calcular_monedasGenerales ();
+		
+		if (CS.aciertos >= 1) 
+		{
+			Invoke ("ActivarEstrella1", 1.0f);
+			//desbloquear su¡iguiente nivel
+			BotonSiguienteNivel.SetActive(true);
+			if(CS.nivel<DD.ASonidos.Length)
+			{
+				DD.ASonidos[CS.nivel]=true;
+			}
+			cdg_3d.IslaFantasma_Desbloqueada=true;
+		}
+		if (CS.aciertos >= 2) {
+			Invoke ("ActivarEstrella2", 2.0f);
+		}
+		if (CS.aciertos >= 4) {
+			Invoke ("ActivarEstrella3", 3.0f);
+			if(CS.nivel == 1 &&CMisiones.ejerB_3estrellas[2]==false)
+			{
+				CMisiones.ejerB_3estrellas[2]=true;
+				CMisiones.Mision_Dino();
+			}
+			if(CS.nivel==2&&CMisiones.ejerB_3estrellas[3]==false)
+			{
+				CMisiones.ejerB_3estrellas[3]=true;
+				CMisiones.Mision_Dino();
+			}
+			if(CS.nivel==2&&CMisiones.ejerB_3estrellas[4]==false)
+			{
+				CMisiones.ejerB_3estrellas[4]=true;
+				CMisiones.Mision_Dino();
+			}
+		}
+		
+		
+		TpuntuacionFin.text = "\nACIERTOS: " + CS.aciertos.ToString ();
+		
+		TmonedasSonidos.text = cM.MonedasSonidos.ToString();
+		
+		CS.aciertos = 0;
+		CS.fallos = 0;
+		//cdg.aciertosSeguidos = 0;
+		//cdg.combos = 0;
+		cM.MonedasSonidos = 0;
+	}
+
+	void Notificacion ()
+	{
+		cdg_3d=GameObject.Find ("ControlDatosGlobales").GetComponent<ControlDatosGlobales_Mundo3D> ();
+		CMisiones=GameObject.Find ("Misiones").GetComponent<ControlMisiones>();
+		
+		IfinJuego2.SetActive (true);
+		IfinJuego2.GetComponent<Animator>().Play ("AnimFinPartida");
+		
+		RS.StopSonido();
+		
+		puntuacionfin = GameObject.Find ("puntuacionFin");
+		TpuntuacionFin = puntuacionfin.GetComponent<Text> ();
+		
+		monedasSonidos = GameObject.Find ("monedas");
+		TmonedasSonidos = monedasSonidos.GetComponent<Text> ();
+		
+		cM=GameObject.Find("controlMonedas").GetComponent<Control_monedas>();
+		
+		cM.calcular_monedasSonidos ();
+		cM.calcular_monedasGenerales ();
+		
+		if (CS.aciertos >= 1) 
+		{
+			Invoke ("ActivarEstrella1", 1.0f);
+			//desbloquear su¡iguiente nivel
+			BotonSiguienteNivel.SetActive(true);
+			if(CS.nivel<DD.ASonidos.Length)
+			{
+				DD.ASonidos[CS.nivel]=true;
+			}
+			cdg_3d.IslaFantasma_Desbloqueada=true;
+		}
+		if (CS.aciertos >= 2) {
+			Invoke ("ActivarEstrella2", 2.0f);
+		}
+		if (CS.aciertos >= 4) {
+			Invoke ("ActivarEstrella3", 3.0f);
+			if(CS.nivel == 1 &&CMisiones.ejerB_3estrellas[2]==false)
+			{
+				CMisiones.ejerB_3estrellas[2]=true;
+				CMisiones.Mision_Dino();
+			}
+			if(CS.nivel==2&&CMisiones.ejerB_3estrellas[3]==false)
+			{
+				CMisiones.ejerB_3estrellas[3]=true;
+				CMisiones.Mision_Dino();
+			}
+			if(CS.nivel==2&&CMisiones.ejerB_3estrellas[4]==false)
+			{
+				CMisiones.ejerB_3estrellas[4]=true;
+				CMisiones.Mision_Dino();
+			}
+		}
+		
+		
+		TpuntuacionFin.text ="NIVEL "+ (CS.nivel+1)+ " DESBLOQUEADO" + "\n" + "\nACIERTOS: " + CS.aciertos.ToString ();
+		
+		TmonedasSonidos.text = cM.MonedasSonidos.ToString();
+		
+		cdg_3d.IslaFantasma_Desbloqueada=true;
+		DD.ASonidos[CS.nivel]=true;
+	}
+
 	public void seguirJugando()
 	{
 		IfinJuego2.SetActive (false);

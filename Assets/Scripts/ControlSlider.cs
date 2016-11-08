@@ -60,16 +60,16 @@ public class ControlSlider : MonoBehaviour
 
 		BarraProgreso.value = CS.aciertos;
 
-		if (BarraProgreso.value == 5) 
+		if (BarraProgreso.value == 1) 
 		{
 			estrellas[0].GetComponent<Image>().sprite=estrellaactiva;
 		}
-		if (BarraProgreso.value == 10) 
+		if (BarraProgreso.value == 2) 
 		{
 			estrellas[1].GetComponent<Image>().sprite=estrellaactiva;
 			estrellas[2].GetComponent<Image>().sprite=estrellaactiva;
 		}
-		if (BarraProgreso.value == 15) 
+		if (BarraProgreso.value == 4) 
 		{
 			estrellas[3].GetComponent<Image>().sprite=estrellaactiva;
 			estrellas[4].GetComponent<Image>().sprite=estrellaactiva;
