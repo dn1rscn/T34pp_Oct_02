@@ -2807,6 +2807,14 @@ ModelImporter:
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
+      - time: .167886257
+        functionName: Rebote
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 2b03c9e15558b574aaa84af5ce264b6d,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask:
       - path: 
         weight: 1
@@ -3321,6 +3329,14 @@ ModelImporter:
         messageOptions: 0
       - time: .62165612
         functionName: Musicaacierto
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 2b03c9e15558b574aaa84af5ce264b6d,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: .0440714844
+        functionName: Botar
         data: 
         objectReferenceParameter: {fileID: 11500000, guid: 2b03c9e15558b574aaa84af5ce264b6d,
           type: 3}
@@ -4322,7 +4338,15 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: .657018065
+        functionName: Botar
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 2b03c9e15558b574aaa84af5ce264b6d,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask:
       - path: 
         weight: 1
