@@ -49,6 +49,6 @@ public class Interface_Mundo : MonoBehaviour
 	}
 	public void pause()
 	{
-		Time.timeScale = 0;
+		//Time.timeScale = 0;
 	}
 }
