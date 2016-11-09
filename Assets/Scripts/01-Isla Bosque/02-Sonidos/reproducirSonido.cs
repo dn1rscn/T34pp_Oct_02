@@ -19,6 +19,7 @@ public class reproducirSonido : MonoBehaviour
 	public AudioSource Micro;*/
 	public GameObject BotonPlay;
 	public GameObject BotonRepetir;
+	public ParticleSystem Particulasmusica; 
 
 
 	
@@ -31,6 +32,8 @@ public class reproducirSonido : MonoBehaviour
 		CS = GameObject.Find ("ctrSonidos").GetComponent<ControlSonidos> ();
 		//BotonPlay.SetActive (true);
 		//BotonRepetir.SetActive (false);
+		Particulasmusica.gameObject.SetActive (false); 
+
 	}
 	
 	// Update is called once per frame
@@ -48,6 +51,7 @@ public class reproducirSonido : MonoBehaviour
 		else 
 		{
 			ASonidos [SonidoAleatorio].Play ();
+
 		}
 
 	}
@@ -55,6 +59,7 @@ public class reproducirSonido : MonoBehaviour
 	public void StopSonido()
 	{
 		ASonidos [SonidoAleatorio].Stop ();
+		Particulasmusica.Stop(); 
 		/*for (int i=0; i<ASonidos.Length; i++) 
 		{
 			ASonidos [i].Stop ();
@@ -76,11 +81,15 @@ public class reproducirSonido : MonoBehaviour
 			while(SonidosOK[SonidoAleatorio]==true)
 			{
 				SonidoAleatorio = Random.Range (0, 4);
+
 			}
 			sonidoOK = SonidoAleatorio;
 			ASonidos [sonidoOK].Play ();
+			Particulasmusica.gameObject.SetActive (true); 
+			Particulasmusica.Play(); 
 			//BotonPlay.SetActive (false);
 			//BotonRepetir.SetActive (true);
+
 		} else if (RS.respuesta == false) 
 		{
 			//MENSAJE MASCOTA NO HAY RESPUESTA
