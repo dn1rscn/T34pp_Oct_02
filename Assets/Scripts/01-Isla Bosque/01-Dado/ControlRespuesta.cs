@@ -6,6 +6,7 @@ public class ControlRespuesta : MonoBehaviour
 {
 	ControlDatosGlobales_Mundo3D cdg_3d;
 	ControlMisiones CMisiones;
+	ControlNotificaciones CNotificaciones;
 
 	ControlDatosGlobales_PICTOGRAMAS cdg;
 	GameObject DGlobales;
@@ -49,6 +50,7 @@ public class ControlRespuesta : MonoBehaviour
 		DGlobales = GameObject.Find ("DatosGlobales");
 		cdg = DGlobales.GetComponent<ControlDatosGlobales_PICTOGRAMAS> ();
 		cdg_3d=GameObject.Find ("ControlDatosGlobales").GetComponent<ControlDatosGlobales_Mundo3D> ();
+		CNotificaciones = GameObject.Find ("Notificaciones").GetComponent<ControlNotificaciones> ();
 		resetearDado ();
 		actualizarPuntuacion ();
 		IfinJuego.SetActive (false);
@@ -104,6 +106,8 @@ public class ControlRespuesta : MonoBehaviour
 		CSlider = GameObject.Find ("Progreso").GetComponent<ControlSlider> ();
 		ControlMonedas = GameObject.Find ("controlMonedas");
 		cM = ControlMonedas.GetComponent<Control_monedas> ();
+		CNotificaciones = GameObject.Find ("Notificaciones").GetComponent<ControlNotificaciones> ();
+		CMisiones=GameObject.Find ("Misiones").GetComponent<ControlMisiones>();
 
 		print ("correcto");
 
@@ -125,9 +129,43 @@ public class ControlRespuesta : MonoBehaviour
 			cdg.combos++;
 			cdg.aciertosSeguidos=0;
 		}
+		if(cdg.aciertos==15)
+		{
+			if(CMisiones.dado1==true&&CMisiones.ejerB_3estrellas[0]==false)
+			{
+				CMisiones.ejerB_3estrellas[0]=true;
+				CMisiones.Mision_Dino();
+				CNotificaciones.Nivel2.SetActive(false);
+				for(int i=0;i < CNotificaciones.MisionDino.Length; i++)
+				{
+					CNotificaciones.MisionDino[i].SetActive(false);
+				}
+				CNotificaciones.MisionDino[0].SetActive(true);
+				GameObject.Find("Notificaciones").GetComponent<Animator>().Play("abrirNotificacion");
+			}
+			if(CMisiones.dado2==true&&CMisiones.ejerB_3estrellas[1]==false)
+			{
+				CMisiones.ejerB_3estrellas[1]=true;
+				CMisiones.Mision_Dino();
+				CNotificaciones.Nivel2.SetActive(false);
+				for(int i=0;i < CNotificaciones.MisionDino.Length; i++)
+				{
+					CNotificaciones.MisionDino[i].SetActive(false);
+				}
+				CNotificaciones.MisionDino[1].SetActive(true);
+				GameObject.Find("Notificaciones").GetComponent<Animator>().Play("abrirNotificacion");
+			}
+		}
 		if (cdg.aciertos == 10 && DD.Nivel2Dado == false) 
 		{
-			GameObject.Find ("Dado").GetComponent<ControlDado>().enabled=false;
+			CNotificaciones.Nivel2.SetActive(true);
+			for(int i=0;i < CNotificaciones.MisionDino.Length; i++)
+			{
+				CNotificaciones.MisionDino[i].SetActive(false);
+			}
+			GameObject.Find("Notificaciones").GetComponent<Animator>().Play("abrirNotificacion");
+
+			//GameObject.Find ("Dado").GetComponent<ControlDado>().enabled=false;
 
 			if(DD.Posicion+1<DD.ADado.Length)
 			{
@@ -135,43 +173,6 @@ public class ControlRespuesta : MonoBehaviour
 			}
 
 			DD.Nivel2Dado=true;
-
-			IfinJuego2.SetActive (true);
-			IfinJuego2.GetComponent<Animator>().Play ("AnimFinPartida");
-			
-			puntuacionfin = GameObject.Find ("puntuacionFin");
-			TpuntuacionFin = puntuacionfin.GetComponent<Text> ();
-			
-			monedasDado = GameObject.Find ("monedas");
-			TmonedasDado = monedasDado.GetComponent<Text> ();
-			
-			cM.calcular_monedasDado ();
-			cM.calcular_monedasGenerales ();
-
-			
-			if (cdg.aciertos >= 5) 
-			{
-				Invoke ("ActivarEstrella1", 1.0f);
-				if(cdg_3d.Ejer_Bosque[0]==false)
-				{
-					cdg_3d.Ejer_Bosque[0]=true;
-				}
-				DD.Portal2Bosque=true;
-			}
-			if (cdg.aciertos >= 10) 
-			{
-				Invoke ("ActivarEstrella2", 2.0f);
-				
-			}
-			if (cdg.aciertos >= 15) 
-			{
-				Invoke ("ActivarEstrella3", 3.0f);
-			}
-			
-			
-			TpuntuacionFin.text = "NIVEL 2 DESBLOQUEADO"+"\n"+"\nACIERTOS: " + cdg.aciertos.ToString () + "\nCOMBOS: " + cdg.combos.ToString () + "\nLOGROS: ";
-			
-			TmonedasDado.text = cM.monedas_dado.ToString();
 		}
 	}
 	void error()
@@ -229,20 +230,10 @@ public class ControlRespuesta : MonoBehaviour
 			if (cdg.aciertos >= 15) 
 			{
 				Invoke ("ActivarEstrella3", 3.0f);
-				if(CMisiones.dado1==true&&CMisiones.ejerB_3estrellas[0]==false)
-				{
-					CMisiones.ejerB_3estrellas[0]=true;
-					CMisiones.Mision_Dino();
-				}
-				if(CMisiones.dado2==true&&CMisiones.ejerB_3estrellas[1]==false)
-				{
-					CMisiones.ejerB_3estrellas[1]=true;
-					CMisiones.Mision_Dino();
-				}
 			}
 
 			
-			TpuntuacionFin.text = "\nACIERTOS: " + cdg.aciertos.ToString () + "\nCOMBOS: " + cdg.combos.ToString () + "\nLOGROS: ";
+			TpuntuacionFin.text = "\nACIERTOS: " + cdg.aciertos.ToString () + "\nCOMBOS: " + cdg.combos.ToString ();
 
 			TmonedasDado.text = cM.monedas_dado.ToString();
 
@@ -292,6 +283,47 @@ public class ControlRespuesta : MonoBehaviour
 		cdg.aciertosSeguidos = 0;
 		cdg.combos = 0;
 		cM.monedas_dado = 0;
+	}
+	public void SalirDelJuego()
+	{
+		IfinJuego2.SetActive (true);
+		IfinJuego2.GetComponent<Animator>().Play ("AnimFinPartida");
+
+		cdg_3d=GameObject.Find ("ControlDatosGlobales").GetComponent<ControlDatosGlobales_Mundo3D> ();
+		
+		puntuacionfin = GameObject.Find ("puntuacionFin");
+		TpuntuacionFin = puntuacionfin.GetComponent<Text> ();
+		
+		monedasDado = GameObject.Find ("monedas");
+		TmonedasDado = monedasDado.GetComponent<Text> ();
+		
+		cM.calcular_monedasDado ();
+		cM.calcular_monedasGenerales ();
+		
+		
+		if (cdg.aciertos >= 5) 
+		{
+			Invoke ("ActivarEstrella1", 1.0f);
+			if(cdg_3d.Ejer_Bosque[0]==false)
+			{
+				cdg_3d.Ejer_Bosque[0]=true;
+			}
+			DD.Portal2Bosque=true;
+		}
+		if (cdg.aciertos >= 10) 
+		{
+			Invoke ("ActivarEstrella2", 2.0f);
+			
+		}
+		if (cdg.aciertos >= 15) 
+		{
+			Invoke ("ActivarEstrella3", 3.0f);
+		}
+		
+		
+		TpuntuacionFin.text = "\nACIERTOS: " + cdg.aciertos.ToString () + "\nCOMBOS: " + cdg.combos.ToString ();
+		
+		TmonedasDado.text = cM.monedas_dado.ToString();
 	}
 	public void seguirJugando()
 	{
