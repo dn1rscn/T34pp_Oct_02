@@ -7,6 +7,7 @@ public class RespuestaSonidos : MonoBehaviour
 {
 	ControlDatosGlobales_Mundo3D cdg_3d;
 	ControlMisiones CMisiones;
+	ControlNotificaciones CNotificaciones;
 
 	ControlSonidos CS;
 	reproducirSonido RS;
@@ -152,10 +153,15 @@ public class RespuestaSonidos : MonoBehaviour
 	void correcto()
 	{
 		CSlider = GameObject.Find ("Progreso").GetComponent<ControlSlider> ();
+		CNotificaciones = GameObject.Find ("Notificaciones").GetComponent<ControlNotificaciones> ();
+		CMisiones=GameObject.Find ("Misiones").GetComponent<ControlMisiones>();
+		CS = GameObject.Find ("ctrSonidos").GetComponent<ControlSonidos> ();
 
 		GameObject.Find("Dinoi_animaciones_v3").GetComponent<Animator>().Play("Acierto_01_dino");
 		
 		GameObject.Find("Panel_Canvas").GetComponent<Animator>().Play("acierto");
+
+		GameObject.Find("Isla_Bosque_Boton_Play").GetComponent<Animator>().Play ("anim_Play");
 
 		CS.aciertos++;
 		BotonPlay.SetActive (true);
@@ -172,17 +178,75 @@ public class RespuestaSonidos : MonoBehaviour
 
 			if(CS.nivel==1&&DD.Nivel2Sonidos==false)
 			{
-				Notificacion();
+				//Notificacion();
+				DD.ASonidos[CS.nivel]=true;
+				CNotificaciones.Nivel2.SetActive(true);
+				CNotificaciones.Nivel3.SetActive(false);
+				for(int i=0;i < CNotificaciones.MisionDino.Length; i++)
+				{
+					CNotificaciones.MisionDino[i].SetActive(false);
+				}
+				GameObject.Find("Notificaciones").GetComponent<Animator>().Play("abrirNotificacion");
+				DD.Nivel2Sonidos=true;
 
 			}
 			if(CS.nivel==2&&DD.Nivel3Sonidos==false)
 			{
-				Notificacion();
+				//Notificacion();
+				DD.ASonidos[CS.nivel]=true;
+				CNotificaciones.Nivel3.SetActive(true);
+				CNotificaciones.Nivel2.SetActive(false);
+				for(int i=0;i < CNotificaciones.MisionDino.Length; i++)
+				{
+					CNotificaciones.MisionDino[i].SetActive(false);
+				}
+				GameObject.Find("Notificaciones").GetComponent<Animator>().Play("abrirNotificacion");
+				DD.Nivel3Sonidos=true;
 			}
 		}
 
 		if (CS.aciertos == 4) 
 		{
+			if(CS.nivel == 1 &&CMisiones.ejerB_3estrellas[2]==false)
+			{
+				CMisiones.ejerB_3estrellas[2]=true;
+				CMisiones.Mision_Dino();
+				CNotificaciones.Nivel2.SetActive(false);
+				CNotificaciones.Nivel3.SetActive(false);
+				for(int i=0;i < CNotificaciones.MisionDino.Length; i++)
+				{
+					CNotificaciones.MisionDino[i].SetActive(false);
+				}
+				CNotificaciones.MisionDino[2].SetActive(true);
+				GameObject.Find("Notificaciones").GetComponent<Animator>().Play("abrirNotificacion");
+			}
+			if(CS.nivel==2&&CMisiones.ejerB_3estrellas[3]==false)
+			{
+				CMisiones.ejerB_3estrellas[3]=true;
+				CMisiones.Mision_Dino();
+				CNotificaciones.Nivel2.SetActive(false);
+				CNotificaciones.Nivel3.SetActive(false);
+				for(int i=0;i < CNotificaciones.MisionDino.Length; i++)
+				{
+					CNotificaciones.MisionDino[i].SetActive(false);
+				}
+				CNotificaciones.MisionDino[3].SetActive(true);
+				GameObject.Find("Notificaciones").GetComponent<Animator>().Play("abrirNotificacion");
+			}
+			if(CS.nivel==3&&CMisiones.ejerB_3estrellas[4]==false)
+			{
+				CMisiones.ejerB_3estrellas[4]=true;
+				CMisiones.Mision_Dino();
+				CNotificaciones.Nivel2.SetActive(false);
+				CNotificaciones.Nivel3.SetActive(false);
+				for(int i=0;i < CNotificaciones.MisionDino.Length; i++)
+				{
+					CNotificaciones.MisionDino[i].SetActive(false);
+				}
+				CNotificaciones.MisionDino[4].SetActive(true);
+				GameObject.Find("Notificaciones").GetComponent<Animator>().Play("abrirNotificacion");
+			}
+
 			FinPartida();
 		}
 
@@ -276,7 +340,7 @@ public class RespuestaSonidos : MonoBehaviour
 				CMisiones.ejerB_3estrellas[3]=true;
 				CMisiones.Mision_Dino();
 			}
-			if(CS.nivel==2&&CMisiones.ejerB_3estrellas[4]==false)
+			if(CS.nivel==3&&CMisiones.ejerB_3estrellas[4]==false)
 			{
 				CMisiones.ejerB_3estrellas[4]=true;
 				CMisiones.Mision_Dino();
@@ -295,7 +359,7 @@ public class RespuestaSonidos : MonoBehaviour
 		cM.MonedasSonidos = 0;
 	}
 
-	void Notificacion ()
+	public void Notificacion ()
 	{
 		cdg_3d=GameObject.Find ("ControlDatosGlobales").GetComponent<ControlDatosGlobales_Mundo3D> ();
 		CMisiones=GameObject.Find ("Misiones").GetComponent<ControlMisiones>();
@@ -342,7 +406,7 @@ public class RespuestaSonidos : MonoBehaviour
 				CMisiones.ejerB_3estrellas[3]=true;
 				CMisiones.Mision_Dino();
 			}
-			if(CS.nivel==2&&CMisiones.ejerB_3estrellas[4]==false)
+			if(CS.nivel==3&&CMisiones.ejerB_3estrellas[4]==false)
 			{
 				CMisiones.ejerB_3estrellas[4]=true;
 				CMisiones.Mision_Dino();
@@ -350,7 +414,7 @@ public class RespuestaSonidos : MonoBehaviour
 		}
 		
 		
-		TpuntuacionFin.text ="NIVEL "+ (CS.nivel+1)+ " DESBLOQUEADO" + "\n" + "\nACIERTOS: " + CS.aciertos.ToString ();
+		TpuntuacionFin.text ="\nACIERTOS: " + CS.aciertos.ToString ();
 		
 		TmonedasSonidos.text = cM.MonedasSonidos.ToString();
 		
@@ -361,5 +425,6 @@ public class RespuestaSonidos : MonoBehaviour
 	public void seguirJugando()
 	{
 		IfinJuego2.SetActive (false);
+		cM.monedas = cM.monedas - cM.MonedasSonidos;
 	}
 }

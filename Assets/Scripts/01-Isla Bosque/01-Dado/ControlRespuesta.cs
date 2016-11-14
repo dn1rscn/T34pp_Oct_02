@@ -24,6 +24,8 @@ public class ControlRespuesta : MonoBehaviour
 
 	ControlSlider CSlider;
 
+	public Material Im_Dado;
+
 	public GameObject[] vidas;
 
 	public GameObject IfinJuego;
@@ -122,6 +124,9 @@ public class ControlRespuesta : MonoBehaviour
 		
 		GameObject.Find("Panel_Canvas").GetComponent<Animator>().Play("acierto");
 
+		GameObject.Find ("Dado").GetComponent<Renderer> ().sharedMaterial = Im_Dado;
+		GameObject.Find("Dado").GetComponent<Animator>().Play ("Tirar_dado");
+
 		actualizarPuntuacion ();
 
 		if (cdg.aciertosSeguidos == 3) 
@@ -142,6 +147,7 @@ public class ControlRespuesta : MonoBehaviour
 				}
 				CNotificaciones.MisionDino[0].SetActive(true);
 				GameObject.Find("Notificaciones").GetComponent<Animator>().Play("abrirNotificacion");
+				SalirDelJuego();
 			}
 			if(CMisiones.dado2==true&&CMisiones.ejerB_3estrellas[1]==false)
 			{
@@ -154,6 +160,7 @@ public class ControlRespuesta : MonoBehaviour
 				}
 				CNotificaciones.MisionDino[1].SetActive(true);
 				GameObject.Find("Notificaciones").GetComponent<Animator>().Play("abrirNotificacion");
+				SalirDelJuego();
 			}
 		}
 		if (cdg.aciertos == 10 && DD.Nivel2Dado == false) 
@@ -329,5 +336,6 @@ public class ControlRespuesta : MonoBehaviour
 	{
 		IfinJuego2.SetActive (false);
 		GameObject.Find ("Dado").GetComponent<ControlDado>().enabled=true;
+		cM.monedas = cM.monedas - cM.monedas_dado;
 	}
 }

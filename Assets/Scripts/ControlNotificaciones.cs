@@ -4,6 +4,7 @@ using System.Collections;
 public class ControlNotificaciones : MonoBehaviour 
 {
 	public GameObject Nivel2;
+	public GameObject Nivel3;
 	public GameObject[] MisionDino;
 
 	// Use this for initialization
