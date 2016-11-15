@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class ControlRespuestaSec : MonoBehaviour 
 {
+	public GameObject[] vidas;
+
 	public Sprite primera;
 	public Sprite segunda;
 	public Sprite tercera;
@@ -85,9 +87,20 @@ public class ControlRespuestaSec : MonoBehaviour
 		{
 			print("fallo");
 
-			cs.intentos++;
+			cs.fallos++;
 			actualizarPuntuacion();
 			CSlider.progresoSecuencias ();
+
+			if(cs.fallos==3)
+			{
+				vidas [cs.fallos-1].SetActive (false);
+				Fin_Sec.finjuego();
+			}
+			else
+			{
+				vidas [cs.fallos-1].SetActive (false);
+			}
+
 
 			//ejecutar animacionError
 			GameObject.Find("Panel_Canvas").GetComponent<Animator>().Play("Fallo");
@@ -102,7 +115,7 @@ public class ControlRespuestaSec : MonoBehaviour
 		puntuacion = GameObject.Find ("puntuacion");
 		Tpuntuacion = puntuacion.GetComponent<Text> ();
 		
-		Tpuntuacion.text = cs.intentos.ToString();
+		Tpuntuacion.text = cs.fallos.ToString();
 	}
 
 }

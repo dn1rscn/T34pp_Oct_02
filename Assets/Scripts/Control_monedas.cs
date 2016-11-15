@@ -76,18 +76,18 @@ public class Control_monedas : MonoBehaviour
 		ctrlsecuencias = GameObject.Find ("DatosGlobalesSecuencias");
 		cs = ctrlsecuencias.GetComponent<ControlSecuencias> ();
 
-		switch (cs.intentos) 
+		switch (cs.fallos) 
 		{
-			case 1:
+			case 0:
 				monedas_intentos=100;
 				break;
-			case 2:
+			case 1:
 				monedas_intentos=50;
 				break;
-			case 3:
+			case 2:
 				monedas_intentos=10;
 				break;
-			case 4:
+			case 3:
 				monedas_intentos=0;
 				break;
 		}

@@ -80,21 +80,21 @@ public class ControlSlider : MonoBehaviour
 	public void progresoSecuencias()
 	{
 		cs = GameObject.Find ("DatosGlobalesSecuencias").GetComponent<ControlSecuencias> ();
-		BarraProgreso.value = 5 - (cs.intentos);
+		BarraProgreso.value = 3-(cs.fallos);
 
-		if (BarraProgreso.value == 3) //2 intentos
+		if (BarraProgreso.value == 2) //0 intentos
 		{
 			estrellas[3].GetComponent<Image>().sprite=NOstrella;
 			estrellas[4].GetComponent<Image>().sprite=NOstrella;
 			estrellas[5].GetComponent<Image>().sprite=NOstrella;
 		}
 
-		if (BarraProgreso.value == 1) // 4 jntentos
+		if (BarraProgreso.value == 1) // 1 jntentos
 		{
 			estrellas[1].GetComponent<Image>().sprite=NOstrella;
 			estrellas[2].GetComponent<Image>().sprite=NOstrella;
 		}
-		if (BarraProgreso.value == 0) //5 intentos
+		if (BarraProgreso.value == 0) //2 intentos
 		{
 			estrellas[0].GetComponent<Image>().sprite=NOstrella;
 		}

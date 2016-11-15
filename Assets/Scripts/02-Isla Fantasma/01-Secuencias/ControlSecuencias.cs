@@ -8,7 +8,7 @@ public class ControlSecuencias : MonoBehaviour
 	public bool p1=false;
 	public bool p2=false;
 	public bool p3=false;
-	public int intentos=1;
+	public int fallos=0;
 	public bool[] Asecuencias;
 	public int Secuencia;
 

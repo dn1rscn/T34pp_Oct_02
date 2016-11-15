@@ -51,7 +51,7 @@ public class FinPartida_Secuencias : MonoBehaviour
 		cM.calcular_monedasSecuencia ();
 		cM.calcular_monedasGenerales ();
 		
-		if (cs.intentos == 4 ) 
+		if (cs.fallos == 2 ) 
 		{
 			Invoke ("ActivarEstrella1", 1.0f);
 			//ActivarEstrella1();
@@ -61,7 +61,7 @@ public class FinPartida_Secuencias : MonoBehaviour
 				cs.Asecuencias[cs.Secuencia]=true;
 			}
 		}
-		if (cs.intentos == 3 || cs.intentos == 2) 
+		if (cs.fallos == 1) 
 		{
 			Invoke ("ActivarEstrella1", 1.0f);
 			Invoke ("ActivarEstrella2", 2.0f);
@@ -72,7 +72,7 @@ public class FinPartida_Secuencias : MonoBehaviour
 			}
 			//desbloquearportal
 		}
-		if (cs.intentos == 1) {
+		if (cs.fallos == 0) {
 			Invoke ("ActivarEstrella1", 1.0f);
 			Invoke ("ActivarEstrella2", 2.0f);
 			Invoke ("ActivarEstrella3", 3.0f);
@@ -84,7 +84,7 @@ public class FinPartida_Secuencias : MonoBehaviour
 		}
 		
 		
-		TpuntuacionFin.text = "\nINTENTOS: " + cs.intentos.ToString ();
+		TpuntuacionFin.text = "\nFALLOS: " + cs.fallos.ToString ();
 		
 		TmonedasSecuencia.text = cM.monedas_secuencia.ToString();
 		
@@ -120,7 +120,7 @@ public class FinPartida_Secuencias : MonoBehaviour
 		ControlMonedas = GameObject.Find ("controlMonedas");
 		cM = ControlMonedas.GetComponent<Control_monedas> ();
 		
-		cs.intentos = 1;
+		cs.fallos = 0;
 		cM.monedas_secuencia = 0;
 		cs.p1 = false;
 		cs.p2 = false;
