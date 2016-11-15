@@ -56,7 +56,7 @@ public class ControlProtaMouse_2 : MonoBehaviour {
 
 				if (Input.GetMouseButtonDown (0)) 
 				{
-					//print (impacto.collider.tag);
+					print (impacto.collider.name);
 				//if(impacto.collider.tag!="Canvas" && impacto.collider.tag=="Suelo"){
 						agente.SetDestination(impacto.point);
 					

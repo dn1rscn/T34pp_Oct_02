@@ -7,22 +7,21 @@ public class Interface_Mundo : MonoBehaviour
 
 	NavMeshAgent agente;
 
+	Animator animatorCanvas;
+	Animator animatorCamaraProta;
+
+
 	public GameObject Bcerrar;
 	public GameObject Babrir;
 
 	// Use this for initialization
 	void Start () 
 	{
+		animatorCanvas = GameObject.Find("Canvas_Mundo3D").GetComponent<Animator>();
+		animatorCamaraProta = GameObject.Find("PivoteCamaraPrincipal").GetComponent<Animator>();
 		//GameObject.Find ("Chico_TEAPlay").GetComponent<ControlProtaMouse_2> ().enabled = true;
 	}
-	
-	// Update is called once per frame
-	void Update () 
-	{
-		agente = GameObject.Find ("Chico_TEAPlay").GetComponent<NavMeshAgent> ();
-		//print (agente.remainingDistance);
-	
-	}
+
 	public void cerrar()
 	{
 		Bcerrar.SetActive (false);
@@ -48,7 +47,9 @@ public class Interface_Mundo : MonoBehaviour
 	{
 		GameObject.Find ("Chico_TEAPlay").GetComponent<ControlProtaMouse_2> ().enabled = true;
 		Time.timeScale = 1;
-		Application.LoadLevel ("Mapa");
+		//Application.LoadLevel ("Mapa");
+		abrirMenuSeleccionIslas();
+
 	}
 	public void PersonalizacionJuego()
 	{
@@ -62,5 +63,26 @@ public class Interface_Mundo : MonoBehaviour
 	public void pause()
 	{
 		//Time.timeScale = 0;
+	}
+
+	public void abrirMenuSeleccionIslas(){
+
+		//activamos la animacion del canvas para sacar el menu
+		animatorCanvas.Play("Canvas_MenuSeleccionIslas");
+
+		//activamos la animacion "AnimMenuIslasCamara_01" de la camara del prota
+		animatorCamaraProta.SetBool("SelecIsla",true);
+
+	}
+	public void cerrarMenuSeleccionIslas(){
+		
+		//activamos la animacion del canvas para sacar el menu
+		animatorCanvas.Play("Canvas_Salir_MenuSeleccionIslas");
+		
+		//activamos la animacion "AnimMenuIslasCamara_01" de la camara del prota
+		animatorCamaraProta.SetBool("SelecIsla",false);
+		cerrar();
+
+		
 	}
 }
