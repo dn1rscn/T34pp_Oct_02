@@ -3,11 +3,14 @@ using System.Collections;
 
 public class controlInteraccionDino : MonoBehaviour {
 
+	ControlDatosGlobales_Mundo3D CDG_Mundo3D;
+
 	SpriteRenderer spr_flechaDestino_Dino;
 	SpriteRenderer spr_bocadilloDino_01;
 	SpriteRenderer spr_bocadilloDino_02;
 	
 	Vector3 posicionConversarConDino;
+	Vector3 posicionConversarConDino2;
 
 	ControlProtaMouse_2 ctrlProta;
 
@@ -21,10 +24,14 @@ public class controlInteraccionDino : MonoBehaviour {
 	Animator animator_Cam;
 	Animator animator_Prota;
 
-	public bool posicionCorrecta=false;
+	private bool posicionCorrecta=false;
 
 	// Use this for initialization
-	void Start () {
+	void Start () 
+	{
+
+		//ACCEDEMOS AL SCRIPT DE DATOS GLOBALES
+		CDG_Mundo3D = GameObject.Find("ControlDatosGlobales").GetComponent<ControlDatosGlobales_Mundo3D>();
 
 		Dino= GameObject.Find("Dinoi_animaciones_v3");
 
@@ -34,6 +41,7 @@ public class controlInteraccionDino : MonoBehaviour {
 
 		agente = GameObject.Find ("Chico_TEAPlay").GetComponent<NavMeshAgent>();
 		posicionConversarConDino = GameObject.Find("Posicion_ConversarConDino").transform.position; 
+		posicionConversarConDino2 = GameObject.Find("Posicion_ConversarConDino2").transform.position; 
 
 		animator_Dino = GameObject.Find ("Dinoi_animaciones_v3").GetComponent <Animator> ();
 		animator_Cam = GameObject.Find ("PivoteCamaraPrincipal").GetComponent <Animator> ();
@@ -47,6 +55,8 @@ public class controlInteraccionDino : MonoBehaviour {
 	{
 		if (coli.gameObject.name == "Chico_TEAPlay") 
 		{
+			if (!CDG_Mundo3D.hemosHabladoConDino)
+			{
 			//Desactivamos la flecha de destino sobre el dino
 			spr_flechaDestino_Dino.enabled = false;
 
@@ -65,26 +75,38 @@ public class controlInteraccionDino : MonoBehaviour {
 			//Activamos el primer bocadillo de conversacion y el boton para pasar de bocadillos en el canvas
 			spr_bocadilloDino_01.enabled=true;
 			gObj_botonPasarBocadillo.SetActive(true);
+	
+			}
+			else 
+			{
+				DinoAnimFallo_activar();
+				Invoke ("DinoAnimFallo_desactivar",2.0f);
+			}
 		}
-		
 	}
 
 	void OnTriggerStay(Collider coli)
 	{
-		//Colocamos al personaje en la posicion correcta.
-		if (coli.gameObject.name == "Chico_TEAPlay" && !posicionCorrecta) 
+		if (!CDG_Mundo3D.hemosHabladoConDino)
 		{
-			agente.transform.LookAt(Dino.transform.position);
+			//Colocamos al personaje en la posicion correcta.
+			if (coli.gameObject.name == "Chico_TEAPlay" && !posicionCorrecta) 
+			{
+				//agente.transform.LookAt(Dino.transform.position);
 
-			if(agente.remainingDistance >= 0.1) //&& (impacto.point-agente.transform.position).magnitude>= distanciaMinima)
-			{
-				posicionCorrecta=false;
-				animator_Prota.SetBool ("andar", true);
-			}
-			else
-			{
-				posicionCorrecta=true;
-				animator_Prota.SetBool("andar",false);
+				if(agente.remainingDistance >= 0.1) //&& (impacto.point-agente.transform.position).magnitude>= distanciaMinima)
+				{
+					posicionCorrecta=false;
+					animator_Prota.SetBool ("andar", true);
+				}
+				else
+				{
+					agente.transform.LookAt(Dino.transform.position);
+
+					//posicionCorrecta=true;
+					animator_Prota.SetBool("andar",false);
+				}
+			
 			}
 
 		}
@@ -100,7 +122,6 @@ public class controlInteraccionDino : MonoBehaviour {
 
 			posicionCorrecta=false;
 			animator_Dino.SetBool ("fallo_Dino", false);
-
 
 		}
 		
@@ -130,6 +151,8 @@ public class controlInteraccionDino : MonoBehaviour {
 
 		spr_bocadilloDino_02.enabled=false;
 		gObj_botonPasarBocadillo.SetActive(false);
+
+		CDG_Mundo3D.hemosHabladoConDino=true;
 
 		animator_Cam.SetBool("ZoomCam", false);
 		animator_Dino.SetBool ("fallo_Dino", false);

@@ -27,7 +27,12 @@ public class ControlDatosGlobales_Mundo3D: MonoBehaviour {
 	//si posicionPersonaje = 2 , el prota aparecera en la posicion media del nivel
 	//si posicionPersonaje = 3 , el prota aparecera en la posicion final del nivel
 	//si posicionPersonaje tiene un valor sin determinar, iniciara en la posicion inicial del nivel
-	public bool primeraVez_IslaDino=true;
+
+	//public bool primeraVez_IslaDino=true;
+
+	public bool hemosHabladoConDino = false;
+	public bool hemosHabladoConFantasma = false;
+	public bool hemosHabladoConRobot = false;
 
 	void Awake ()
 	{

@@ -40,9 +40,9 @@ public class controlMascota : MonoBehaviour {
 
 		// 1º.- Si la mascota esta a mas de 20 unidades del objetivo, ejecutamos y mantenemos la 
 			// animacion de correr
-		if (agente_mascota.remainingDistance>=15) 
+		if (agente_mascota.remainingDistance>=13) 
 		{
-			agente_mascota.speed = 13f;
+			agente_mascota.speed = 10f;
 			animator_mascota.SetBool ("correr", true);
 		}
 
@@ -50,7 +50,7 @@ public class controlMascota : MonoBehaviour {
 			// animacion de andar
 		else if (agente_mascota.remainingDistance>=7)  //*Hacer coincidir este parametro con el stopping distance del NavMeshAgent
 		{
-			agente_mascota.speed = 7f;
+			agente_mascota.speed = 4f;
 			animator_mascota.SetBool ("andar", true);
 			animator_mascota.SetBool ("correr", false);
 		}

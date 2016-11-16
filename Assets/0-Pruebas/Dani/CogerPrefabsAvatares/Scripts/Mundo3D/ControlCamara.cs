@@ -8,6 +8,9 @@ public class ControlCamara : MonoBehaviour {
 	
 	
 	public GameObject jugador;
+
+	GameObject FlechaDer;
+	GameObject FlechaIzq;
 	int estadoRotacion;
 	
 	Rigidbody rb_jugador;
@@ -18,6 +21,12 @@ public class ControlCamara : MonoBehaviour {
 	
 	void Start ()
 	{
+		FlechaDer = GameObject.Find("mover_camIzq");
+		FlechaIzq = GameObject.Find("mover_camDer");
+
+		FlechaDer.SetActive(false);
+
+
 		offset = transform.position - jugador.transform.position;
 		rb_jugador = jugador.GetComponent<Rigidbody>();
 
@@ -39,7 +48,7 @@ public class ControlCamara : MonoBehaviour {
 
 
 	public void rotarCam_Izq(){
-		if(estadoRotacion<=2){
+		if(estadoRotacion<=1){
 			estadoRotacion++;
 			print (estadoRotacion);
 
@@ -67,14 +76,23 @@ public class ControlCamara : MonoBehaviour {
 		{
 		case 0: 
 			animatorPivote.SetBool("Pivote30",false);
+			FlechaDer.SetActive(false);
+			FlechaIzq.SetActive(true);
+
 			break;
 		case 1: 
 			animatorPivote.SetBool("Pivote30",true);
 			animatorPivote.SetBool("Pivote60",false);
+			FlechaDer.SetActive(true);
+			FlechaIzq.SetActive(true);
+
 			break;
 		case 2: 
 			animatorPivote.SetBool("Pivote30",false);
 			animatorPivote.SetBool("Pivote60",true);
+			FlechaIzq.SetActive(false);
+			FlechaDer.SetActive(true);
+
 			break;	
 			
 		}

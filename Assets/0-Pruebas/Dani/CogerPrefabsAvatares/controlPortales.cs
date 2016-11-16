@@ -1,10 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class controlPortales : MonoBehaviour {
 
 	Animator animator_PanelCanvas;
 	Animator animator_botonesPortal;
+
+	Text textoNombrePortal;
 
 	string destinoPortal;
 
@@ -18,12 +21,17 @@ public class controlPortales : MonoBehaviour {
 
 		animator_PanelCanvas = GameObject.Find ("CanvasPortal_Verde").GetComponent<Animator> ();
 		animator_botonesPortal = GameObject.Find("botonesPortal").GetComponent<Animator>();
+
 	}
 	
 	void OnTriggerEnter(Collider coli)
 	{
 		if (coli.gameObject.tag == "Portal")
 		{
+			//Recogemos el texto que contiene el gameObject "nombrePortal" en el momento de colisionar con el trigger
+			textoNombrePortal = GameObject.Find("nombrePortal").GetComponent<Text>();
+
+
 			print ("Colision con: "+coli.gameObject.name);
 			//Ejecutamos la animacion del canvas al entrar en algun portal
  			animator_PanelCanvas.Play("CanvasPortal_animIntro");
@@ -70,11 +78,9 @@ public class controlPortales : MonoBehaviour {
 			else if(coli.gameObject.name=="trigger_ejercicioCanasta")
 			{
 				//CDG_Mundo3D.posicionPersonaje = 2;
-				destinoPortal= "ejercicioCanasta";
+				destinoPortal= "juegoCanasta";
 				print(destinoPortal);
 				
-				//animator_PanelCanvas.Play("pasarABlanco");
-				//Invoke("cargarPictogramas2",100*Time.deltaTime);
 			}
 			else if(coli.gameObject.name=="trigger_islaMecanica")
 			{
@@ -82,8 +88,6 @@ public class controlPortales : MonoBehaviour {
 				destinoPortal= "islaMecanica";
 				print(destinoPortal);
 				
-				//animator_PanelCanvas.Play("pasarABlanco");
-				//Invoke("cargarPictogramas2",100*Time.deltaTime);
 			}
 
 
@@ -91,11 +95,9 @@ public class controlPortales : MonoBehaviour {
 			else if(coli.gameObject.name=="trigger_ejercicioEmocionesSocial")
 			{
 				//CDG_Mundo3D.posicionPersonaje = 2;
-				destinoPortal= "ejercicioEmocionesSocial";
+				destinoPortal= "emocionesSocial";
 				print(destinoPortal);
 				
-				//animator_PanelCanvas.Play("pasarABlanco");
-				//Invoke("cargarPictogramas2",100*Time.deltaTime);
 			}
 			else if(coli.gameObject.name=="trigger_ejercicioEmociones")
 			{
@@ -103,8 +105,6 @@ public class controlPortales : MonoBehaviour {
 				destinoPortal= "ejercicioEmociones";
 				print(destinoPortal);
 				
-				//animator_PanelCanvas.Play("pasarABlanco");
-				//Invoke("cargarPictogramas2",100*Time.deltaTime);
 			}
 			else if(coli.gameObject.name=="trigger_altarFinal")
 			{
@@ -112,9 +112,10 @@ public class controlPortales : MonoBehaviour {
 				destinoPortal= "altarFinal";
 				print(destinoPortal);
 				
-				//animator_PanelCanvas.Play("pasarABlanco");
-				//Invoke("cargarPictogramas2",100*Time.deltaTime);
 			}
+
+			//Actualizamos el texto contiene el gameObject "nombrePortal"
+			textoNombrePortal.text = destinoPortal;
 
 
 		}
@@ -149,7 +150,6 @@ public class controlPortales : MonoBehaviour {
 			CDG_Mundo3D.islaBosque = false;
 			CDG_Mundo3D.islaMec = false;
 			CDG_Mundo3D.islaFant = true;
-
 			break;
 
 		//ISLA FANTASMA
@@ -157,8 +157,8 @@ public class controlPortales : MonoBehaviour {
 			Application.LoadLevel("SECUENCIAS_menu_seleccion");
 			print ("Cargando ejercicio secuencias...");
 			break;
-		case "ejercicioCanasta":
-			//Application.LoadLevel("Sonidos_menu_Seleccion");
+		case "juegoCanasta":
+			Application.LoadLevel("10_iFantasma_P2_Canasta");
 			print ("Cargando ejercicio canasta...");
 			break;
 		case "islaMecanica":
@@ -170,7 +170,7 @@ public class controlPortales : MonoBehaviour {
 			break;
 
 		//ISLA MECANICA
-		case "ejercicioEmocionesSocial":
+		case "emocionesSocial":
 			Application.LoadLevel("1-Social_SelecNivel");
 			print ("Cargando ejercicio emociones social...");
 			break;
@@ -179,7 +179,7 @@ public class controlPortales : MonoBehaviour {
 			print ("Cargando ejercicio emociones...");
 			break;
 		case "altarFinal":
-			Application.LoadLevel("Isla_bosque");
+			Application.LoadLevel("Isla_altar");
 			print ("Cargando altarFINAL...");
 			CDG_Mundo3D.islaBosque = true;
 			CDG_Mundo3D.islaMec = false;

@@ -111,7 +111,7 @@ public class ControlEscenas : MonoBehaviour {
 		CDG_Mundo3D.islaMec = false;
 		CDG_Mundo3D.islaFant = false;
 	}
-
+	/*
 	public void CargarIslaDino(){
 
 		if(!CDG_Mundo3D.primeraVez_IslaDino)
@@ -125,6 +125,7 @@ public class ControlEscenas : MonoBehaviour {
 			Application.LoadLevel ("01_MenuInicial");
 		}
 	}
+	*/
 	public void CargarIslaRobot(){
 		Application.LoadLevel ("Isla_Mecanica_v3");
 		CDG_Mundo3D.islaBosque = false;
