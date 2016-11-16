@@ -6,7 +6,7 @@ public class ControlRespuesta : MonoBehaviour
 {
 	ControlDatosGlobales_Mundo3D cdg_3d;
 	ControlMisiones CMisiones;
-	ControlNotificaciones CNotificaciones;
+	ControlNotificaciones1 CNotificaciones;
 
 	ControlDatosGlobales_PICTOGRAMAS cdg;
 	GameObject DGlobales;
@@ -52,7 +52,7 @@ public class ControlRespuesta : MonoBehaviour
 		DGlobales = GameObject.Find ("DatosGlobales");
 		cdg = DGlobales.GetComponent<ControlDatosGlobales_PICTOGRAMAS> ();
 		cdg_3d=GameObject.Find ("ControlDatosGlobales").GetComponent<ControlDatosGlobales_Mundo3D> ();
-		CNotificaciones = GameObject.Find ("Notificaciones").GetComponent<ControlNotificaciones> ();
+		CNotificaciones = GameObject.Find ("Notificaciones").GetComponent<ControlNotificaciones1> ();
 		resetearDado ();
 		actualizarPuntuacion ();
 		IfinJuego.SetActive (false);
@@ -108,7 +108,7 @@ public class ControlRespuesta : MonoBehaviour
 		CSlider = GameObject.Find ("Progreso").GetComponent<ControlSlider> ();
 		ControlMonedas = GameObject.Find ("controlMonedas");
 		cM = ControlMonedas.GetComponent<Control_monedas> ();
-		CNotificaciones = GameObject.Find ("Notificaciones").GetComponent<ControlNotificaciones> ();
+		CNotificaciones = GameObject.Find ("Notificaciones").GetComponent<ControlNotificaciones1> ();
 		CMisiones=GameObject.Find ("Misiones").GetComponent<ControlMisiones>();
 
 		print ("correcto");

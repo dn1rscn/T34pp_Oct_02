@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ControlNotificaciones : MonoBehaviour 
+public class ControlNotificaciones1 : MonoBehaviour 
 {
 	public GameObject Nivel2;
 	public GameObject Nivel3;

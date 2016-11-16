@@ -7,7 +7,7 @@ public class RespuestaSonidos : MonoBehaviour
 {
 	ControlDatosGlobales_Mundo3D cdg_3d;
 	ControlMisiones CMisiones;
-	ControlNotificaciones CNotificaciones;
+	ControlNotificaciones1 CNotificaciones;
 
 	ControlSonidos CS;
 	reproducirSonido RS;
@@ -153,7 +153,7 @@ public class RespuestaSonidos : MonoBehaviour
 	void correcto()
 	{
 		CSlider = GameObject.Find ("Progreso").GetComponent<ControlSlider> ();
-		CNotificaciones = GameObject.Find ("Notificaciones").GetComponent<ControlNotificaciones> ();
+		CNotificaciones = GameObject.Find ("Notificaciones").GetComponent<ControlNotificaciones1> ();
 		CMisiones=GameObject.Find ("Misiones").GetComponent<ControlMisiones>();
 		CS = GameObject.Find ("ctrSonidos").GetComponent<ControlSonidos> ();
 

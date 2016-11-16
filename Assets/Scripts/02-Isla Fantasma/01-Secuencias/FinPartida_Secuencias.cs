@@ -20,11 +20,22 @@ public class FinPartida_Secuencias : MonoBehaviour
 	Text TpuntuacionFin;
 	ControlSecuencias cs;
 	GameObject ctrlsecuencias;
+	ControlMisiones CMisiones;
+	DatosDesbloqueo DD;
+	ControlNotificaciones2 CNotificaciones;
 
 	// Use this for initialization
 	void Start () 
 	{
+		CNotificaciones = GameObject.Find ("Notificaciones").GetComponent<ControlNotificaciones2> ();
+
 		IfinJuego.SetActive (false);
+		CNotificaciones.Siguiente_Secuencia.SetActive(false);
+		CNotificaciones.Portal.SetActive(false);
+		for(int i=0;i < CNotificaciones.MisionFantasma.Length; i++)
+		{
+			CNotificaciones.MisionFantasma[i].SetActive(false);
+		}
 	}
 	
 	// Update is called once per frame
@@ -33,6 +44,10 @@ public class FinPartida_Secuencias : MonoBehaviour
 	}
 	public void finjuego()
 	{
+		CMisiones=GameObject.Find ("Misiones").GetComponent<ControlMisiones>();
+		DD = GameObject.Find ("ctrDesbloqueo").GetComponent<DatosDesbloqueo> ();
+		CNotificaciones = GameObject.Find ("Notificaciones").GetComponent<ControlNotificaciones2> ();
+
 		ctrlsecuencias = GameObject.Find ("DatosGlobalesSecuencias");
 		cs = ctrlsecuencias.GetComponent<ControlSecuencias> ();
 		Debug.Log("finjuego2");
@@ -56,9 +71,14 @@ public class FinPartida_Secuencias : MonoBehaviour
 			Invoke ("ActivarEstrella1", 1.0f);
 			//ActivarEstrella1();
 			SiguienteSecuencia.SetActive(true);
-			if(cs.Secuencia<cs.Asecuencias.Length)
+			if(cs.Asecuencias[cs.Secuencia]==false)
 			{
-				cs.Asecuencias[cs.Secuencia]=true;
+				GameObject.Find("Notificaciones1").GetComponent<Animator>().Play("abrirNotificacion");
+				CNotificaciones.Siguiente_Secuencia.SetActive(true);
+				if(cs.Secuencia<cs.Asecuencias.Length)
+				{
+					cs.Asecuencias[cs.Secuencia]=true;
+				}
 			}
 		}
 		if (cs.fallos == 1) 
@@ -66,20 +86,48 @@ public class FinPartida_Secuencias : MonoBehaviour
 			Invoke ("ActivarEstrella1", 1.0f);
 			Invoke ("ActivarEstrella2", 2.0f);
 			SiguienteSecuencia.SetActive(true);
-			if(cs.Secuencia<cs.Asecuencias.Length)
+			if(cs.Asecuencias[cs.Secuencia]==false)
 			{
-				cs.Asecuencias[cs.Secuencia]=true;
+				CNotificaciones.Siguiente_Secuencia.SetActive(true);
+				GameObject.Find("Notificaciones").GetComponent<Animator>().Play("abrirNotificacion");
+				if(cs.Secuencia<cs.Asecuencias.Length)
+				{
+					cs.Asecuencias[cs.Secuencia]=true;
+				}
 			}
 			//desbloquearportal
+			if(cs.Secuencia==2&&DD.Portal2Fantasma==false)
+			{
+				DD.Portal2Fantasma=true;
+				CNotificaciones.Portal.SetActive(true);
+				GameObject.Find("Notificaciones").GetComponent<Animator>().Play("abrirNotificacion");
+			}
 		}
 		if (cs.fallos == 0) {
 			Invoke ("ActivarEstrella1", 1.0f);
 			Invoke ("ActivarEstrella2", 2.0f);
 			Invoke ("ActivarEstrella3", 3.0f);
 			SiguienteSecuencia.SetActive(true);
-			if(cs.Secuencia<cs.Asecuencias.Length)
+			if(cs.Asecuencias[cs.Secuencia]==false)
 			{
-				cs.Asecuencias[cs.Secuencia]=true;
+				CNotificaciones.Siguiente_Secuencia.SetActive(true);
+				GameObject.Find("Notificaciones").GetComponent<Animator>().Play("abrirNotificacion");
+				if(cs.Secuencia<cs.Asecuencias.Length)
+				{
+					cs.Asecuencias[cs.Secuencia]=true;
+				}
+			}
+			if(CMisiones.ejerF_3estrellas[cs.Secuencia-1]==false)
+			{
+				CMisiones.ejerF_3estrellas[cs.Secuencia-1]=true;
+				CNotificaciones.MisionFantasma[cs.Secuencia-1].SetActive(true);
+				//GameObject.Find("Notificaciones").GetComponent<Animator>().Play("abrirNotificacion");
+			}
+			if(cs.Secuencia==2&&DD.Portal2Fantasma==false)
+			{
+				DD.Portal2Fantasma=true;
+				CNotificaciones.Portal.SetActive(true);
+				GameObject.Find("Notificaciones").GetComponent<Animator>().Play("abrirNotificacion");
 			}
 		}
 		
