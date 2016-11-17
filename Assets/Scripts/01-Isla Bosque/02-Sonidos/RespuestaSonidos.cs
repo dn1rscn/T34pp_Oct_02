@@ -49,7 +49,16 @@ public class RespuestaSonidos : MonoBehaviour
 		DD = GameObject.Find ("ctrDesbloqueo").GetComponent<DatosDesbloqueo> ();
 		CS = GameObject.Find ("ctrSonidos").GetComponent<ControlSonidos> ();
 		RS = GameObject.Find ("reproducir sonido").GetComponent<reproducirSonido> ();
+		CNotificaciones = GameObject.Find ("Notificaciones").GetComponent<ControlNotificaciones1> ();
 		actualizarPuntuacion ();
+
+		CNotificaciones.Nivel2.SetActive(false);
+		CNotificaciones.Nivel3.SetActive(false);
+		CNotificaciones.Isla.SetActive (false);
+		for(int i=0;i < CNotificaciones.MisionDino.Length; i++)
+		{
+			CNotificaciones.MisionDino[i].SetActive(false);
+		}
 	}
 	
 	// Update is called once per frame
@@ -156,6 +165,7 @@ public class RespuestaSonidos : MonoBehaviour
 		CNotificaciones = GameObject.Find ("Notificaciones").GetComponent<ControlNotificaciones1> ();
 		CMisiones=GameObject.Find ("Misiones").GetComponent<ControlMisiones>();
 		CS = GameObject.Find ("ctrSonidos").GetComponent<ControlSonidos> ();
+		cdg_3d = GameObject.Find ("ControlDatosGlobales").GetComponent<ControlDatosGlobales_Mundo3D> ();
 
 		GameObject.Find("Dinoi_animaciones_v3").GetComponent<Animator>().Play("Acierto_01_dino");
 		
@@ -172,6 +182,12 @@ public class RespuestaSonidos : MonoBehaviour
 		actualizarPuntuacion ();
 
 		RS.SonidosOK [RS.SonidoAleatorio] = true;
+		if (CS.aciertos == 1&&CS.nivel==1) 
+		{
+			cdg_3d.IslaFantasma_Desbloqueada=true;
+			CNotificaciones.Isla.SetActive(true);
+			GameObject.Find("Notificaciones").GetComponent<Animator>().Play("abrirNotificacion");
+		}
 
 		if(CS.aciertos==2)
 		{
@@ -182,6 +198,7 @@ public class RespuestaSonidos : MonoBehaviour
 				DD.ASonidos[CS.nivel]=true;
 				CNotificaciones.Nivel2.SetActive(true);
 				CNotificaciones.Nivel3.SetActive(false);
+				CNotificaciones.Isla.SetActive (false);
 				for(int i=0;i < CNotificaciones.MisionDino.Length; i++)
 				{
 					CNotificaciones.MisionDino[i].SetActive(false);
@@ -196,6 +213,7 @@ public class RespuestaSonidos : MonoBehaviour
 				DD.ASonidos[CS.nivel]=true;
 				CNotificaciones.Nivel3.SetActive(true);
 				CNotificaciones.Nivel2.SetActive(false);
+				CNotificaciones.Isla.SetActive (false);
 				for(int i=0;i < CNotificaciones.MisionDino.Length; i++)
 				{
 					CNotificaciones.MisionDino[i].SetActive(false);
@@ -213,6 +231,7 @@ public class RespuestaSonidos : MonoBehaviour
 				CMisiones.Mision_Dino();
 				CNotificaciones.Nivel2.SetActive(false);
 				CNotificaciones.Nivel3.SetActive(false);
+				CNotificaciones.Isla.SetActive (false);
 				for(int i=0;i < CNotificaciones.MisionDino.Length; i++)
 				{
 					CNotificaciones.MisionDino[i].SetActive(false);
@@ -226,6 +245,7 @@ public class RespuestaSonidos : MonoBehaviour
 				CMisiones.Mision_Dino();
 				CNotificaciones.Nivel2.SetActive(false);
 				CNotificaciones.Nivel3.SetActive(false);
+				CNotificaciones.Isla.SetActive (false);
 				for(int i=0;i < CNotificaciones.MisionDino.Length; i++)
 				{
 					CNotificaciones.MisionDino[i].SetActive(false);
@@ -239,6 +259,7 @@ public class RespuestaSonidos : MonoBehaviour
 				CMisiones.Mision_Dino();
 				CNotificaciones.Nivel2.SetActive(false);
 				CNotificaciones.Nivel3.SetActive(false);
+				CNotificaciones.Isla.SetActive (false);
 				for(int i=0;i < CNotificaciones.MisionDino.Length; i++)
 				{
 					CNotificaciones.MisionDino[i].SetActive(false);

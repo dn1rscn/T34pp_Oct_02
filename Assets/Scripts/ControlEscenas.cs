@@ -211,7 +211,7 @@ public class ControlEscenas : MonoBehaviour {
 	}
 	public void canasta()
 	{
-		Application.LoadLevel ("ejercicioCanastas");
+		Application.LoadLevel ("10_iFantasma_P2_Canasta");
 	}
 	public void cargarSonidos()
 	{

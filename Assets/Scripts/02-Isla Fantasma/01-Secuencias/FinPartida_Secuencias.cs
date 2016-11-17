@@ -6,6 +6,7 @@ public class FinPartida_Secuencias : MonoBehaviour
 {
 	public GameObject IfinJuego;
 	public GameObject SiguienteSecuencia;
+	public GameObject ISalir;
 	
 	Control_monedas cM;
 	GameObject ControlMonedas;
@@ -173,6 +174,29 @@ public class FinPartida_Secuencias : MonoBehaviour
 		cs.p1 = false;
 		cs.p2 = false;
 		cs.p3 = false;
+	}
+
+	public void SalirSecuencias()
+	{
+		ISalir.SetActive (true);
+		ISalir.GetComponent<Animator>().Play ("AnimFinPartida");
+
+		ControlMonedas = GameObject.Find ("controlMonedas");
+		cM = ControlMonedas.GetComponent<Control_monedas> ();
+		
+		puntuacionfin = GameObject.Find ("puntuacionFin");
+		TpuntuacionFin = puntuacionfin.GetComponent<Text> ();
+		
+		monedasSecuencia = GameObject.Find ("monedas");
+		TmonedasSecuencia = monedasSecuencia.GetComponent<Text> ();
+
+		TpuntuacionFin.text = "\nQUIERES SALIR? ";
+		
+		TmonedasSecuencia.text = cM.monedas_secuencia.ToString();
+	}
+	public void SeguirJugando()
+	{
+		ISalir.SetActive (false);
 	}
 
 }

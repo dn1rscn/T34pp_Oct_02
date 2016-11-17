@@ -37,14 +37,14 @@ public class controlEjercicioCanastasNuevo : MonoBehaviour {
 	GameObject monedasCanasta;
 	Text Tmonedascanasta;
 	
-	//public GameObject IfinJuego;
+	public GameObject IfinJuego;
 	
 	GameObject puntuacionfin;
 	Text TpuntuacionFin;
-	
-	public GameObject estrella1;
-	public GameObject estrella2;
-	public GameObject estrella3;
+
+	ControlMisiones CMisiones;
+	ControlNotificaciones2 CNotificaciones;
+	ControlDatosGlobales_Mundo3D cdg_3d;
 
 
 	// Use this for initialization
@@ -57,8 +57,17 @@ public class controlEjercicioCanastasNuevo : MonoBehaviour {
 		botonTurnoJugador.SetActive(false);
 
 		ControlMonedas = GameObject.Find ("controlMonedas");
-		//cM = ControlMonedas.GetComponent<Control_monedas> ();
-		//IfinJuego.SetActive (false);
+		cM = ControlMonedas.GetComponent<Control_monedas> ();
+		CNotificaciones = GameObject.Find ("Notificaciones2").GetComponent<ControlNotificaciones2> ();
+		IfinJuego.SetActive (false);
+
+		CNotificaciones.Siguiente_Secuencia.SetActive(false);
+		CNotificaciones.Portal.SetActive(false);
+		CNotificaciones.Isla.SetActive (false);
+		for(int i=0;i < CNotificaciones.MisionFantasma.Length; i++)
+		{
+			CNotificaciones.MisionFantasma[i].SetActive(false);
+		}
 
 	}
 	
@@ -250,7 +259,8 @@ public class controlEjercicioCanastasNuevo : MonoBehaviour {
 	}
 
 	//FIN DEL JUEGO
-	public void finDelJuego(){
+	public void finDelJuego()
+	{
 
 	print ("FIN DEL JUEGO!!");
 	
@@ -302,19 +312,23 @@ public class controlEjercicioCanastasNuevo : MonoBehaviour {
 
 	void ActivarEstrella1()
 	{
-		estrella1.SetActive (true);
+		GameObject.Find ("estrellas").GetComponent<Animator> ().Play ("AnimEstrella1");
 	}
 	void ActivarEstrella2()
 	{
-		estrella2.SetActive (true);
+		GameObject.Find ("estrellas").GetComponent<Animator> ().Play ("AnimEstrella2");
 	}
 	void ActivarEstrella3()
 	{
-		estrella3.SetActive (true);
+		GameObject.Find ("estrellas").GetComponent<Animator> ().Play ("AnimEstrella3");
 	}
 	void activar_FinJuego_win()
 	{
-		//IfinJuego.SetActive (true);
+		CMisiones=GameObject.Find ("Misiones").GetComponent<ControlMisiones>();
+		cdg_3d=GameObject.Find ("ControlDatosGlobales").GetComponent<ControlDatosGlobales_Mundo3D> ();
+
+		IfinJuego.SetActive (true);
+		IfinJuego.GetComponent<Animator>().Play ("AnimFinPartida");
 		puntuacionfin = GameObject.Find ("puntuacionFin");
 		TpuntuacionFin = puntuacionfin.GetComponent<Text> ();
 		monedasCanasta = GameObject.Find ("monedas");
@@ -322,16 +336,29 @@ public class controlEjercicioCanastasNuevo : MonoBehaviour {
 		cM.calcular_monedasCanasta ();
 		cM.calcular_monedasGenerales ();
 		
-		if (puntuacionJugador >= 1) {
+		if (puntuacionJugador >= 1) 
+		{
 			Invoke ("ActivarEstrella1", 1.0f);
+			if(cdg_3d.IslaMec_Desbloqueada==false)
+			{
+				cdg_3d.IslaMec_Desbloqueada=true;
+				CNotificaciones.Isla.SetActive(true);
+				GameObject.Find("Notificaciones2").GetComponent<Animator>().Play("abrirNotificacion");
+			}
 		}
 		if (puntuacionJugador >= 3) {
 			Invoke ("ActivarEstrella2", 2.0f);
 		}
 		if (puntuacionJugador >= 5) {
 			Invoke ("ActivarEstrella3", 3.0f);
+			if(CMisiones.ejerF_3estrellas[4]==false)
+			{
+				CMisiones.ejerF_3estrellas[4]=true;
+				CNotificaciones.MisionFantasma[4].SetActive(true);
+				GameObject.Find("Notificaciones2").GetComponent<Animator>().Play("abrirNotificacion");
+			}
 		}
-		TpuntuacionFin.text = "\nACIERTOS: " + puntuacionJugador.ToString ();
+		TpuntuacionFin.text ="HAS GANADO" + "\nACIERTOS: " + puntuacionJugador.ToString ();
 		
 		Tmonedascanasta.text = cM.MonedasGenerales_canasta.ToString();
 		
@@ -340,7 +367,8 @@ public class controlEjercicioCanastasNuevo : MonoBehaviour {
 	}
 	void activar_FinJuego_lose()
 	{
-		//IfinJuego.SetActive (true);
+		IfinJuego.SetActive (true);
+		IfinJuego.GetComponent<Animator>().Play ("AnimFinPartida");
 		puntuacionfin = GameObject.Find ("puntuacionFin");
 		TpuntuacionFin = puntuacionfin.GetComponent<Text> ();
 		monedasCanasta = GameObject.Find ("monedas");
@@ -348,7 +376,7 @@ public class controlEjercicioCanastasNuevo : MonoBehaviour {
 		cM.calcular_monedasCanasta ();
 		cM.calcular_monedasGenerales ();
 		
-		TpuntuacionFin.text = "\nACIERTOS: " + puntuacionJugador.ToString ();
+		TpuntuacionFin.text ="HAS PERDIDO" + "\nACIERTOS: " + puntuacionJugador.ToString ();
 		
 		Tmonedascanasta.text = cM.MonedasGenerales_canasta.ToString();
 		

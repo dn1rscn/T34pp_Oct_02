@@ -11,7 +11,7 @@ public class Control_monedas : MonoBehaviour
 	GameObject DGlobales;
 
 	ControlSonidos CS;
-	controlEjercicioCanastas cec;
+	controlEjercicioCanastasNuevo cec;
 
 	ControlEmociones CE;
 
@@ -97,7 +97,7 @@ public class Control_monedas : MonoBehaviour
 	}
 	public void calcular_monedasCanasta()
 	{
-		cec = GameObject.Find ("gameFlow").GetComponent<controlEjercicioCanastas> ();
+		cec = GameObject.Find ("Prefab_animEscena").GetComponent<controlEjercicioCanastasNuevo> ();
 
 		monedas_canastas = cec.puntuacionJugador * 5;
 		MonedasGenerales_canasta = monedas_canastas + 20;
