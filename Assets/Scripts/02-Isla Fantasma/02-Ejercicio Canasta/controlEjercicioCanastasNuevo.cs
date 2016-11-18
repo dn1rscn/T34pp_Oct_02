@@ -20,7 +20,8 @@ public class controlEjercicioCanastasNuevo : MonoBehaviour {
 
 	public int miniAciertos=1;
 
-	
+	GameObject Confeti;
+
 	string marcador;
 	
 	//controlColisionPowerBar cPB_ejercicioCanasta;
@@ -50,6 +51,8 @@ public class controlEjercicioCanastasNuevo : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
+		Confeti = GameObject.Find("confeti");
+		Confeti.SetActive(false);
 		//Accedemos al animator global de la escena
 		animatorEscena = gameObject.GetComponent<Animator>();
 		animatorSlider = barraPotencia.GetComponent<Animator>();
@@ -261,7 +264,7 @@ public class controlEjercicioCanastasNuevo : MonoBehaviour {
 	//FIN DEL JUEGO
 	public void finDelJuego()
 	{
-
+		
 	print ("FIN DEL JUEGO!!");
 	
 	//escondemos los botones de juego
@@ -289,6 +292,9 @@ public class controlEjercicioCanastasNuevo : MonoBehaviour {
 		//*****************************************************************
 		//HAS GANADO!!
 		animatorEscena.Play("Avatar_Acierto_FinDelJuego");
+
+			Confeti.SetActive(true);
+
 
 		print ("<color=green><size=20>HAS GANADO!!</size></color>");
 		
