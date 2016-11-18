@@ -128,6 +128,7 @@ public class controlPortales : MonoBehaviour {
 			//Ejecutamos la animacion de salida canvas al salir del portal
 			animator_PanelCanvas.Play("CanvasPortal_animSalida");
 			animator_botonesPortal.Play("SalidaBotonesPortales");
+			textoNombrePortal.text = "";
 		}
 	}
 
