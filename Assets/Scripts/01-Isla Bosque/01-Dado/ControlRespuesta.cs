@@ -134,13 +134,43 @@ public class ControlRespuesta : MonoBehaviour
 			cdg.combos++;
 			cdg.aciertosSeguidos=0;
 		}
+		if (cdg.aciertos == 5) 
+		{
+			if(CMisiones.dado1==true&&DD.Portal2Bosque==false)
+			{
+				DD.Portal2Bosque=true;
+				CNotificaciones.Portal.SetActive(true);
+				CNotificaciones.Isla.SetActive(false);
+				CNotificaciones.Nivel2.SetActive(false);
+				for(int i=0;i < CNotificaciones.MisionDino.Length; i++)
+				{
+					CNotificaciones.MisionDino[i].SetActive(false);
+				}
+				GameObject.Find("Notificaciones").GetComponent<Animator>().Play("abrirNotificacion");
+				GameObject.Find("Notificaciones").GetComponent<Animator>().Play("abrirNotificacion");
+			}
+			if(CMisiones.dado2==true&&cdg_3d.IslaFantasma_Desbloqueada==false)
+			{
+				cdg_3d.IslaFantasma_Desbloqueada=true;
+				CNotificaciones.Isla.SetActive(true);
+				CNotificaciones.Portal.SetActive(false);
+				CNotificaciones.Nivel2.SetActive(false);
+				for(int i=0;i < CNotificaciones.MisionDino.Length; i++)
+				{
+					CNotificaciones.MisionDino[i].SetActive(false);
+				}
+				GameObject.Find("Notificaciones").GetComponent<Animator>().Play("abrirNotificacion");
+			}
+		}
 		if(cdg.aciertos==15)
 		{
 			if(CMisiones.dado1==true&&CMisiones.ejerB_3estrellas[0]==false)
 			{
 				CMisiones.ejerB_3estrellas[0]=true;
 				CMisiones.Mision_Dino();
+				CNotificaciones.Portal.SetActive(false);
 				CNotificaciones.Nivel2.SetActive(false);
+				CNotificaciones.Isla.SetActive(false);
 				for(int i=0;i < CNotificaciones.MisionDino.Length; i++)
 				{
 					CNotificaciones.MisionDino[i].SetActive(false);
@@ -153,7 +183,9 @@ public class ControlRespuesta : MonoBehaviour
 			{
 				CMisiones.ejerB_3estrellas[1]=true;
 				CMisiones.Mision_Dino();
+				CNotificaciones.Portal.SetActive(false);
 				CNotificaciones.Nivel2.SetActive(false);
+				CNotificaciones.Isla.SetActive(false);
 				for(int i=0;i < CNotificaciones.MisionDino.Length; i++)
 				{
 					CNotificaciones.MisionDino[i].SetActive(false);
@@ -166,6 +198,8 @@ public class ControlRespuesta : MonoBehaviour
 		if (cdg.aciertos == 10 && DD.Nivel2Dado == false) 
 		{
 			CNotificaciones.Nivel2.SetActive(true);
+			CNotificaciones.Portal.SetActive(false);
+			CNotificaciones.Isla.SetActive(false);
 			for(int i=0;i < CNotificaciones.MisionDino.Length; i++)
 			{
 				CNotificaciones.MisionDino[i].SetActive(false);

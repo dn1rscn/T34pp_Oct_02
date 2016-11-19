@@ -4,6 +4,7 @@ using System.Collections;
 public class controlInteraccionDino : MonoBehaviour {
 
 	ControlDatosGlobales_Mundo3D CDG_Mundo3D;
+	ControlMisionesInterfaz CMI;
 
 	SpriteRenderer spr_flechaDestino_Dino;
 	SpriteRenderer spr_bocadilloDino_01;
@@ -32,6 +33,7 @@ public class controlInteraccionDino : MonoBehaviour {
 
 		//ACCEDEMOS AL SCRIPT DE DATOS GLOBALES
 		CDG_Mundo3D = GameObject.Find("ControlDatosGlobales").GetComponent<ControlDatosGlobales_Mundo3D>();
+		CMI = GameObject.Find ("interfaz").GetComponent<ControlMisionesInterfaz> ();
 
 		Dino= GameObject.Find("Dinoi_animaciones_v3");
 
@@ -153,6 +155,7 @@ public class controlInteraccionDino : MonoBehaviour {
 		gObj_botonPasarBocadillo.SetActive(false);
 
 		CDG_Mundo3D.hemosHabladoConDino=true;
+		CMI.ActualizarMisionDino ();
 
 		animator_Cam.SetBool("ZoomCam", false);
 		animator_Dino.SetBool ("fallo_Dino", false);

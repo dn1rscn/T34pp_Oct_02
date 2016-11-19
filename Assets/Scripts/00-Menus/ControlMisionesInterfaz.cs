@@ -9,11 +9,17 @@ public class ControlMisionesInterfaz : MonoBehaviour
 	Control_monedas cM;
 
 	public Sprite[] MisionesOK;
-	public GameObject[] objetivosOK;
+	public GameObject[] objetivosOK_Dino;
+	public GameObject[] objetivosOK_Fantasma;
+	public GameObject[] objetivosOK_Robot;
 
 	public GameObject misionDino;
 	public GameObject misionFantasma;
 	public GameObject misionRobot;
+
+	public GameObject ObjetivosDino;
+	public GameObject ObjetivosFantasma;
+	public GameObject ObjetivosRobot;
 
 	Text TMonedas;
 
@@ -28,16 +34,38 @@ public class ControlMisionesInterfaz : MonoBehaviour
 		TMonedas.text = cM.monedas.ToString();
 
 		objetivosMisionDino ();
+		obejtivosMisionFantasma ();
+		obejtivosMisionRobot ();
 
-		if (CMisiones.misionDinoCompletada == true) 
+		ActualizarMisionDino ();
+		ActualizarMisionFantasma();
+		ActualizarMisionRobot();
+	}
+	public void ActualizarMisionDino()
+	{
+		if (CMisiones.misionDinoCompletada==false) 
 		{
+			if (cdg_3d.hemosHabladoConDino == true) 
+			{//hablar con el dino
+				misionDino.SetActive (true);
+			} 
+			else 
+			{
+				misionDino.SetActive (false);
+			}
 			//misionDino.GetComponent<Button>().enabled=true;
-			misionDino.GetComponent<Image>().sprite = MisionesOK[0];
+			
+		} 
+		else if(CMisiones.misionDinoCompletada==true&&cdg_3d.hemosHabladoConDino==true)
+		{
+			misionDino.GetComponent<Image> ().sprite = MisionesOK [0];
 		}
-
+	}
+	public void ActualizarMisionFantasma()
+	{
 		if (CMisiones.misionFantasmaCompletada == false) 
 		{
-			if (cdg_3d.IslaFantasma_Desbloqueada == true) 
+			if (cdg_3d.hemosHabladoConFantasma==true) 
 			{
 				misionFantasma.SetActive (true);
 			} 
@@ -46,16 +74,19 @@ public class ControlMisionesInterfaz : MonoBehaviour
 				misionFantasma.SetActive (false);
 			}
 		} 
-		else 
+		else if(CMisiones.misionFantasmaCompletada==true&&cdg_3d.hemosHabladoConFantasma==true)
 		{
 			//cambiar imagen o remarcar mision
 			//activar interactable
 			//misionFantasma.GetComponent<Button>().enabled=true;
 		}
-
+	}
+	public void ActualizarMisionRobot()
+	{
+		
 		if (CMisiones.misionRobotCompletada == false) 
 		{
-			if (cdg_3d.IslaMec_Desbloqueada == true) 
+			if (cdg_3d.hemosHabladoConRobot == true) 
 			{
 				misionRobot.SetActive (true);
 			} 
@@ -64,18 +95,20 @@ public class ControlMisionesInterfaz : MonoBehaviour
 				misionRobot.SetActive (false);
 			}
 		} 
-		else 
+		else if(CMisiones.misionRobotCompletada==true&&cdg_3d.hemosHabladoConRobot==true)
 		{
 			//cambiar imagen o remarcar mision
 			//activar interactable
 		}
-
 	}
 
 	public void MisionDinoOK()
 	{
 		//sumar mas monedas
 		print ("Sumas monedas");
+		ObjetivosDino.SetActive (true);
+		ObjetivosFantasma.SetActive (false);
+		ObjetivosRobot.SetActive (false);
 		GameObject.Find ("GrupoMisiones").GetComponent<Animator> ().Play ("abrirObjetivos");
 
 	}
@@ -83,9 +116,17 @@ public class ControlMisionesInterfaz : MonoBehaviour
 	{
 		//sumar monedas
 		//misionFantasma.SetActive (false);
+		ObjetivosDino.SetActive (false);
+		ObjetivosFantasma.SetActive (true);
+		ObjetivosRobot.SetActive (false);
+		GameObject.Find ("GrupoMisiones").GetComponent<Animator> ().Play ("abrirObjetivos");
 	}
 	public void MisionRobotOK()
 	{
+		ObjetivosDino.SetActive (false);
+		ObjetivosFantasma.SetActive (false);
+		ObjetivosRobot.SetActive (true);
+		GameObject.Find ("GrupoMisiones").GetComponent<Animator> ().Play ("abrirObjetivos");
 	}
 
 	public void cerrarObjetivos()
@@ -99,11 +140,39 @@ public class ControlMisionesInterfaz : MonoBehaviour
 		{
 			if(CMisiones.ejerB_3estrellas[i]==true)
 			{
-				objetivosOK[i].SetActive(true);
+				objetivosOK_Dino[i].SetActive(true);
 			}
 			else
 			{
-				objetivosOK[i].SetActive(false);
+				objetivosOK_Dino[i].SetActive(false);
+			}
+		}
+	}
+	void obejtivosMisionFantasma()
+	{
+		for(int i=0; i<CMisiones.ejerF_3estrellas.Length; i++)
+		{
+			if(CMisiones.ejerF_3estrellas[i]==true)
+			{
+				objetivosOK_Fantasma[i].SetActive(true);
+			}
+			else
+			{
+				objetivosOK_Fantasma[i].SetActive(false);
+			}
+		}
+	}
+	void obejtivosMisionRobot()
+	{
+		for(int i=0; i<CMisiones.ejerM_3estrellas.Length; i++)
+		{
+			if(CMisiones.ejerM_3estrellas[i]==true)
+			{
+				objetivosOK_Robot[i].SetActive(true);
+			}
+			else
+			{
+				objetivosOK_Robot[i].SetActive(false);
 			}
 		}
 	}

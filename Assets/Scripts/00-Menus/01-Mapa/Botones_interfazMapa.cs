@@ -88,7 +88,7 @@ public class Botones_interfazMapa : MonoBehaviour
 	}
 	public void Isla_Bosque()
 	{
-		if (seleccion == false ) 
+		if (seleccion == false&&CDG_Mundo3D.islaBosque==false ) 
 		{
 			print (Tiempo);
 			Fondo_IBosque.SetActive (true);
@@ -103,7 +103,7 @@ public class Botones_interfazMapa : MonoBehaviour
 	}
 	public void Isla_FAntasma()
 	{
-		if (seleccion == false && CDG_Mundo3D.IslaFantasma_Desbloqueada==true) 
+		if (seleccion == false && CDG_Mundo3D.IslaFantasma_Desbloqueada==true&&CDG_Mundo3D.islaFant==false) 
 		{
 			print (Tiempo);
 			Fondo_IBosque.SetActive (false);
@@ -119,7 +119,7 @@ public class Botones_interfazMapa : MonoBehaviour
 	}
 	public void Isla_Robot()
 	{
-		if (seleccion == false && CDG_Mundo3D.IslaMec_Desbloqueada==true) 
+		if (seleccion == false && CDG_Mundo3D.IslaMec_Desbloqueada==true&&CDG_Mundo3D.islaMec==false) 
 		{
 			print (Tiempo);
 			Fondo_IBosque.SetActive (false);
@@ -143,9 +143,13 @@ public class Botones_interfazMapa : MonoBehaviour
 	void ToFantasma()
 	{
 		Debug.Log ("A Isla Fantasma");
+		CDG_Mundo3D.islaFant = true;
+		Application.LoadLevel ("Isla_fantasma");
 	}
 	void ToRobot()
 	{
 		Debug.Log ("A Isla Robot");
+		CDG_Mundo3D.islaMec = true;
+		Application.LoadLevel ("Isla_Mecanica_v3");
 	}
 }
