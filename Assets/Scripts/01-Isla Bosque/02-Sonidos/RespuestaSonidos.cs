@@ -340,14 +340,14 @@ public class RespuestaSonidos : MonoBehaviour
 			Invoke ("ActivarEstrella1", 1.0f);
 			//desbloquear su¡iguiente nivel
 			BotonSiguienteNivel.SetActive(true);
-			if(CS.nivel<DD.ASonidos.Length)
-			{
-				DD.ASonidos[CS.nivel]=true;
-			}
 			cdg_3d.IslaFantasma_Desbloqueada=true;
 		}
 		if (CS.aciertos >= 2) {
 			Invoke ("ActivarEstrella2", 2.0f);
+			if(CS.nivel<DD.ASonidos.Length)
+			{
+				DD.ASonidos[CS.nivel]=true;
+			}
 		}
 		if (CS.aciertos >= 4) {
 			Invoke ("ActivarEstrella3", 3.0f);
@@ -406,14 +406,15 @@ public class RespuestaSonidos : MonoBehaviour
 			Invoke ("ActivarEstrella1", 1.0f);
 			//desbloquear su¡iguiente nivel
 			BotonSiguienteNivel.SetActive(true);
-			if(CS.nivel<DD.ASonidos.Length)
-			{
-				DD.ASonidos[CS.nivel]=true;
-			}
+		
 			cdg_3d.IslaFantasma_Desbloqueada=true;
 		}
 		if (CS.aciertos >= 2) {
 			Invoke ("ActivarEstrella2", 2.0f);
+			if(CS.nivel<DD.ASonidos.Length)
+			{
+				DD.ASonidos[CS.nivel]=true;
+			}
 		}
 		if (CS.aciertos >= 4) {
 			Invoke ("ActivarEstrella3", 3.0f);
@@ -440,7 +441,7 @@ public class RespuestaSonidos : MonoBehaviour
 		TmonedasSonidos.text = cM.MonedasSonidos.ToString();
 		
 		cdg_3d.IslaFantasma_Desbloqueada=true;
-		DD.ASonidos[CS.nivel]=true;
+		//DD.ASonidos[CS.nivel]=true;
 	}
 
 	public void seguirJugando()

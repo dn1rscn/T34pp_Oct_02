@@ -11,6 +11,7 @@ public class ControlEmociones : MonoBehaviour
 	public bool[] ASocialNivel3;
 	public bool[] AEmociones;
 	public int EjercicioSocial=0;
+	public int NivelEmpatia=0;
 	public int NivelEmociones=0;
 
 	public bool respuesta;

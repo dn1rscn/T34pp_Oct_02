@@ -242,57 +242,64 @@ public class ControlEscenas : MonoBehaviour {
 	}
 	public void CargarSocialNivel1()
 	{
-		Application.LoadLevel ("1.1-Social_Nivel1_selecEjercicio");
+		CE = GameObject.Find ("ctrEmociones").GetComponent<ControlEmociones> ();
+		CE.NivelEmpatia = 1;
+		Application.LoadLevel ("Emociones_Empatia");
 	}
 	public void CargarGlobo ()
 	{
+		
 		CE = GameObject.Find ("ctrEmociones").GetComponent<ControlEmociones> ();
+		CE.NivelEmpatia = 1;
 		CE.EjercicioSocial = 1;
-
-		Application.LoadLevel ("1.1.1-Social_Nivel1_Globo");
+		Application.LoadLevel ("Emociones_Empatia");
 	}
 	public void CargarHelado()
 	{
 		CE = GameObject.Find ("ctrEmociones").GetComponent<ControlEmociones> ();
+		CE.NivelEmpatia = 1;
 		CE.EjercicioSocial = 2;
-
-		Application.LoadLevel ("1.1.2-Social_Nivel1_Helado");
+		Application.LoadLevel ("Emociones_Empatia");
 	}
 	public void CargarTormenta()
 	{
 		CE = GameObject.Find ("ctrEmociones").GetComponent<ControlEmociones> ();
+		CE.NivelEmpatia = 1;
 		CE.EjercicioSocial = 3;
-
-		Application.LoadLevel ("1.1.3-Social_Nivel1_Tormenta");
+		Application.LoadLevel ("Emociones_Empatia");
 	}
 	public void CargarSocialNivel2()
 	{
-		Application.LoadLevel ("1.2-Social_Nivel2");
+		CE = GameObject.Find ("ctrEmociones").GetComponent<ControlEmociones> ();
+		CE.NivelEmpatia = 2;
+		Application.LoadLevel ("Emociones_Empatia");
 	}
 	public void CargarSocialNivel3()
 	{
-		Application.LoadLevel ("1.3-Social_Nivel3_selecEjercicio");
+		CE = GameObject.Find ("ctrEmociones").GetComponent<ControlEmociones> ();
+		CE.NivelEmpatia = 3;
+		Application.LoadLevel ("Emociones_Empatia");
 	}
 	public void CargarGloboNivel3()
 	{
 		CE = GameObject.Find ("ctrEmociones").GetComponent<ControlEmociones> ();
+		CE.NivelEmpatia = 3;
 		CE.EjercicioSocial = 1;
-
-		Application.LoadLevel ("1.3.1-Social_Nivel3_Globo");
+		Application.LoadLevel ("Emociones_Empatia");
 	}
 	public void CargarHeladoNivel3()
 	{
 		CE = GameObject.Find ("ctrEmociones").GetComponent<ControlEmociones> ();
+		CE.NivelEmpatia = 3;
 		CE.EjercicioSocial = 2;
-
-		Application.LoadLevel ("1.3.2-Social_Nivel3_Helado");
+		Application.LoadLevel ("Emociones_Empatia");
 	}
 	public void CargarTormentaNivel3()
 	{
 		CE = GameObject.Find ("ctrEmociones").GetComponent<ControlEmociones> ();
-		CE.EjercicioSocial = 3;
-
-		Application.LoadLevel ("1.3.3-Social_Nivel3_Tormenta");
+		CE.NivelEmpatia = 3;
+		CE.EjercicioSocial = 2;
+		Application.LoadLevel ("Emociones_Empatia");
 	}
 	public void CargarEmociones()
 	{
