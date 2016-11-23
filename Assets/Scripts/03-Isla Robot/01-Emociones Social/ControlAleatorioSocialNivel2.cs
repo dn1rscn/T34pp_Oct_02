@@ -13,6 +13,19 @@ public class ControlAleatorioSocialNivel2 : MonoBehaviour
 	// Use this for initialization
 	void Start () 
 	{
+		AleatorioResp ();
+	}
+	
+	// Update is called once per frame
+	void Update () 
+	{
+	
+	}
+	public void AleatorioResp()
+	{
+		APreguntas[0].SetActive(false);
+		APreguntas[1].SetActive(false);
+		APreguntas[2].SetActive(false);
 		PreguntaAleat = Random.Range (1, 4);
 		switch (PreguntaAleat) 
 		{
@@ -62,10 +75,5 @@ public class ControlAleatorioSocialNivel2 : MonoBehaviour
 			}
 			break;
 		}
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
 	}
 }
