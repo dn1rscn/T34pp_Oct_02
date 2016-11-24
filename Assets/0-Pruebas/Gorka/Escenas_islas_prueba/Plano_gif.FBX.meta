@@ -1,67 +1,15 @@
 fileFormatVersion: 2
-guid: bf9da40539a8bad46a235152c3fbaa4f
-timeCreated: 1479814265
+guid: a96ae72fc65184746a32ec16550e8dba
+timeCreated: 1479983792
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
-    100000: Object001
-    100002: Object002
-    100004: Object003
-    100006: Plane003
-    100008: Plane007
-    100010: Plane011
-    100012: Sphere001
-    100014: //RootNode
-    100016: plane_big
-    100018: plane_small
-    100020: tv_big
-    100022: tv_peque
-    400000: Object001
-    400002: Object002
-    400004: Object003
-    400006: Plane003
-    400008: Plane007
-    400010: Plane011
-    400012: Sphere001
-    400014: //RootNode
-    400016: plane_big
-    400018: plane_small
-    400020: tv_big
-    400022: tv_peque
-    2300000: Object001
-    2300002: Object002
-    2300004: Object003
-    2300006: Plane003
-    2300008: Plane007
-    2300010: Plane011
-    2300012: Sphere001
-    2300014: plane_big
-    2300016: plane_small
-    2300018: tv_big
-    2300020: tv_peque
-    3300000: Object001
-    3300002: Object002
-    3300004: Object003
-    3300006: Plane003
-    3300008: Plane007
-    3300010: Plane011
-    3300012: Sphere001
-    3300014: plane_big
-    3300016: plane_small
-    3300018: tv_big
-    3300020: tv_peque
-    4300000: Plane003
-    4300002: Sphere001
-    4300004: Plane007
-    4300006: Plane011
-    4300008: Object001
-    4300010: Object002
-    4300012: Object003
-    4300014: plane_small
-    4300016: tv_peque
-    4300018: plane_big
-    4300020: tv_big
+    100000: //RootNode
+    400000: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: plane_gif
     9500000: //RootNode
   materials:
     importMaterials: 1
