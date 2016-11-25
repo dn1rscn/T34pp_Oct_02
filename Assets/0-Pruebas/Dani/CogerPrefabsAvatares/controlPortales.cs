@@ -172,7 +172,7 @@ public class controlPortales : MonoBehaviour {
 
 		//ISLA MECANICA
 		case "emocionesSocial":
-			Application.LoadLevel("1-Social_SelecNivel");
+			Application.LoadLevel("Empatia_MenusSeleccion");
 			print ("Cargando ejercicio emociones social...");
 			break;
 		case "ejercicioEmociones":
@@ -186,7 +186,6 @@ public class controlPortales : MonoBehaviour {
 			CDG_Mundo3D.islaMec = false;
 			CDG_Mundo3D.islaFant = false;
 			break;
-
 
 		}
 	}

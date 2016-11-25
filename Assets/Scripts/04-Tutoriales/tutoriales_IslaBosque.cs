@@ -6,37 +6,60 @@ public class tutoriales_IslaBosque : MonoBehaviour {
 	Animator animator_grpTutoriales;
 	ControlProtaMouse_2 scriptCtrlProta;
 
+	ControlDatosGlobales_Mundo3D CDG_Mundo3D;
+
 	public void Start(){
 		scriptCtrlProta = GameObject.Find ("Chico_TEAPlay").GetComponent<ControlProtaMouse_2>();
+		animator_grpTutoriales = GetComponent<Animator>();
 
-		//Destroy(scriptCtrlProta);
-
+		CDG_Mundo3D = GameObject.Find("ControlDatosGlobales").GetComponent<ControlDatosGlobales_Mundo3D>();
 
 		scriptCtrlProta.enabled = false;
 		print("scriptProta_desactivado");
 
-		Time.timeScale = 1;	
-		animator_grpTutoriales = GetComponent<Animator>();
+
+		//Si es la primera vez que accedemos a la isla:
+		if(!CDG_Mundo3D.hemosVisto_TutorialIslaBosque){
+			print ("ACTIVAR TUTORIAL");
+			animator_grpTutoriales.Play("Tutoriales_IslaBosque_00");
+
+		}	
+		//Si ya hemos completado al menos una vez el tutorial:
+		else {
+			print ("DESACTIVAR TUTORIAL");
+			//desactivarTutorialInicial();
+			animator_grpTutoriales.Play("Tutoriales_EsconderTutoIslaBosque");
+		}
+	}
+
+	public void desactivarTutorialInicial(){
+		scriptCtrlProta.enabled = false;
+		animator_grpTutoriales.Play("Tutoriales_EsconderTutoIslaBosque");
+	}
+
+	public void activarTutorialInicial(){
+		scriptCtrlProta.enabled = false;
+		animator_grpTutoriales.Play("Tutoriales_IslaBosque_00");
 	}
 
 	public void pasarTutorial_01(){
 		scriptCtrlProta.enabled = false;
-		Time.timeScale = 1;	
 		animator_grpTutoriales.Play("Tutoriales_IslaBosque_01");
 	}
 
 	public void pasarTutorial_02(){
 		animator_grpTutoriales.Play("Tutoriales_IslaBosque_02");
-
+	
+		CDG_Mundo3D.hemosVisto_TutorialIslaBosque = true;
+	
 		//activar el control para el prota
 		scriptCtrlProta.enabled = true;
 		print("scriptProta_activado");
 
-		Time.timeScale = 1;	
 	}
 
 	public void pausarTiempo(){
-		Time.timeScale = 0;	
+		//Time.timeScale = 0;	
 		scriptCtrlProta.enabled = false;
 
 	}

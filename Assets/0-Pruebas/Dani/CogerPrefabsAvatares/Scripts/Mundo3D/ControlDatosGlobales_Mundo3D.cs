@@ -29,7 +29,8 @@ public class ControlDatosGlobales_Mundo3D: MonoBehaviour {
 	//si posicionPersonaje tiene un valor sin determinar, iniciara en la posicion inicial del nivel
 
 	//public bool primeraVez_IslaDino=true;
-
+	public bool hemosVisto_TutorialIslaBosque = false;
+	
 	public bool hemosHabladoConDino = false;
 	public bool hemosHabladoConFantasma = false;
 	public bool hemosHabladoConRobot = false;

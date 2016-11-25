@@ -105,7 +105,7 @@ public class controlInteraccionDino : MonoBehaviour {
 				{
 					agente.transform.LookAt(Dino.transform.position);
 
-					//posicionCorrecta=true;
+					Invoke("DejarDeMirarDino",2.0f);
 					animator_Prota.SetBool("andar",false);
 				}
 			
@@ -135,6 +135,10 @@ public class controlInteraccionDino : MonoBehaviour {
 
 	public void DinoAnimFallo_desactivar(){
 		animator_Dino.SetBool ("fallo_Dino", false);
+	}
+
+	public void DejarDeMirarDino(){
+		posicionCorrecta=true;
 	}
 
 	public void activarBocadillo2 (){
