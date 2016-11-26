@@ -12,6 +12,9 @@ public class ControlMisiones : MonoBehaviour
 	public bool sonidos2;
 	public bool sonidos3;
 
+	public bool Dado1_Completado;
+	public bool Sonidos1_Completado;
+
 	public bool[] ejerB_3estrellas;
 	public bool[] ejerF_3estrellas;
 	public bool[] ejerM_3estrellas;

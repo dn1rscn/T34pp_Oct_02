@@ -182,16 +182,9 @@ public class RespuestaSonidos : MonoBehaviour
 		actualizarPuntuacion ();
 
 		RS.SonidosOK [RS.SonidoAleatorio] = true;
-		if (CS.aciertos == 1&&CS.nivel==1) 
-		{
-			cdg_3d.IslaFantasma_Desbloqueada=true;
-			CNotificaciones.Isla.SetActive(true);
-			GameObject.Find("Notificaciones").GetComponent<Animator>().Play("abrirNotificacion");
-		}
 
 		if(CS.aciertos==2)
 		{
-
 			if(CS.nivel==1&&DD.Nivel2Sonidos==false)
 			{
 				//Notificacion();
@@ -220,6 +213,15 @@ public class RespuestaSonidos : MonoBehaviour
 				}
 				GameObject.Find("Notificaciones").GetComponent<Animator>().Play("abrirNotificacion");
 				DD.Nivel3Sonidos=true;
+			}
+		}
+		if (CS.aciertos == 3) 
+		{
+			if(CS.nivel==1&&CMisiones.Dado1_Completado==true)
+			{
+				cdg_3d.IslaFantasma_Desbloqueada=true;
+				CNotificaciones.Isla.SetActive(true);
+				GameObject.Find("Notificaciones").GetComponent<Animator>().Play("abrirNotificacion");
 			}
 		}
 

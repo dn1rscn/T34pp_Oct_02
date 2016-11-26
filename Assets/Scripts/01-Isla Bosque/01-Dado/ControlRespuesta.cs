@@ -136,10 +136,10 @@ public class ControlRespuesta : MonoBehaviour
 		}
 		if (cdg.aciertos == 5) 
 		{
-			if(CMisiones.dado1==true&&DD.Portal2Bosque==false)
+			if(CMisiones.dado1==true&&CMisiones.Dado1_Completado==false)
 			{
-				DD.Portal2Bosque=true;
-				CNotificaciones.Portal.SetActive(true);
+				CMisiones.Dado1_Completado=true;
+				/*CNotificaciones.Portal.SetActive(true);
 				CNotificaciones.Isla.SetActive(false);
 				CNotificaciones.Nivel2.SetActive(false);
 				for(int i=0;i < CNotificaciones.MisionDino.Length; i++)
@@ -147,9 +147,9 @@ public class ControlRespuesta : MonoBehaviour
 					CNotificaciones.MisionDino[i].SetActive(false);
 				}
 				GameObject.Find("Notificaciones").GetComponent<Animator>().Play("abrirNotificacion");
-				GameObject.Find("Notificaciones").GetComponent<Animator>().Play("abrirNotificacion");
+				GameObject.Find("Notificaciones").GetComponent<Animator>().Play("abrirNotificacion");*/
 			}
-			if(CMisiones.dado2==true&&cdg_3d.IslaFantasma_Desbloqueada==false)
+			if(CMisiones.dado1==true&&CMisiones.Sonidos1_Completado==true&&cdg_3d.IslaFantasma_Desbloqueada==false)
 			{
 				cdg_3d.IslaFantasma_Desbloqueada=true;
 				CNotificaciones.Isla.SetActive(true);
