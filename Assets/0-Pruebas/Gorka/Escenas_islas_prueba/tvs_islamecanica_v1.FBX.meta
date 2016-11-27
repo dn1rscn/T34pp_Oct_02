@@ -17,6 +17,10 @@ ModelImporter:
     100018: plane_small
     100020: tv_big
     100022: tv_peque
+    100024: Emociones_pantalla_grande
+    100026: Emociones_pantalla_peque
+    100028: Emociones_tele_grande
+    100030: Emociones_tele_peque
     400000: Object001
     400002: Object002
     400004: Object003
@@ -29,6 +33,10 @@ ModelImporter:
     400018: plane_small
     400020: tv_big
     400022: tv_peque
+    400024: Emociones_pantalla_grande
+    400026: Emociones_pantalla_peque
+    400028: Emociones_tele_grande
+    400030: Emociones_tele_peque
     2300000: Object001
     2300002: Object002
     2300004: Object003
@@ -40,6 +48,10 @@ ModelImporter:
     2300016: plane_small
     2300018: tv_big
     2300020: tv_peque
+    2300022: Emociones_pantalla_grande
+    2300024: Emociones_pantalla_peque
+    2300026: Emociones_tele_grande
+    2300028: Emociones_tele_peque
     3300000: Object001
     3300002: Object002
     3300004: Object003
@@ -51,6 +63,10 @@ ModelImporter:
     3300016: plane_small
     3300018: tv_big
     3300020: tv_peque
+    3300022: Emociones_pantalla_grande
+    3300024: Emociones_pantalla_peque
+    3300026: Emociones_tele_grande
+    3300028: Emociones_tele_peque
     4300000: Plane003
     4300002: Sphere001
     4300004: Plane007
@@ -62,6 +78,10 @@ ModelImporter:
     4300016: tv_peque
     4300018: plane_big
     4300020: tv_big
+    4300022: Emociones_pantalla_peque
+    4300024: Emociones_tele_peque
+    4300026: Emociones_pantalla_grande
+    4300028: Emociones_tele_grande
     9500000: //RootNode
   materials:
     importMaterials: 1
