@@ -7,6 +7,7 @@ public class ControlEmocionesAleatorio : MonoBehaviour
 	public Sprite[] APregunta;
 	public Sprite[] AImRespuesta;
 	public GameObject[] ARespuesta;
+	public bool[] ARespuestasActivas;
 
 	public Image Pregunta;
 
@@ -32,12 +33,7 @@ public class ControlEmocionesAleatorio : MonoBehaviour
 			{
 				if(i!=0)
 				{
-					respuestaAleat = Random.Range (0, ARespuesta.Length);
-					while(respuestaAleat==PreguntaAleat)
-					{
-						respuestaAleat = Random.Range (0, ARespuesta.Length);
-					}
-					ARespuesta [i].GetComponent<Image> ().sprite = AImRespuesta [respuestaAleat];
+					noRepetir();
 					
 				}
 			}
@@ -49,12 +45,7 @@ public class ControlEmocionesAleatorio : MonoBehaviour
 			{
 				if(i!=1)
 				{
-					respuestaAleat = Random.Range (0, ARespuesta.Length);
-					while(respuestaAleat==PreguntaAleat)
-					{
-						respuestaAleat = Random.Range (0, ARespuesta.Length);
-					}
-					ARespuesta [i].GetComponent<Image> ().sprite = AImRespuesta [respuestaAleat];
+					noRepetir();
 				}
 			}
 			break;
@@ -64,12 +55,7 @@ public class ControlEmocionesAleatorio : MonoBehaviour
 			{
 				if(i!=2)
 				{
-					respuestaAleat = Random.Range (0, ARespuesta.Length);
-					while(respuestaAleat==PreguntaAleat)
-					{
-						respuestaAleat = Random.Range (0, ARespuesta.Length);
-					}
-					ARespuesta [i].GetComponent<Image> ().sprite = AImRespuesta [respuestaAleat];
+					noRepetir();
 				}
 			}
 			break;
@@ -79,12 +65,7 @@ public class ControlEmocionesAleatorio : MonoBehaviour
 			{
 				if(i!=3)
 				{
-					respuestaAleat = Random.Range (0, ARespuesta.Length);
-					while(respuestaAleat==PreguntaAleat)
-					{
-						respuestaAleat = Random.Range (0, ARespuesta.Length);
-					}
-					ARespuesta [i].GetComponent<Image> ().sprite = AImRespuesta [respuestaAleat];
+					noRepetir();
 				}
 			}
 			break;
@@ -94,12 +75,7 @@ public class ControlEmocionesAleatorio : MonoBehaviour
 			{
 				if(i!=4)
 				{
-					respuestaAleat = Random.Range (0, ARespuesta.Length);
-					while(respuestaAleat==PreguntaAleat)
-					{
-						respuestaAleat = Random.Range (0, ARespuesta.Length);
-					}
-					ARespuesta [i].GetComponent<Image> ().sprite = AImRespuesta [respuestaAleat];
+					noRepetir();
 				}
 			}
 			break;
@@ -109,12 +85,7 @@ public class ControlEmocionesAleatorio : MonoBehaviour
 			{
 				if(i!=5)
 				{
-					respuestaAleat = Random.Range (0, ARespuesta.Length);
-					while(respuestaAleat==PreguntaAleat)
-					{
-						respuestaAleat = Random.Range (0, ARespuesta.Length);
-					}
-					ARespuesta [i].GetComponent<Image> ().sprite = AImRespuesta [respuestaAleat];
+					noRepetir();
 				}
 			}
 			break;
@@ -124,12 +95,7 @@ public class ControlEmocionesAleatorio : MonoBehaviour
 			{
 				if(i!=6)
 				{
-					respuestaAleat = Random.Range (0, ARespuesta.Length);
-					while(respuestaAleat==PreguntaAleat)
-					{
-						respuestaAleat = Random.Range (0, ARespuesta.Length);
-					}
-					ARespuesta [i].GetComponent<Image> ().sprite = AImRespuesta [respuestaAleat];
+					noRepetir();
 				}
 			}
 			break;
@@ -145,5 +111,15 @@ public class ControlEmocionesAleatorio : MonoBehaviour
 	void Update () 
 	{
 	
+	}
+	void noRepetir()
+	{
+		respuestaAleat = Random.Range (0, ARespuesta.Length);
+		while(respuestaAleat==PreguntaAleat||ARespuestasActivas[respuestaAleat]==true)
+		{
+			respuestaAleat = Random.Range (0, ARespuesta.Length);
+		}
+		ARespuesta [i].GetComponent<Image> ().sprite = AImRespuesta [respuestaAleat];
+		ARespuestasActivas[respuestaAleat]=true;
 	}
 }
