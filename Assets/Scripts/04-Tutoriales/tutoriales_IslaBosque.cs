@@ -22,12 +22,14 @@ public class tutoriales_IslaBosque : MonoBehaviour {
 		if(!CDG_Mundo3D.hemosVisto_TutorialIslaBosque){
 			print ("ACTIVAR TUTORIAL");
 			animator_grpTutoriales.Play("Tutoriales_IslaBosque_00");
+			activarTutorialInicial();
 
 		}	
 		//Si ya hemos completado al menos una vez el tutorial:
 		else {
 			print ("DESACTIVAR TUTORIAL");
 			//desactivarTutorialInicial();
+			scriptCtrlProta.enabled = true;
 			animator_grpTutoriales.Play("Tutoriales_EsconderTutoIslaBosque");
 		}
 	}
@@ -40,7 +42,8 @@ public class tutoriales_IslaBosque : MonoBehaviour {
 	public void activarTutorialInicial(){
 		scriptCtrlProta.enabled = false;
 		animator_grpTutoriales.Play("Tutoriales_IslaBosque_00");
-	}
+		print ("ACTIVAR EL TUTORIAL ... OTRA VEZ...   -__- ");
+	} 
 
 	public void pasarTutorial_01(){
 		scriptCtrlProta.enabled = false;
