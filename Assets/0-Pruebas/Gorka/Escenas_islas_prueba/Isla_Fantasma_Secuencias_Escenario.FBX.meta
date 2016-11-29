@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: f24f3d0a25f27b341869c6b0c0bee4eb
+timeCreated: 1480411861
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: grp_static
+    100002: //RootNode
+    100004: j_Cabeza
+    100006: j_Cadera
+    100008: j_dedo_ind_izq
+    100010: j_mano_izq
+    100012: joint10
+    100014: joint11
+    100016: joint6
+    100018: opcion1_fondo
+    100020: opcion2_fondo
+    100022: opcion3_fondo
+    100024: Secuencias_Escenario_chimenea_base
+    100026: Secuencias_Escenario_Chimenea_torre
+    100028: Secuencias_Escenario_Cuadro
+    100030: Secuencias_Escenario_Fuego_01
+    100032: Secuencias_Escenario_Fuego_02
+    100034: Secuencias_Escenario_Fuego_03
+    100036: Secuencias_Escenario_Libro_01
+    100038: Secuencias_Escenario_Libro_02
+    100040: Secuencias_Escenario_Marco
+    100042: Secuencias_Escenario_Mesa_armario
+    100044: Secuencias_Escenario_Mesa_cajon_01
+    100046: Secuencias_Escenario_Mesa_cajon_02
+    100048: Secuencias_Escenario_Mesa_cajon_03
+    100050: Secuencias_Escenario_Mesa_lados
+    100052: Secuencias_Escenario_Mesa_pata_01
+    100054: Secuencias_Escenario_Mesa_pata_02
+    100056: Secuencias_Escenario_Mesa_pata_03
+    100058: Secuencias_Escenario_Mesa_pata_04
+    100060: Secuencias_Escenario_Mesa_pomo_01
+    100062: Secuencias_Escenario_Mesa_pomo_02
+    100064: Secuencias_Escenario_Mesa_pomo_03
+    100066: Secuencias_Escenario_Mesa_pomo_04
+    100068: Secuencias_Escenario_Mesa_tabla
+    100070: Secuencias_Escenario_paredes_suelo
+    100072: Secuencias_Escenario_Pluma
+    100074: Secuencias_Escenario_Tintero
+    100076: Secuencias_Escenario_Vela_01
+    100078: Secuencias_Escenario_Vela_02
+    100080: cuerpo
+    100082: Diente
+    100084: Diente1
+    100086: Diente10
+    100088: Diente11
+    100090: Diente12
+    100092: Diente13
+    100094: Diente14
+    100096: Diente15
+    100098: Diente16
+    100100: Diente17
+    100102: Diente18
+    100104: Diente19
+    100106: Diente2
+    100108: Diente20
+    100110: Diente21
+    100112: Diente22
+    100114: Diente23
+    100116: Diente3
+    100118: Diente4
+    100120: Diente5
+    100122: Diente6
+    100124: Diente7
+    100126: Diente8
+    100128: Diente9
+    100130: Encias
+    100132: Fantasma_geometria
+    100134: G_Aparato
+    100136: G_Boca
+    100138: grupo_cejas
+    100140: grupo_gafas
+    100142: grupo_manos
+    100144: j_dedo_ind_der
+    100146: j_dedo_med_der
+    100148: j_dedo_med_izq
+    100150: j_dedo_men_der
+    100152: j_dedo_men_izq
+    100154: j_Mandibula
+    100156: j_mano_der
+    100158: j_pulgar_der
+    100160: j_pulgar_izq
+    100162: j_Punta_Cabeza_1
+    100164: j_Punta_Cabeza_2
+    100166: j_Punta_Cabeza_3
+    100168: j_Punta_Cabeza_4
+    100170: j_Punta_Cabeza_5
+    100172: j_Punta_Cabeza_6
+    100174: j_Punta_Mandibula
+    100176: j_Punta_Punta
+    100178: joint10 1
+    100180: joint12
+    100182: joint2
+    100184: joint2 1
+    100186: joint4
+    100188: joint4 1
+    100190: joint6 1
+    100192: joint8
+    100194: joint8 1
+    100196: mano_der
+    100198: mano_izq
+    100200: ojo_der
+    100202: ojo_izq
+    100204: pCube1
+    100206: pCube10
+    100208: pCube3
+    100210: pCube4
+    100212: pCube5
+    100214: pCube6
+    100216: pCube7
+    100218: pCube8
+    100220: pCube9
+    400000: grp_static
+    400002: //RootNode
+    400004: j_Cabeza
+    400006: j_Cadera
+    400008: j_dedo_ind_izq
+    400010: j_mano_izq
+    400012: joint10
+    400014: joint11
+    400016: joint6
+    400018: opcion1_fondo
+    400020: opcion2_fondo
+    400022: opcion3_fondo
+    400024: Secuencias_Escenario_chimenea_base
+    400026: Secuencias_Escenario_Chimenea_torre
+    400028: Secuencias_Escenario_Cuadro
+    400030: Secuencias_Escenario_Fuego_01
+    400032: Secuencias_Escenario_Fuego_02
+    400034: Secuencias_Escenario_Fuego_03
+    400036: Secuencias_Escenario_Libro_01
+    400038: Secuencias_Escenario_Libro_02
+    400040: Secuencias_Escenario_Marco
+    400042: Secuencias_Escenario_Mesa_armario
+    400044: Secuencias_Escenario_Mesa_cajon_01
+    400046: Secuencias_Escenario_Mesa_cajon_02
+    400048: Secuencias_Escenario_Mesa_cajon_03
+    400050: Secuencias_Escenario_Mesa_lados
+    400052: Secuencias_Escenario_Mesa_pata_01
+    400054: Secuencias_Escenario_Mesa_pata_02
+    400056: Secuencias_Escenario_Mesa_pata_03
+    400058: Secuencias_Escenario_Mesa_pata_04
+    400060: Secuencias_Escenario_Mesa_pomo_01
+    400062: Secuencias_Escenario_Mesa_pomo_02
+    400064: Secuencias_Escenario_Mesa_pomo_03
+    400066: Secuencias_Escenario_Mesa_pomo_04
+    400068: Secuencias_Escenario_Mesa_tabla
+    400070: Secuencias_Escenario_paredes_suelo
+    400072: Secuencias_Escenario_Pluma
+    400074: Secuencias_Escenario_Tintero
+    400076: Secuencias_Escenario_Vela_01
+    400078: Secuencias_Escenario_Vela_02
+    400080: cuerpo
+    400082: Diente
+    400084: Diente1
+    400086: Diente10
+    400088: Diente11
+    400090: Diente12
+    400092: Diente13
+    400094: Diente14
+    400096: Diente15
+    400098: Diente16
+    400100: Diente17
+    400102: Diente18
+    400104: Diente19
+    400106: Diente2
+    400108: Diente20
+    400110: Diente21
+    400112: Diente22
+    400114: Diente23
+    400116: Diente3
+    400118: Diente4
+    400120: Diente5
+    400122: Diente6
+    400124: Diente7
+    400126: Diente8
+    400128: Diente9
+    400130: Encias
+    400132: Fantasma_geometria
+    400134: G_Aparato
+    400136: G_Boca
+    400138: grupo_cejas
+    400140: grupo_gafas
+    400142: grupo_manos
+    400144: j_dedo_ind_der
+    400146: j_dedo_med_der
+    400148: j_dedo_med_izq
+    400150: j_dedo_men_der
+    400152: j_dedo_men_izq
+    400154: j_Mandibula
+    400156: j_mano_der
+    400158: j_pulgar_der
+    400160: j_pulgar_izq
+    400162: j_Punta_Cabeza_1
+    400164: j_Punta_Cabeza_2
+    400166: j_Punta_Cabeza_3
+    400168: j_Punta_Cabeza_4
+    400170: j_Punta_Cabeza_5
+    400172: j_Punta_Cabeza_6
+    400174: j_Punta_Mandibula
+    400176: j_Punta_Punta
+    400178: joint10 1
+    400180: joint12
+    400182: joint2
+    400184: joint2 1
+    400186: joint4
+    400188: joint4 1
+    400190: joint6 1
+    400192: joint8
+    400194: joint8 1
+    400196: mano_der
+    400198: mano_izq
+    400200: ojo_der
+    400202: ojo_izq
+    400204: pCube1
+    400206: pCube10
+    400208: pCube3
+    400210: pCube4
+    400212: pCube5
+    400214: pCube6
+    400216: pCube7
+    400218: pCube8
+    400220: pCube9
+    2300000: opcion1_fondo
+    2300002: opcion2_fondo
+    2300004: opcion3_fondo
+    2300006: Secuencias_Escenario_chimenea_base
+    2300008: Secuencias_Escenario_Chimenea_torre
+    2300010: Secuencias_Escenario_Cuadro
+    2300012: Secuencias_Escenario_Fuego_01
+    2300014: Secuencias_Escenario_Fuego_02
+    2300016: Secuencias_Escenario_Fuego_03
+    2300018: Secuencias_Escenario_Libro_01
+    2300020: Secuencias_Escenario_Libro_02
+    2300022: Secuencias_Escenario_Marco
+    2300024: Secuencias_Escenario_Mesa_armario
+    2300026: Secuencias_Escenario_Mesa_cajon_01
+    2300028: Secuencias_Escenario_Mesa_cajon_02
+    2300030: Secuencias_Escenario_Mesa_cajon_03
+    2300032: Secuencias_Escenario_Mesa_lados
+    2300034: Secuencias_Escenario_Mesa_pata_01
+    2300036: Secuencias_Escenario_Mesa_pata_02
+    2300038: Secuencias_Escenario_Mesa_pata_03
+    2300040: Secuencias_Escenario_Mesa_pata_04
+    2300042: Secuencias_Escenario_Mesa_pomo_01
+    2300044: Secuencias_Escenario_Mesa_pomo_02
+    2300046: Secuencias_Escenario_Mesa_pomo_03
+    2300048: Secuencias_Escenario_Mesa_pomo_04
+    2300050: Secuencias_Escenario_Mesa_tabla
+    2300052: Secuencias_Escenario_paredes_suelo
+    2300054: Secuencias_Escenario_Pluma
+    2300056: Secuencias_Escenario_Tintero
+    2300058: Secuencias_Escenario_Vela_01
+    2300060: Secuencias_Escenario_Vela_02
+    2300062: j_Cadera
+    3300000: opcion1_fondo
+    3300002: opcion2_fondo
+    3300004: opcion3_fondo
+    3300006: Secuencias_Escenario_chimenea_base
+    3300008: Secuencias_Escenario_Chimenea_torre
+    3300010: Secuencias_Escenario_Cuadro
+    3300012: Secuencias_Escenario_Fuego_01
+    3300014: Secuencias_Escenario_Fuego_02
+    3300016: Secuencias_Escenario_Fuego_03
+    3300018: Secuencias_Escenario_Libro_01
+    3300020: Secuencias_Escenario_Libro_02
+    3300022: Secuencias_Escenario_Marco
+    3300024: Secuencias_Escenario_Mesa_armario
+    3300026: Secuencias_Escenario_Mesa_cajon_01
+    3300028: Secuencias_Escenario_Mesa_cajon_02
+    3300030: Secuencias_Escenario_Mesa_cajon_03
+    3300032: Secuencias_Escenario_Mesa_lados
+    3300034: Secuencias_Escenario_Mesa_pata_01
+    3300036: Secuencias_Escenario_Mesa_pata_02
+    3300038: Secuencias_Escenario_Mesa_pata_03
+    3300040: Secuencias_Escenario_Mesa_pata_04
+    3300042: Secuencias_Escenario_Mesa_pomo_01
+    3300044: Secuencias_Escenario_Mesa_pomo_02
+    3300046: Secuencias_Escenario_Mesa_pomo_03
+    3300048: Secuencias_Escenario_Mesa_pomo_04
+    3300050: Secuencias_Escenario_Mesa_tabla
+    3300052: Secuencias_Escenario_paredes_suelo
+    3300054: Secuencias_Escenario_Pluma
+    3300056: Secuencias_Escenario_Tintero
+    3300058: Secuencias_Escenario_Vela_01
+    3300060: Secuencias_Escenario_Vela_02
+    3300062: j_Cadera
+    4300000: Secuencias_Escenario_paredes_suelo
+    4300002: Secuencias_Escenario_Vela_02
+    4300004: Secuencias_Escenario_Vela_01
+    4300006: Secuencias_Escenario_Pluma
+    4300008: Secuencias_Escenario_chimenea_base
+    4300010: Secuencias_Escenario_Mesa_pomo_01
+    4300012: Secuencias_Escenario_Mesa_pata_04
+    4300014: Secuencias_Escenario_Mesa_cajon_03
+    4300016: opcion2_fondo
+    4300018: opcion3_fondo
+    4300020: opcion1_fondo
+    4300022: Secuencias_Escenario_Mesa_pomo_03
+    4300024: Secuencias_Escenario_Mesa_pomo_04
+    4300026: Secuencias_Escenario_Mesa_pomo_02
+    4300028: Secuencias_Escenario_Tintero
+    4300030: Secuencias_Escenario_Libro_01
+    4300032: Secuencias_Escenario_Libro_02
+    4300034: Secuencias_Escenario_Fuego_02
+    4300036: Secuencias_Escenario_Fuego_03
+    4300038: Secuencias_Escenario_Mesa_pata_02
+    4300040: Secuencias_Escenario_Marco
+    4300042: Secuencias_Escenario_Cuadro
+    4300044: Secuencias_Escenario_Mesa_armario
+    4300046: Secuencias_Escenario_Mesa_tabla
+    4300048: Secuencias_Escenario_Mesa_pata_01
+    4300050: Secuencias_Escenario_Chimenea_torre
+    4300052: Secuencias_Escenario_Mesa_lados
+    4300054: Secuencias_Escenario_Fuego_01
+    4300056: Secuencias_Escenario_Mesa_cajon_01
+    4300058: Secuencias_Escenario_Mesa_cajon_02
+    4300060: Secuencias_Escenario_Mesa_pata_03
+    4300062: pCube4
+    4300064: pCube7
+    4300066: pCube3
+    4300068: pCube5
+    4300070: pCube6
+    4300072: mano_der
+    4300074: mano_izq
+    4300076: pCube8
+    4300078: pCube1
+    4300080: pCube10
+    4300082: pCube9
+    4300084: Diente23
+    4300086: Diente22
+    4300088: Diente21
+    4300090: Diente20
+    4300092: Diente15
+    4300094: Diente14
+    4300096: Diente13
+    4300098: Diente12
+    4300100: Diente19
+    4300102: Diente18
+    4300104: Diente17
+    4300106: Diente16
+    4300108: Encias
+    4300110: Diente11
+    4300112: Diente9
+    4300114: Diente5
+    4300116: Diente4
+    4300118: Diente
+    4300120: Diente8
+    4300122: Diente7
+    4300124: Diente6
+    4300126: Diente2
+    4300128: Diente1
+    4300130: Diente10
+    4300132: Diente3
+    4300134: cuerpo
+    4300136: ojo_izq
+    4300138: ojo_der
+    4300140: j_Cadera
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: cuerpo
+    13700002: Diente
+    13700004: Diente1
+    13700006: Diente10
+    13700008: Diente11
+    13700010: Diente12
+    13700012: Diente13
+    13700014: Diente14
+    13700016: Diente15
+    13700018: Diente16
+    13700020: Diente17
+    13700022: Diente18
+    13700024: Diente19
+    13700026: Diente2
+    13700028: Diente20
+    13700030: Diente21
+    13700032: Diente22
+    13700034: Diente23
+    13700036: Diente3
+    13700038: Diente4
+    13700040: Diente5
+    13700042: Diente6
+    13700044: Diente7
+    13700046: Diente8
+    13700048: Diente9
+    13700050: Encias
+    13700052: mano_der
+    13700054: mano_izq
+    13700056: ojo_der
+    13700058: ojo_izq
+    13700060: pCube1
+    13700062: pCube10
+    13700064: pCube3
+    13700066: pCube4
+    13700068: pCube5
+    13700070: pCube6
+    13700072: pCube7
+    13700074: pCube8
+    13700076: pCube9
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: opcion1_fondo
+        weight: 1
+      - path: opcion2_fondo
+        weight: 1
+      - path: opcion3_fondo
+        weight: 1
+      - path: Secuencias_Escenario_chimenea_base
+        weight: 1
+      - path: Secuencias_Escenario_Chimenea_torre
+        weight: 1
+      - path: Secuencias_Escenario_Cuadro
+        weight: 1
+      - path: Secuencias_Escenario_Fuego_01
+        weight: 1
+      - path: Secuencias_Escenario_Fuego_02
+        weight: 1
+      - path: Secuencias_Escenario_Fuego_03
+        weight: 1
+      - path: Secuencias_Escenario_Libro_01
+        weight: 1
+      - path: Secuencias_Escenario_Libro_02
+        weight: 1
+      - path: Secuencias_Escenario_Marco
+        weight: 1
+      - path: Secuencias_Escenario_Mesa_armario
+        weight: 1
+      - path: Secuencias_Escenario_Mesa_cajon_01
+        weight: 1
+      - path: Secuencias_Escenario_Mesa_cajon_02
+        weight: 1
+      - path: Secuencias_Escenario_Mesa_cajon_03
+        weight: 1
+      - path: Secuencias_Escenario_Mesa_lados
+        weight: 1
+      - path: Secuencias_Escenario_Mesa_pata_01
+        weight: 1
+      - path: Secuencias_Escenario_Mesa_pata_02
+        weight: 1
+      - path: Secuencias_Escenario_Mesa_pata_03
+        weight: 1
+      - path: Secuencias_Escenario_Mesa_pata_04
+        weight: 1
+      - path: Secuencias_Escenario_Mesa_pomo_01
+        weight: 1
+      - path: Secuencias_Escenario_Mesa_pomo_02
+        weight: 1
+      - path: Secuencias_Escenario_Mesa_pomo_03
+        weight: 1
+      - path: Secuencias_Escenario_Mesa_pomo_04
+        weight: 1
+      - path: Secuencias_Escenario_Mesa_tabla
+        weight: 1
+      - path: Secuencias_Escenario_paredes_suelo
+        weight: 1
+      - path: Secuencias_Escenario_Pluma
+        weight: 1
+      - path: Secuencias_Escenario_Tintero
+        weight: 1
+      - path: Secuencias_Escenario_Vela_01
+        weight: 1
+      - path: Secuencias_Escenario_Vela_02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
