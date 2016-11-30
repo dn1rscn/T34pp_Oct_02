@@ -793,7 +793,15 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: .0787724704
+        functionName: Fallofantasma
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 83773e5947b526c42a46ea6228fab89c,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask:
       - path: 
         weight: 1
@@ -1026,7 +1034,15 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: .0752089173
+        functionName: Aciertofantasma
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 83773e5947b526c42a46ea6228fab89c,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask:
       - path: 
         weight: 1
