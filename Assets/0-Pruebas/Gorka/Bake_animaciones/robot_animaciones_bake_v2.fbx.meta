@@ -406,7 +406,15 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: .185905397
+        functionName: Aciertorobot
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: cd2028e5f27a5d442882604285c17d26,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask:
       - path: 
         weight: 1
@@ -496,7 +504,15 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: .247991756
+        functionName: Fallorobot
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: cd2028e5f27a5d442882604285c17d26,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask:
       - path: 
         weight: 1
